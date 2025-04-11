@@ -13,7 +13,7 @@ const config = {
   title: '锐界幻境',
   tagline: '👼🏻远离困恼之地（锐界）和天堂般的境地（幻境）',
   favicon: 'img/M-LOGO.ico',
-  url: 'https//miragedge.top',
+  url: 'http://miragedge.top:3000',
   baseUrl: '/',
   organizationName: 'FwindEmi',
   projectName: 'MiragEdge-doc',
