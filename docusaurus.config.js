@@ -58,11 +58,6 @@ const config = {
           alt: 'MiragEdge', // 网站 Logo 的替代文本
           src: 'B-LOGO.svg',
         },
-        algolia: {
-            apiKey: "Search-Only API Key",
-            appId: "Application ID",
-            indexName: "索引名称",
-        },
         items: [
           {
             type: 'docSidebar', // 使用文档侧边栏
