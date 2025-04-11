@@ -56,7 +56,7 @@ const config = {
         title: 'MiragEdge',
         logo: {
           alt: 'MiragEdge', // 网站 Logo 的替代文本
-          src: 'B-LOGO.svg',
+          src: '/img/logo.svg',
         },
         items: [
           {
