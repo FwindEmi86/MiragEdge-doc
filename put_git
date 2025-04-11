@@ -10,3 +10,5 @@ git checkout main
 git merge origin/main
 
 npm run build
+
+npm run serve
