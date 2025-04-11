@@ -13,18 +13,10 @@ const config = {
   title: '锐界幻境',
   tagline: '👼🏻远离困恼之地（锐界）和天堂般的境地（幻境）',
   favicon: 'img/M-LOGO.ico',
-
-  // 在此处设置您的站点的生产环境 URL
-  url: 'https://fwindemi86.github.io/',
-  // 设置站点的 /<baseUrl>/ 路径
-  // 对于 GitHub Pages 部署，通常为 '/<projectName>/'
+  url: 'http//miragedge.top:3000',
   baseUrl: '/',
-
-  // GitHub Pages 部署配置。
-  // 如果您不使用 GitHub Pages，则不需要这些配置。
-  organizationName: 'FwindEmi86', // 通常是您的 GitHub 组织/用户名。
-  projectName: 'FwindEmi', // 通常是您的仓库名称。
-
+  organizationName: 'FwindEmi',
+  projectName: 'MiragEdge-doc',
   onBrokenLinks: 'throw', // 当链接失效时抛出错误
   onBrokenMarkdownLinks: 'warn', // 当 Markdown 链接失效时发出警告
 
