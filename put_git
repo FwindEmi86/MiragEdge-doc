@@ -1,0 +1,9 @@
+#!/bin/bash
+
+git fetch origin main
+
+git checkout main
+
+git merge origin/main
+
+npm run build
