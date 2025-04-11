@@ -6,12 +6,12 @@ sidebar_position: 1
 
 让我们在**不到 5 分钟的时间内发现 Docusaurus**。
 
-## Getting Started
+## 代码符测试
 
-Get started by **creating a new site**.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+    /tp @a FwindEmi
 
+    
 ### What you'll need
 
 - [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
