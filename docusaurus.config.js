@@ -1,50 +1,39 @@
 // @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
+// `@type` JSDoc 注释允许编辑器自动补全和类型检查
+// （与 `@ts-check` 配合使用时）。
+// 声明 Docusaurus 配置有多种等效方式。
+// 参考：https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
 
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
+// 此代码运行在 Node.js 环境中 - 请勿在此处使用客户端代码（浏览器 API、JSX 等）
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '锐界幻境', // The title of the website
-  tagline: 'show me your code', // A word on the front page
-  url: 'https://fwindemi86.github.io/FwindEmi/', // Your website URL
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/M-LOGO.png',
+  title: '锐界幻境',
+  tagline: '👼🏻远离困恼之地（锐界）和天堂般的境地（幻境）',
+  favicon: 'img/M-LOGO.ico',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'FwindEmi86', // Usually your GitHub org/user name.
-  projectName: 'FwindEmi', // Usually your repo name.
-  deploymentBranch: 'page',
-  trailingSlash: false,
-
-  // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+  // 在此处设置您的站点的生产环境 URL
+  url: 'https://fwindemi86.github.io/',
+  // 设置站点的 /<baseUrl>/ 路径
+  // 对于 GitHub Pages 部署，通常为 '/<projectName>/'
   baseUrl: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  // GitHub Pages 部署配置。
+  // 如果您不使用 GitHub Pages，则不需要这些配置。
+  organizationName: 'FwindEmi86', // 通常是您的 GitHub 组织/用户名。
+  projectName: 'FwindEmi', // 通常是您的仓库名称。
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'throw', // 当链接失效时抛出错误
+  onBrokenMarkdownLinks: 'warn', // 当 Markdown 链接失效时发出警告
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
+  // 即使您不使用国际化功能，也可以使用此字段设置
+  // 有用的元数据，例如 HTML 的语言属性。
+  // 例如，如果您的站点是中文，可以将 "en" 替换为 "zh-Hans"。
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans'], // 支持的语言列表
   },
 
   presets: [
@@ -53,29 +42,29 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
+          sidebarPath: './sidebars.js', // 侧边栏配置文件路径
+          // 请将此更改为您的仓库地址。
+          // 删除此项以移除“编辑此页面”链接。
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/FwindEmi86/FwindEmi/blob/page/',
         },
         blog: {
-          showReadingTime: true,
+          showReadingTime: true, // 显示阅读时间
           feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
+            type: ['rss', 'atom'], // 启用 RSS 和 Atom 格式的订阅
+            xslt: true, // 启用 XSLT 支持
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
+          // 请将此更改为您的仓库地址。
+          // 删除此项以移除“编辑此页面”链接。
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
+            'https://github.com/FwindEmi86/FwindEmi/blob/page/',
+          // 强制执行博客最佳实践的有用选项
+          onInlineTags: 'warn', // 对内联标签发出警告
+          onInlineAuthors: 'warn', // 对内联作者发出警告
+          onUntruncatedBlogPosts: 'warn', // 对未截断的博客文章发出警告
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: './src/css/custom.css', // 自定义 CSS 文件路径
         },
       }),
     ],
@@ -84,43 +73,43 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      // 替换为您的项目的社交卡片
+      image: 'img/背景.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'MiragEdge',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'MiragEdge', // 网站 Logo 的替代文本
+          src: 'B-LOGO.svg',
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
+            type: 'docSidebar', // 使用文档侧边栏
+            sidebarId: 'tutorialSidebar', // 侧边栏 ID
+            position: 'left', // 在导航栏左侧显示
+            label: '文档', // 显示的标签
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: '博客', position: 'left'}, // 博客链接
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            href: 'https://github.com/FwindEmi86/MiragEdge',
+            label: 'GitHub', // GitHub 链接
+            position: 'right', // 在导航栏右侧显示
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'dark', // 页脚样式
         links: [
           {
-            title: 'Docs',
+            title: '文档',
             items: [
               {
-                label: 'Tutorial',
+                label: '教程',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '社区',
             items: [
               {
                 label: 'Stack Overflow',
@@ -137,10 +126,10 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: '更多',
             items: [
               {
-                label: 'Blog',
+                label: '博客',
                 to: '/blog',
               },
               {
@@ -150,11 +139,11 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `版权所有 © ${new Date().getFullYear()} 锐界幻境. 使用 Docusaurus 构建。`,
       },
       prism: {
-        theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
+        theme: prismThemes.github, // 代码高亮主题（浅色）
+        darkTheme: prismThemes.dracula, // 代码高亮主题（深色）
       },
     }),
 };
