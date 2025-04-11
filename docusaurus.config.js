@@ -40,21 +40,6 @@ const config = {
           editUrl:
             'https://github.com/FwindEmi86/FwindEmi/blob/page/',
         },
-        blog: {
-          showReadingTime: true, // 显示阅读时间
-          feedOptions: {
-            type: ['rss', 'atom'], // 启用 RSS 和 Atom 格式的订阅
-            xslt: true, // 启用 XSLT 支持
-          },
-          // 请将此更改为您的仓库地址。
-          // 删除此项以移除“编辑此页面”链接。
-          editUrl:
-            'https://github.com/FwindEmi86/FwindEmi/blob/page/',
-          // 强制执行博客最佳实践的有用选项
-          onInlineTags: 'warn', // 对内联标签发出警告
-          onInlineAuthors: 'warn', // 对内联作者发出警告
-          onUntruncatedBlogPosts: 'warn', // 对未截断的博客文章发出警告
-        },
         theme: {
           customCss: './src/css/custom.css', // 自定义 CSS 文件路径
         },
@@ -80,7 +65,6 @@ const config = {
             position: 'left', // 在导航栏左侧显示
             label: '文档', // 显示的标签
           },
-          {to: '/blog', label: '博客', position: 'left'}, // 博客链接
           {
             href: 'https://github.com/FwindEmi86/MiragEdge',
             label: 'GitHub', // GitHub 链接
@@ -96,7 +80,7 @@ const config = {
             items: [
               {
                 label: '教程',
-                to: '/docs/intro',
+                to: '/docs/介绍',
               },
             ],
           },
@@ -120,10 +104,6 @@ const config = {
           {
             title: '更多',
             items: [
-              {
-                label: '博客',
-                to: '/blog',
-              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/facebook/docusaurus',
