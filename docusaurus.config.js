@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: '锐界幻境',
   tagline: '👼🏻远离困恼之地（锐界）和天堂般的境地（幻境）',
-  favicon: '/img/M-LOGO.ico',
+  favicon: '/img/B-LOGO.ico',
   url: 'http://miragedge.top:3000',
   baseUrl: '/',
   organizationName: 'FwindEmi',
@@ -56,7 +56,7 @@ const config = {
         title: 'MiragEdge',
         logo: {
           alt: 'MiragEdge', // 网站 Logo 的替代文本
-          src: '/img/logo.svg',
+          src: '/img/B-LOGO.svg',
         },
         items: [
           {
