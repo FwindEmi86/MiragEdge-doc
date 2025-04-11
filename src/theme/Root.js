@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 export default function Root({ children }) {
   useEffect(() => {
     const script = document.createElement('script');
-    script.src = 'https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js';
+    script.src = 'https://fastly.jsdelivr.net/npm/live2d-widgets@0/autoload.js';
     script.async = true;
     document.body.appendChild(script);
 
