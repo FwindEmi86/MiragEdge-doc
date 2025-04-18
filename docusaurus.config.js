@@ -111,6 +111,7 @@ const config = {
             ],
           },
         ],
+		    <a href="https://beian.miit.gov.cn" id="beian" target="_blank">苏ICP备2024133820号-1</a>
         copyright: `版权所有 © ${new Date().getFullYear()} 锐界幻境. 使用 Docusaurus 构建。`,
       },
       prism: {
