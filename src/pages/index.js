@@ -36,7 +36,6 @@ export default function Home() {
       description="啊嘞 <head />">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
       </main>
     </Layout>
   );
