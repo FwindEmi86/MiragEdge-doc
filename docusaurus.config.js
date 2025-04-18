@@ -88,16 +88,8 @@ const config = {
             title: '社区',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'QQ交流群',
+                href: 'https://qm.qq.com/cgi-bin/qm/qr?k=D75vW-DYhDNzYoKghGPvGpDiMl4cRKBb&jump_from=webapi&authKey=EG46Uvg+6ZnoyAidNSbB6e//ShbVXC327dpMvpPD/nweZExlPYeTuWAKeSq+If4T',
               },
             ],
           },
@@ -105,8 +97,8 @@ const config = {
             title: '更多',
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Bilibili',
+                href: 'https://space.bilibili.com/359174372?spm_id_from=333.1007.0.0',
               },
             ],
           },
