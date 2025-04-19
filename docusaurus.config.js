@@ -86,7 +86,7 @@ const config = {
             items: [
               {
                 label: '教程',
-                to: '/docs/qustions/QQ',
+                to: '/docs/question/QQ',
               },
             ],
           },
