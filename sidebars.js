@@ -2,8 +2,8 @@ module.exports = {
   // 侧边栏的标识符（例如：tutorialSidebar 是侧边栏名称）
   tutorialSidebar: [
     // 直接引用文档 ID（对应文件名）
-    '介绍',       // 对应 docs/介绍.md
-    '游玩须知',       // 对应 docs/游玩须知.md
+    'intro',       // 对应 docs/介绍.md
+    'rule',       // 对应 docs/游玩须知.md
 
     // 添加分隔线
     { type: 'html', value: '<hr />' },
@@ -39,7 +39,7 @@ module.exports = {
       collapsed: false,     // 初始是否折叠（默认 true）
     },
 
-    '更新日志',       // 对应 docs/更新日志.md
+    'log',       // 对应 docs/更新日志.md
 
     // 添加外部链接
     { type: 'html', value: '<div style="margin: 1rem 0"></div>' },
