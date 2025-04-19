@@ -25,7 +25,7 @@ const config = {
   // 例如，如果您的站点是中文，可以将 "en" 替换为 "zh-Hans"。
   i18n: {
     // Removed invalid property "enabled"
-    defaultLocale: 'zh-Hans',
+    defaultLocale: 'en',
   },
 
   presets: [
