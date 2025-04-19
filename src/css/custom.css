@@ -46,23 +46,25 @@
   background: linear-gradient(90deg, transparent, var(--ifm-color-primary), transparent);
   margin: 16px 0;
 }
-/* 动态点阵分隔线 */
-.divider-dots {
-  height: 3px;
-  margin: 18px 0;
-  background: 
-    radial-gradient(circle at center, 
-      var(--ifm-color-primary) 30%, 
-      transparent 70%
-    ) repeat-x;
-  background-size: 10px 100%;
+
+/* 立体阴影分隔线 */
+.divider-shadow {
+  height: 1px;
+  margin: 24px 0;
   position: relative;
-  animation: dotFlow 2s linear infinite;
 }
 
-@keyframes dotFlow {
-  0% { background-position: 0 0; }
-  100% { background-position: 20px 0; }
+.divider-shadow::after {
+  content: '';
+  position: absolute;
+  left: 5%;
+  right: 5%;
+  height: 1px;
+  background: var(--ifm-color-primary);
+  box-shadow: 
+    0 2px 4px rgba(var(--ifm-color-primary-dark-rgb), 0.3),
+    0 4px 8px rgba(var(--ifm-color-primary-dark-rgb), 0.1);
+  transform: perspective(100px) rotateX(45deg);
 }
 
 /* 为所有外部链接添加图标 */
@@ -77,4 +79,42 @@
 
 .menu__link--external:hover::after {
   opacity: 1;
+}
+
+/* 基础宽度调整 */
+:root {
+  --doc-sidebar-width: 220px !important; /* 默认 300px */
+}
+
+/* 紧凑模式优化 */
+.menu {
+  padding: 0.5rem !important;
+}
+
+.menu__list-item-collapsible {
+  margin: 4px 0 !important;
+}
+
+.menu__link {
+  padding: 0.4rem 0.8rem !important;
+  font-size: 0.9em !important;
+  line-height: 1.4 !important;
+}
+
+/* 标题优化 */
+.sidebar-title {
+  font-size: 1.1rem !important;
+  padding: 0.8rem !important;
+  margin: 0.5rem 0 !important;
+}
+
+/* 分隔线优化 */
+.divider-shadow {
+  margin: 0.8rem 0 !important;
+}
+
+/* 外部链接特殊处理 */
+.menu__list-item:last-child {
+  padding: 0.5rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
 }
