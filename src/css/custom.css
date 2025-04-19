@@ -105,9 +105,3 @@
   padding: 0.8rem !important;
   margin: 0.5rem 0 !important;
 }
-
-/* 外部链接特殊处理 */
-.menu__list-item:last-child {
-  padding: 0.5rem;
-  border-top: 1px solid var(--ifm-color-emphasis-200);
-}
