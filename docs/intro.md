@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+slug: /docs/intro
+title: 锐界幻境 介绍
 ---
 
 ![ME-LOGO](/img/ME-logo.png "锐界幻境")

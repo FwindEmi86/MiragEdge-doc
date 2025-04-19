@@ -1,5 +1,7 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
+slug: /docs/tutorial/Join_Server
+title: 入服方法
 ---
 
 ## ❀狐务器食用方法❀  
