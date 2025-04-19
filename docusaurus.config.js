@@ -72,6 +72,11 @@ const config = {
           },
         ],
       },
+      colorMode: {
+        defaultMode: 'dark', // 默认深色
+        disableSwitch: true, // 显示切换按钮
+        respectPrefersColorScheme: false, // 忽略系统主题设置
+      },
       footer: {
         style: 'dark', // 页脚样式
         links: [
