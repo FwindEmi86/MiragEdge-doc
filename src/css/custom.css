@@ -46,36 +46,28 @@
   margin: 16px 0;
 }
 
-/* 使用 Font Awesome 图标作为分隔线 */
+/* 紧凑型图标分隔线 */
 .divider-icon {
   text-align: center;
-  margin: 22px 0;
+  margin: 8px 0; /* 原22px → 8px */
   position: relative;
 }
 
 .divider-icon::before {
-  content: '✰'; /* Font Awesome 图标编码 */
-  font-family: 'Font Awesome 5 Free';
-  color: var(--ifm-color-primary);
-  font-size: 1.2rem;
-  padding: 0 12px;
-  background: var(--ifm-background-color);
-  position: relative;
-  z-index: 1;
+  content: '✰';
+  font-size: 1rem; /* 缩小图标 */
+  padding: 0 8px; /* 缩小左右间距 */
+  transform: translateY(-1px); /* 微调垂直居中 */
 }
 
 .divider-icon::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
+  top: calc(50% - 0.5px); /* 精确对齐中线 */
   height: 1px;
   background: linear-gradient(
     to right, 
-    transparent, 
-    var(--ifm-color-primary), 
-    transparent
+    transparent 20%,
+    var(--ifm-color-primary) 50%,
+    transparent 80%
   );
 }
 
