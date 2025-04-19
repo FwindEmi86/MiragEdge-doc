@@ -77,36 +77,7 @@ const config = {
         respectPrefersColorScheme: false, // 忽略系统主题设置
       },
       footer: {
-        style: 'dark', // 页脚样式
-        links: [
-          {
-            title: '文档',
-            items: [
-              {
-                label: '介绍',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: '社区',
-            items: [
-              {
-                label: 'QQ交流群',
-                href: 'https://qm.qq.com/cgi-bin/qm/qr?k=D75vW-DYhDNzYoKghGPvGpDiMl4cRKBb&jump_from=webapi&authKey=EG46Uvg+6ZnoyAidNSbB6e//ShbVXC327dpMvpPD/nweZExlPYeTuWAKeSq+If4T',
-              },
-            ],
-          },
-          {
-            title: '更多',
-            items: [
-              {
-                label: 'Bilibili',
-                href: 'https://space.bilibili.com/359174372?spm_id_from=333.1007.0.0',
-              },
-            ],
-          },
-        ],
+        style: 'dark',
 	copyright: `
  	  <div>
  	    <a href="https://beian.miit.gov.cn" id="beian" target="_blank">苏ICP备2024133820号-1</a>
