@@ -25,8 +25,13 @@ const config = {
   // 例如，如果您的站点是中文，可以将 "en" 替换为 "zh-Hans"。
   i18n: {
     defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans'], // 支持的语言列表
-    path: 'i18n/zh-Hans',  // 确保路径正确指向中文翻译文档
+    locales: ['zh-Hans'],
+    localeConfigs: {
+      'zh-Hans': {
+        path: 'zh-Hans',
+        label: '简体中文',
+      },
+    },
   },
 
   presets: [
