@@ -40,33 +40,6 @@
   margin: 8px 0;
 }
 
-/* 渐变分隔线 */
-.divider.gradient {
-  height: 2px;
-  background: linear-gradient(90deg, transparent, var(--ifm-color-primary), transparent);
-  margin: 16px 0;
-}
-
-/* 立体阴影分隔线 */
-.divider-shadow {
-  height: 1px;
-  margin: 24px 0;
-  position: relative;
-}
-
-.divider-shadow::after {
-  content: '';
-  position: absolute;
-  left: 5%;
-  right: 5%;
-  height: 1px;
-  background: var(--ifm-color-primary);
-  box-shadow: 
-    0 2px 4px rgba(var(--ifm-color-primary-dark-rgb), 0.3),
-    0 4px 8px rgba(var(--ifm-color-primary-dark-rgb), 0.1);
-  transform: perspective(100px) rotateX(45deg);
-}
-
 /* 使用 Font Awesome 图标作为分隔线 */
 .divider-icon {
   text-align: center;
@@ -75,7 +48,7 @@
 }
 
 .divider-icon::before {
-  content: '\f1c9'; /* Font Awesome 图标编码 */
+  content: '✰'; /* Font Awesome 图标编码 */
   font-family: 'Font Awesome 5 Free';
   color: var(--ifm-color-primary);
   font-size: 1.2rem;
@@ -132,13 +105,6 @@
   padding: 0.4rem 0.8rem !important;
   font-size: 0.9em !important;
   line-height: 1.4 !important;
-}
-
-/* 标题优化 */
-.sidebar-title {
-  font-size: 1.1rem !important;
-  padding: 0.8rem !important;
-  margin: 0.5rem 0 !important;
 }
 
 /* 外部链接特殊处理 */
