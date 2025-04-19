@@ -26,6 +26,7 @@ const config = {
   i18n: {
     defaultLocale: 'zh-Hans',
     locales: ['zh-Hans'], // 支持的语言列表
+    path: 'i18n/zh-Hans',  // 确保路径正确指向中文翻译文档
   },
 
   presets: [
@@ -85,7 +86,7 @@ const config = {
             items: [
               {
                 label: '教程',
-                to: '/docs/intro',
+                to: '/docs/qustions/QQ',
               },
             ],
           },
