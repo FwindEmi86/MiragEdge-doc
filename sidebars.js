@@ -1,15 +1,16 @@
 module.exports = {
-  // 侧边栏的标识符（例如：tutorialSidebar 是侧边栏名称）
   tutorialSidebar: [
-    { type: 'html', value: '<h>锐界幻境文档</h>' },
-    { type: 'html', value: '<hr />' },
+    { 
+      type: 'html', 
+      value: '<div class="sidebar-title"><i class="fas fa-book"></i> 锐界幻境文档</div>' 
+    },
+    { type: 'html', value: '<div class="divider gradient"></div>' },
     // 直接引用文档 ID（对应文件名）
     'intro',       // 对应 docs/前言.md
     'review',       // 对应 docs/玩家审核.md
-    // 分类（Category）
     {
       type: 'category',
-      label: '教程',
+      label: '<i class="fas fa-graduation-cap"></i> 新手教程',
       items: [
         'tutorial/Client_Install',
         'tutorial/Join_Server',
