@@ -1,31 +1,57 @@
 module.exports = {
   // 侧边栏的标识符（例如：tutorialSidebar 是侧边栏名称）
   tutorialSidebar: [
-    // 直接引用文档 ID（对应文件名）
-    'intro',       // 对应 docs/介绍.md
-    'rule',       // 对应 docs/游玩须知.md
-
-    // 添加分隔线
+    { type: 'html', value: '<h>锐界幻境文档</h>' },
     { type: 'html', value: '<hr />' },
-
+    // 直接引用文档 ID（对应文件名）
+    'intro',       // 对应 docs/前言.md
+    'review',       // 对应 docs/玩家审核.md
     // 分类（Category）
     {
       type: 'category',
-      label: '教程',  // 分类显示名称
+      label: '教程',
       items: [
-        'tutorial/Client_Install',  // 子文档路径
+        'tutorial/Client_Install',
         'tutorial/Join_Server',
         'tutorial/gameplay',
-        // 其他子项...
       ],
-      // 可选配置项
+      collapsible: true,   // 是否可折叠（默认 true）
+      collapsed: true,     // 初始是否折叠（默认 true）
+    },
+    { type: 'html', value: '<hr />' },
+    {
+      type: 'category',
+      label: '介绍',
+      items: [
+        'introduction/SkyField',
+        'introduction/MDSH',
+        'introduction/MiragEdge',
+        'introduction/ZeroSate',
+      ],
       collapsible: true,   // 是否可折叠（默认 true）
       collapsed: false,     // 初始是否折叠（默认 true）
     },
-
-    // 添加分隔线
     { type: 'html', value: '<hr />' },
-
+    {
+      type: 'category',
+      label: '规则',
+      items: [
+        'rule/rule',
+      ],
+      collapsible: true,   // 是否可折叠（默认 true）
+      collapsed: true,     // 初始是否折叠（默认 true）
+    },
+    { type: 'html', value: '<hr />' },
+    {
+      type: 'category',
+      label: '游戏玩法',
+      items: [
+        'gameplay/start',
+      ],
+      collapsible: true,   // 是否可折叠（默认 true）
+      collapsed: false,     // 初始是否折叠（默认 true）
+    },
+    { type: 'html', value: '<hr />' },
     {
       type: 'category',
       label: '常见问题',  // 分类显示名称
@@ -41,6 +67,8 @@ module.exports = {
 
     'log',       // 对应 docs/更新日志.md
 
+    { type: 'html', value: '<hr />' },
+    
     // 添加外部链接
     { type: 'html', value: '<div style="margin: 1rem 0"></div>' },
     {

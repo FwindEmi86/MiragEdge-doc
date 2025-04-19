@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 slug: /docs/intro
-title: 锐界幻境 介绍
+title: 前言
 ---
 
 ![ME-LOGO](/img/ME-logo.png "锐界幻境")

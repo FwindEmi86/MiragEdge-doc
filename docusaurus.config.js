@@ -37,10 +37,7 @@ const config = {
           path: 'docs', // 明确指定文档路径
           routeBasePath: '/', // 可选：将文档设为根路径
           sidebarPath: './sidebars.js', // 侧边栏配置文件路径
-          // 请将此更改为您的仓库地址。
-          // 删除此项以移除“编辑此页面”链接。
-          editUrl:
-            'https://github.com/FwindEmi86/FwindEmi/blob/page/',
+          showLastUpdateTime: true, // 显示最后更新时间
         },
         theme: {
           customCss: './src/css/custom.css', // 自定义 CSS 文件路径
