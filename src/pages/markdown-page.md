@@ -1,5 +1,5 @@
 ---
-title: Markdown page example
+title: Markdown 默认配置
 ---
 
 # Markdown page example
