@@ -10,7 +10,7 @@ module.exports = {
     'review',       // 对应 docs/玩家审核.md
     {
       type: 'category',
-      label: '<i class="fas fa-graduation-cap"></i> 新手教程',
+      label: '教程',
       items: [
         'tutorial/Client_Install',
         'tutorial/Join_Server',
@@ -19,7 +19,7 @@ module.exports = {
       collapsible: true,   // 是否可折叠（默认 true）
       collapsed: true,     // 初始是否折叠（默认 true）
     },
-    { type: 'html', value: '<hr />' },
+    { type: 'html', value: '<div class="divider-dots"></div>' },
     {
       type: 'category',
       label: '介绍',
@@ -32,7 +32,7 @@ module.exports = {
       collapsible: true,   // 是否可折叠（默认 true）
       collapsed: false,     // 初始是否折叠（默认 true）
     },
-    { type: 'html', value: '<hr />' },
+    { type: 'html', value: '<div class="divider-dots"></div>' },
     {
       type: 'category',
       label: '规则',
@@ -42,7 +42,7 @@ module.exports = {
       collapsible: true,   // 是否可折叠（默认 true）
       collapsed: true,     // 初始是否折叠（默认 true）
     },
-    { type: 'html', value: '<hr />' },
+    { type: 'html', value: '<div class="divider-dots"></div>' },
     {
       type: 'category',
       label: '游戏玩法',
@@ -52,7 +52,7 @@ module.exports = {
       collapsible: true,   // 是否可折叠（默认 true）
       collapsed: false,     // 初始是否折叠（默认 true）
     },
-    { type: 'html', value: '<hr />' },
+    { type: 'html', value: '<div class="divider-dots"></div>' },
     {
       type: 'category',
       label: '常见问题',  // 分类显示名称
@@ -68,7 +68,7 @@ module.exports = {
 
     'log',       // 对应 docs/更新日志.md
 
-    { type: 'html', value: '<hr />' },
+    { type: 'html', value: '<div class="divider-dots"></div>' },
     
     // 添加外部链接
     { type: 'html', value: '<div style="margin: 1rem 0"></div>' },

@@ -46,23 +46,35 @@
   background: linear-gradient(90deg, transparent, var(--ifm-color-primary), transparent);
   margin: 16px 0;
 }
-
-/* 分类标签样式 */
-.menu__list-item-collapsible .menu__link {
-  font-weight: 500;
-  border-left: 3px solid transparent;
-  transition: all 0.2s;
+/* 动态点阵分隔线 */
+.divider-dots {
+  height: 3px;
+  margin: 18px 0;
+  background: 
+    radial-gradient(circle at center, 
+      var(--ifm-color-primary) 30%, 
+      transparent 70%
+    ) repeat-x;
+  background-size: 10px 100%;
+  position: relative;
+  animation: dotFlow 2s linear infinite;
 }
 
-.menu__list-item-collapsible .menu__link:hover {
-  border-left-color: var(--ifm-color-primary);
-  background: rgba(var(--ifm-color-primary-rgb), 0.05);
+@keyframes dotFlow {
+  0% { background-position: 0 0; }
+  100% { background-position: 20px 0; }
 }
 
-/* 外部链接图标 */
+/* 为所有外部链接添加图标 */
 .menu__link--external::after {
-  content: "↗";
-  margin-left: 6px;
+  content: "⇗";
+  display: inline-block;
+  margin-left: 0.5rem;
   font-size: 0.8em;
   opacity: 0.7;
+  transition: opacity 0.3s;
+}
+
+.menu__link--external:hover::after {
+  opacity: 1;
 }
