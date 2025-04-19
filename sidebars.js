@@ -2,7 +2,7 @@ module.exports = {
   tutorialSidebar: [
     { 
       type: 'html', 
-      value: '<div class="sidebar-title"><i class="fas fa-book"></i> 锐界幻境 玩家文档</div>' 
+      value: '<div class="sidebar-title"><i class="fas fa-book"></i>  锐界幻境 玩家文档</div>' 
     },
     { type: 'html', value: '<div class="divider gradient"></div>' },
     // 直接引用文档 ID（对应文件名）
@@ -19,7 +19,7 @@ module.exports = {
       collapsible: true,   // 是否可折叠（默认 true）
       collapsed: true,     // 初始是否折叠（默认 true）
     },
-    { type: 'html', value: '<div class="divider-shadow"></div>' },
+    { type: 'html', value: '<div class="divider-icon"></div>' },
     {
       type: 'category',
       label: '介绍',
@@ -32,7 +32,7 @@ module.exports = {
       collapsible: true,   // 是否可折叠（默认 true）
       collapsed: false,     // 初始是否折叠（默认 true）
     },
-    { type: 'html', value: '<div class="divider-shadow"></div>' },
+    { type: 'html', value: '<div class="divider-icon"></div>' },
     {
       type: 'category',
       label: '规则',
@@ -42,7 +42,7 @@ module.exports = {
       collapsible: true,   // 是否可折叠（默认 true）
       collapsed: true,     // 初始是否折叠（默认 true）
     },
-    { type: 'html', value: '<div class="divider-shadow"></div>' },
+    { type: 'html', value: '<div class="divider-icon"></div>' },
     {
       type: 'category',
       label: '游戏玩法',
@@ -52,7 +52,7 @@ module.exports = {
       collapsible: true,   // 是否可折叠（默认 true）
       collapsed: false,     // 初始是否折叠（默认 true）
     },
-    { type: 'html', value: '<div class="divider-shadow"></div>' },
+    { type: 'html', value: '<div class="divider-icon"></div>' },
     {
       type: 'category',
       label: '常见问题',  // 分类显示名称
@@ -68,7 +68,7 @@ module.exports = {
 
     'log',       // 对应 docs/更新日志.md
 
-    { type: 'html', value: '<div class="divider-shadow"></div>' },
+    { type: 'html', value: '<div class="divider-icon"></div>' },
     
     // 添加外部链接
     { type: 'html', value: '<div style="margin: 1rem 0"></div>' },
