@@ -1,5 +1,4 @@
 ---
-sidebar_position: 1
 slug: /docs/log
 title: 更新日志
 ---
