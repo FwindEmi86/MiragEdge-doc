@@ -24,16 +24,18 @@ const config = {
   // 有用的元数据，例如 HTML 的语言属性。
   // 例如，如果您的站点是中文，可以将 "en" 替换为 "zh-Hans"。
   i18n: {
-    defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans'],
+    defaultLocale: 'en', // 设置默认语言
+    locales: ['en'], // 定义支持的语言
   },
 
   presets: [
     [
-      'classic',
+      '@docusaurus/preset-classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      {
         docs: {
+          path: 'docs', // 明确指定文档路径
+          routeBasePath: '/', // 可选：将文档设为根路径
           sidebarPath: './sidebars.js', // 侧边栏配置文件路径
           // 请将此更改为您的仓库地址。
           // 删除此项以移除“编辑此页面”链接。
@@ -43,7 +45,7 @@ const config = {
         theme: {
           customCss: './src/css/custom.css', // 自定义 CSS 文件路径
         },
-      }),
+      },
     ],
   ],
 
