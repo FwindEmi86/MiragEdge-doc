@@ -58,7 +58,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **双份面包** （***double_bread***）  
+### **双份面包** ***double_bread***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -72,7 +72,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **派** （***pie***）  
+### **派** ***pie***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -86,7 +86,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **奶酪** （***cheese***）  
+### **奶酪** ***cheese***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -100,7 +100,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **棉花糖** （***candy_floss***）  
+### **棉花糖** ***candy_floss***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -114,7 +114,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **草莓甜甜圈** （***strawberry_donuts***）  
+### **草莓甜甜圈** ***strawberry_donuts***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -128,7 +128,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **大火腿** （***big_ham***）  
+### **大火腿** ***big_ham***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -142,7 +142,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **酸菜肉片** （***sauerkraut_meat_film***）  
+### **酸菜肉片** ***sauerkraut_meat_film***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -156,7 +156,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **蜂蜜罐** （***Honey_claypots***）  
+### **蜂蜜罐** ***Honey_claypots***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -170,7 +170,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **热狗** （***hotdog***）  
+### **热狗** ***hotdog***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -184,7 +184,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **蒲公英沙拉** （***dandelion_salad***）  
+### **蒲公英沙拉** ***dandelion_salad***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -198,7 +198,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **浆果沙拉** （***berry_salad***）  
+### **浆果沙拉** ***berry_salad***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -212,7 +212,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **炖牛肉** （***beef_stew***）  
+### **炖牛肉** ***beef_stew***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -226,7 +226,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **海草沙拉** （***seagrass_salad***）  
+### **海草沙拉** ***seagrass_salad***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -240,7 +240,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **海洋拼盘** （***ocean_medley***）  
+### **海洋拼盘** ***ocean_medley***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -254,7 +254,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **洞穴拼盘** （***cave_medley***）  
+### **洞穴拼盘** ***cave_medley***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -268,7 +268,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **胡萝卜糖** （***carrot_candy***）  
+### **胡萝卜糖** ***carrot_candy***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -282,7 +282,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **土豆糖** （***potato_candy***）  
+### **土豆糖** ***potato_candy***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -296,7 +296,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **草糖** （***grass_candy***）  
+### **草糖** ***grass_candy***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -310,7 +310,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **绯红糖** （***crimson_candy***）  
+### **绯红糖** ***crimson_candy***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -324,7 +324,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **诡异糖** （***warped_candy***）  
+### **诡异糖** ***warped_candy***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -338,7 +338,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **草莓冰淇淋** （***strawberry_ice_cream***）  
+### **草莓冰淇淋** ***strawberry_ice_cream***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -352,7 +352,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **草莓巧克力冰淇淋** （***strawberry_chocolate_ice_cream***）  
+### **草莓巧克力冰淇淋** ***strawberry_chocolate_ice_cream***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -366,7 +366,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **披萨** （***pizza***）  
+### **披萨** ***pizza***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -380,7 +380,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **奶油纸杯蛋糕** （***cream_cupcakes***）  
+### **奶油纸杯蛋糕** ***cream_cupcakes***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -394,7 +394,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **豆腐** （***tofu***）  
+### **豆腐** ***tofu***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -408,7 +408,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **臭豆腐** （***stinky_tofu***）  
+### **臭豆腐** ***stinky_tofu***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -422,7 +422,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **玉米卷** （***tacos***）  
+### **玉米卷** ***tacos***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -436,7 +436,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **爆米花** （***popcorn***）  
+### **爆米花** ***popcorn***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -450,7 +450,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **切开的仙人掌** （***cut_cactus***）  
+### **切开的仙人掌** ***cut_cactus***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -464,7 +464,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **粽子** （***zongzi***）  
+### **粽子** ***zongzi***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -478,7 +478,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **寿司** （***sushi***）  
+### **寿司** ***sushi***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -492,7 +492,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **叫花鸡** （***beggars_style_chicken***）  
+### **叫花鸡** ***beggars_style_chicken***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -506,7 +506,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **苦力怕饼干** （***creeper_cookie***）  
+### **苦力怕饼干** ***creeper_cookie***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -520,7 +520,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **棒棒糖** （***lollipop***）  
+### **棒棒糖** ***lollipop***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -534,7 +534,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **汉堡包** （***hamburger***）  
+### **汉堡包** ***hamburger***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -548,7 +548,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **熔岩鸡** （***lava_chicken***）  
+### **熔岩鸡** ***lava_chicken***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -562,7 +562,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **鱼汤** （***fish_soup***）  
+### **鱼汤** ***fish_soup***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -576,7 +576,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **幽匿拼盘** （***sculk_medley***）  
+### **幽匿拼盘** ***sculk_medley***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -590,7 +590,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **甜浆果纸杯蛋糕** （***sweet_berries_cupcake***）  
+### **甜浆果纸杯蛋糕** ***sweet_berries_cupcake***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -604,7 +604,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **荧光浆果纸杯蛋糕** （***glow_berries_cupcake***）  
+### **荧光浆果纸杯蛋糕** ***glow_berries_cupcake***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -618,7 +618,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **彩色蛋羹** （***colorful_egg_custard***）  
+### **彩色蛋羹** ***colorful_egg_custard***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -636,7 +636,7 @@ import FoodImage from '@site/src/components/FoodImage';
 &nbsp;
 &nbsp;
 
-### **煎乌龟蛋** （***fried_turtle_egg***）  
+### **煎乌龟蛋** ***fried_turtle_egg***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：熔炉熔炼  
@@ -650,7 +650,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **煎嗅探兽蛋** （***fried_sniffer_egg***）  
+### **煎嗅探兽蛋** ***fried_sniffer_egg***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：熔炉熔炼  
@@ -664,7 +664,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **煎龙蛋** （***fried_dragon_egg***）  
+### **煎龙蛋** ***fried_dragon_egg***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：熔炉熔炼  
@@ -678,7 +678,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **烤南瓜** （***roasted_pumpkin***）  
+### **烤南瓜** ***roasted_pumpkin***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：熔炉熔炼  
@@ -692,7 +692,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **吐司** （***toast***）  
+### **吐司** ***toast***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：熔炉熔炼  
@@ -705,7 +705,7 @@ import FoodImage from '@site/src/components/FoodImage';
 />
 ***
 
-### **煎蛋** （***fried_egg***）  
+### **煎蛋** ***fried_egg***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：熔炉熔炼  
@@ -724,7 +724,7 @@ import FoodImage from '@site/src/components/FoodImage';
 &nbsp;
 
 
-### **浆果沙拉** （***berry_salad***）  
+### **浆果沙拉** ***berry_salad***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：无  
@@ -738,7 +738,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **可口可乐** （***coca_cola***）  
+### **可口可乐** ***coca_cola***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：无  
@@ -752,7 +752,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **百事可乐** （***pepsi_cola***）  
+### **百事可乐** ***pepsi_cola***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：无  
@@ -766,7 +766,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **雪碧** （***sprite***）  
+### **雪碧** ***sprite***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：无  
@@ -780,7 +780,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **芬达** （***fanta***）  
+### **芬达** ***fanta***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：无  
@@ -794,7 +794,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **草莓酱** （***strawberry_jam***）  
+### **草莓酱** ***strawberry_jam***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：无  
@@ -808,7 +808,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **草莓** （***strawberry***）  
+### **草莓** ***strawberry***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：无  
