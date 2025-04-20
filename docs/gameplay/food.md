@@ -12,6 +12,10 @@ import FoodImage from '@site/src/components/FoodImage';
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;你会喜欢上它们的awa   
 
 ***
+## **使用工作台合成**
+&nbsp;
+&nbsp;
+&nbsp;
   
 ### **培根** ***bacon***  
 > 恢复饱食度：3点  
@@ -124,423 +128,696 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **xxx** （***xxx***）  
+### **大火腿** （***big_ham***）  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
   特殊属性：无  
   
 <FoodImage 
-  src="/img/resourcepack/food/hecheng/xxx.png" 
-  alt="xxx" 
+  src="/img/resourcepack/food/hecheng/big_ham.png" 
+  alt="大火腿" 
   width={250}
 />
 
 ***
 
-### **xxx** （***xxx***）  
+### **酸菜肉片** （***sauerkraut_meat_film***）  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
   特殊属性：无  
   
 <FoodImage 
-  src="/img/resourcepack/food/hecheng/xxx.png" 
-  alt="xxx" 
+  src="/img/resourcepack/food/hecheng/sauerkraut_meat_film.png" 
+  alt="酸菜肉片" 
   width={250}
 />
 
 ***
 
-### **xxx** （***xxx***）  
+### **蜂蜜罐** （***Honey_claypots***）  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
   特殊属性：无  
   
 <FoodImage 
-  src="/img/resourcepack/food/hecheng/xxx.png" 
-  alt="xxx" 
+  src="/img/resourcepack/food/hecheng/Honey_claypots.png" 
+  alt="蜂蜜罐" 
   width={250}
 />
 
 ***
 
-### **xxx** （***xxx***）  
+### **热狗** （***hotdog***）  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
   特殊属性：无  
   
 <FoodImage 
-  src="/img/resourcepack/food/hecheng/xxx.png" 
-  alt="xxx" 
+  src="/img/resourcepack/food/hecheng/hotdog.png" 
+  alt="热狗" 
   width={250}
 />
 
 ***
 
-### **xxx** （***xxx***）  
+### **蒲公英沙拉** （***dandelion_salad***）  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
   特殊属性：无  
   
 <FoodImage 
-  src="/img/resourcepack/food/hecheng/xxx.png" 
-  alt="xxx" 
+  src="/img/resourcepack/food/hecheng/dandelion_salad.png" 
+  alt="蒲公英沙拉" 
   width={250}
 />
 
 ***
 
-### **xxx** （***xxx***）  
+### **浆果沙拉** （***berry_salad***）  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
   特殊属性：无  
   
 <FoodImage 
-  src="/img/resourcepack/food/hecheng/xxx.png" 
-  alt="xxx" 
+  src="/img/resourcepack/food/hecheng/berry_salad.png" 
+  alt="浆果沙拉" 
   width={250}
 />
 
 ***
 
-### **xxx** （***xxx***）  
+### **炖牛肉** （***beef_stew***）  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
   特殊属性：无  
   
 <FoodImage 
-  src="/img/resourcepack/food/hecheng/xxx.png" 
-  alt="xxx" 
+  src="/img/resourcepack/food/hecheng/beef_stew.png" 
+  alt="炖牛肉" 
   width={250}
 />
 
 ***
 
-### **xxx** （***xxx***）  
+### **海草沙拉** （***seagrass_salad***）  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
   特殊属性：无  
   
 <FoodImage 
-  src="/img/resourcepack/food/hecheng/xxx.png" 
-  alt="xxx" 
+  src="/img/resourcepack/food/hecheng/seagrass_salad.png" 
+  alt="海草沙拉" 
   width={250}
 />
 
 ***
 
-### **xxx** （***xxx***）  
+### **海洋拼盘** （***ocean_medley***）  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
   特殊属性：无  
   
 <FoodImage 
-  src="/img/resourcepack/food/hecheng/xxx.png" 
-  alt="xxx" 
+  src="/img/resourcepack/food/hecheng/ocean_medley.png" 
+  alt="海洋拼盘" 
   width={250}
 />
 
 ***
 
-### **xxx** （***xxx***）  
+### **洞穴拼盘** （***cave_medley***）  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
   特殊属性：无  
   
 <FoodImage 
-  src="/img/resourcepack/food/hecheng/xxx.png" 
-  alt="xxx" 
+  src="/img/resourcepack/food/hecheng/cave_medley.png" 
+  alt="洞穴拼盘" 
   width={250}
 />
 
 ***
 
-### **xxx** （***xxx***）  
+### **胡萝卜糖** （***carrot_candy***）  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
   特殊属性：无  
   
 <FoodImage 
-  src="/img/resourcepack/food/hecheng/xxx.png" 
-  alt="xxx" 
+  src="/img/resourcepack/food/hecheng/carrot_candy.png" 
+  alt="胡萝卜糖" 
   width={250}
 />
 
 ***
 
-### **xxx** （***xxx***）  
+### **土豆糖** （***potato_candy***）  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
   特殊属性：无  
   
 <FoodImage 
-  src="/img/resourcepack/food/hecheng/xxx.png" 
-  alt="xxx" 
+  src="/img/resourcepack/food/hecheng/potato_candy.png" 
+  alt="土豆糖" 
   width={250}
 />
 
 ***
 
-### **xxx** （***xxx***）  
+### **草糖** （***grass_candy***）  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
   特殊属性：无  
   
 <FoodImage 
-  src="/img/resourcepack/food/hecheng/xxx.png" 
-  alt="xxx" 
+  src="/img/resourcepack/food/hecheng/grass_candy.png" 
+  alt="草糖" 
   width={250}
 />
 
 ***
 
-### **xxx** （***xxx***）  
+### **绯红糖** （***crimson_candy***）  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
   特殊属性：无  
   
 <FoodImage 
-  src="/img/resourcepack/food/hecheng/xxx.png" 
-  alt="xxx" 
+  src="/img/resourcepack/food/hecheng/crimson_candy.png" 
+  alt="绯红糖" 
   width={250}
 />
 
 ***
 
-### **xxx** （***xxx***）  
+### **诡异糖** （***warped_candy***）  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
   特殊属性：无  
   
 <FoodImage 
-  src="/img/resourcepack/food/hecheng/xxx.png" 
-  alt="xxx" 
+  src="/img/resourcepack/food/hecheng/warped_candy.png" 
+  alt="诡异糖" 
   width={250}
 />
 
 ***
 
-### **xxx** （***xxx***）  
+### **草莓冰淇淋** （***strawberry_ice_cream***）  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
   特殊属性：无  
   
 <FoodImage 
-  src="/img/resourcepack/food/hecheng/xxx.png" 
-  alt="xxx" 
+  src="/img/resourcepack/food/hecheng/strawberry_ice_cream.png" 
+  alt="草莓冰淇淋" 
   width={250}
 />
 
 ***
 
-### **xxx** （***xxx***）  
+### **草莓巧克力冰淇淋** （***strawberry_chocolate_ice_cream***）  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
   特殊属性：无  
   
 <FoodImage 
-  src="/img/resourcepack/food/hecheng/xxx.png" 
-  alt="xxx" 
+  src="/img/resourcepack/food/hecheng/strawberry_chocolate_ice_cream.png" 
+  alt="草莓巧克力冰淇淋" 
   width={250}
 />
 
 ***
 
-### **xxx** （***xxx***）  
+### **披萨** （***pizza***）  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
   特殊属性：无  
   
 <FoodImage 
-  src="/img/resourcepack/food/hecheng/xxx.png" 
-  alt="xxx" 
+  src="/img/resourcepack/food/hecheng/pizza.png" 
+  alt="披萨" 
   width={250}
 />
 
 ***
 
-### **xxx** （***xxx***）  
+### **奶油纸杯蛋糕** （***cream_cupcakes***）  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
   特殊属性：无  
   
 <FoodImage 
-  src="/img/resourcepack/food/hecheng/xxx.png" 
-  alt="xxx" 
+  src="/img/resourcepack/food/hecheng/cream_cupcakes.png" 
+  alt="奶油纸杯蛋糕" 
   width={250}
 />
 
 ***
 
-### **xxx** （***xxx***）  
+### **豆腐** （***tofu***）  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
   特殊属性：无  
   
 <FoodImage 
-  src="/img/resourcepack/food/hecheng/xxx.png" 
-  alt="xxx" 
+  src="/img/resourcepack/food/hecheng/tofu.png" 
+  alt="豆腐" 
   width={250}
 />
 
 ***
 
-### **xxx** （***xxx***）  
+### **臭豆腐** （***stinky_tofu***）  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
   特殊属性：无  
   
 <FoodImage 
-  src="/img/resourcepack/food/hecheng/xxx.png" 
-  alt="xxx" 
+  src="/img/resourcepack/food/hecheng/stinky_tofu.png" 
+  alt="臭豆腐" 
   width={250}
 />
 
 ***
 
-### **xxx** （***xxx***）  
+### **玉米卷** （***tacos***）  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
   特殊属性：无  
   
 <FoodImage 
-  src="/img/resourcepack/food/hecheng/xxx.png" 
-  alt="xxx" 
+  src="/img/resourcepack/food/hecheng/tacos.png" 
+  alt="玉米卷" 
   width={250}
 />
 
 ***
 
-### **xxx** （***xxx***）  
+### **爆米花** （***popcorn***）  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
   特殊属性：无  
   
 <FoodImage 
-  src="/img/resourcepack/food/hecheng/xxx.png" 
-  alt="xxx" 
+  src="/img/resourcepack/food/hecheng/popcorn.png" 
+  alt="爆米花" 
   width={250}
 />
 
 ***
 
-### **xxx** （***xxx***）  
+### **切开的仙人掌** （***cut_cactus***）  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
   特殊属性：无  
   
 <FoodImage 
-  src="/img/resourcepack/food/hecheng/xxx.png" 
-  alt="xxx" 
+  src="/img/resourcepack/food/hecheng/cut_cactus.png" 
+  alt="切开的仙人掌" 
   width={250}
 />
 
 ***
 
-### **xxx** （***xxx***）  
+### **粽子** （***zongzi***）  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
   特殊属性：无  
   
 <FoodImage 
-  src="/img/resourcepack/food/hecheng/xxx.png" 
-  alt="xxx" 
+  src="/img/resourcepack/food/hecheng/zongzi.png" 
+  alt="粽子" 
   width={250}
 />
 
 ***
 
-### **xxx** （***xxx***）  
+### **寿司** （***sushi***）  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
   特殊属性：无  
   
 <FoodImage 
-  src="/img/resourcepack/food/hecheng/xxx.png" 
-  alt="xxx" 
+  src="/img/resourcepack/food/hecheng/sushi.png" 
+  alt="寿司" 
   width={250}
 />
 
 ***
 
-### **xxx** （***xxx***）  
+### **叫花鸡** （***beggars_style_chicken***）  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
   特殊属性：无  
   
 <FoodImage 
-  src="/img/resourcepack/food/hecheng/xxx.png" 
-  alt="xxx" 
+  src="/img/resourcepack/food/hecheng/beggars_style_chicken.png" 
+  alt="叫花鸡" 
   width={250}
 />
 
 ***
 
-### **xxx** （***xxx***）  
+### **苦力怕饼干** （***creeper_cookie***）  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
   特殊属性：无  
   
 <FoodImage 
-  src="/img/resourcepack/food/hecheng/xxx.png" 
-  alt="xxx" 
+  src="/img/resourcepack/food/hecheng/creeper_cookie.png" 
+  alt="苦力怕饼干" 
   width={250}
 />
 
 ***
 
-### **xxx** （***xxx***）  
+### **棒棒糖** （***lollipop***）  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
   特殊属性：无  
   
 <FoodImage 
-  src="/img/resourcepack/food/hecheng/xxx.png" 
-  alt="xxx" 
+  src="/img/resourcepack/food/hecheng/lollipop.png" 
+  alt="棒棒糖" 
   width={250}
 />
 
 ***
 
-### **xxx** （***xxx***）  
+### **汉堡包** （***hamburger***）  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
   特殊属性：无  
   
 <FoodImage 
-  src="/img/resourcepack/food/hecheng/xxx.png" 
-  alt="xxx" 
+  src="/img/resourcepack/food/hecheng/hamburger.png" 
+  alt="汉堡包" 
   width={250}
 />
 
 ***
 
+### **熔岩鸡** （***lava_chicken***）  
+> 恢复饱食度：3点  
+  恢复饥饿值：4点  
+  获取方式：合成  
+  特殊属性：无  
+  
+<FoodImage 
+  src="/img/resourcepack/food/hecheng/lava_chicken.png" 
+  alt="熔岩鸡" 
+  width={250}
+/>
+
+***
+
+### **鱼汤** （***fish_soup***）  
+> 恢复饱食度：3点  
+  恢复饥饿值：4点  
+  获取方式：合成  
+  特殊属性：无  
+  
+<FoodImage 
+  src="/img/resourcepack/food/hecheng/fish_soup.png" 
+  alt="鱼汤" 
+  width={250}
+/>
+
+***
+
+### **幽匿拼盘** （***sculk_medley***）  
+> 恢复饱食度：3点  
+  恢复饥饿值：4点  
+  获取方式：合成  
+  特殊属性：无  
+  
+<FoodImage 
+  src="/img/resourcepack/food/hecheng/sculk_medley.png" 
+  alt="幽匿拼盘" 
+  width={250}
+/>
+
+***
+
+### **甜浆果纸杯蛋糕** （***sweet_berries_cupcake***）  
+> 恢复饱食度：3点  
+  恢复饥饿值：4点  
+  获取方式：合成  
+  特殊属性：无  
+  
+<FoodImage 
+  src="/img/resourcepack/food/hecheng/sweet_berries_cupcake.png" 
+  alt="甜浆果纸杯蛋糕" 
+  width={250}
+/>
+
+***
+
+### **荧光浆果纸杯蛋糕** （***glow_berries_cupcake***）  
+> 恢复饱食度：3点  
+  恢复饥饿值：4点  
+  获取方式：合成  
+  特殊属性：无  
+  
+<FoodImage 
+  src="/img/resourcepack/food/hecheng/glow_berries_cupcake.png" 
+  alt="荧光浆果纸杯蛋糕" 
+  width={250}
+/>
+
+***
+
+### **彩色蛋羹** （***colorful_egg_custard***）  
+> 恢复饱食度：3点  
+  恢复饥饿值：4点  
+  获取方式：合成  
+  特殊属性：无  
+  
+<FoodImage 
+  src="/img/resourcepack/food/hecheng/colorful_egg_custard.png" 
+  alt="彩色蛋羹" 
+  width={250}
+/>
+
+***
+## **使用熔炉制作**
+&nbsp;
+&nbsp;
+&nbsp;
+
+### **煎乌龟蛋** （***fried_turtle_egg***）  
+> 恢复饱食度：3点  
+  恢复饥饿值：4点  
+  获取方式：熔炉熔炼  
+  特殊属性：无  
+  
+<FoodImage 
+  src="/img/resourcepack/food/hecheng/fried_turtle_egg.png" 
+  alt="煎乌龟蛋" 
+  width={250}
+/>
+
+***
+
+### **煎嗅探兽蛋** （***fried_sniffer_egg***）  
+> 恢复饱食度：3点  
+  恢复饥饿值：4点  
+  获取方式：熔炉熔炼  
+  特殊属性：无  
+  
+<FoodImage 
+  src="/img/resourcepack/food/hecheng/fried_sniffer_egg.png" 
+  alt="煎嗅探兽蛋" 
+  width={250}
+/>
+
+***
+
+### **煎龙蛋** （***fried_dragon_egg***）  
+> 恢复饱食度：3点  
+  恢复饥饿值：4点  
+  获取方式：熔炉熔炼  
+  特殊属性：无  
+  
+<FoodImage 
+  src="/img/resourcepack/food/hecheng/fried_dragon_egg.png" 
+  alt="煎龙蛋" 
+  width={250}
+/>
+
+***
+
+### **烤南瓜** （***roasted_pumpkin***）  
+> 恢复饱食度：3点  
+  恢复饥饿值：4点  
+  获取方式：熔炉熔炼  
+  特殊属性：无  
+  
+<FoodImage 
+  src="/img/resourcepack/food/hecheng/roasted_pumpkin.png" 
+  alt="烤南瓜" 
+  width={250}
+/>
+
+***
+
+### **吐司** （***toast***）  
+> 恢复饱食度：3点  
+  恢复饥饿值：4点  
+  获取方式：熔炉熔炼  
+  特殊属性：无  
+  
+<FoodImage 
+  src="/img/resourcepack/food/hecheng/toast.png" 
+  alt="吐司" 
+  width={250}
+/>
+***
+
+### **煎蛋** （***fried_egg***）  
+> 恢复饱食度：3点  
+  恢复饥饿值：4点  
+  获取方式：熔炉熔炼  
+  特殊属性：无  
+  
+<FoodImage 
+  src="/img/resourcepack/food/hecheng/fried_egg.png" 
+  alt="煎蛋" 
+  width={250}
+/>
+
+***
+## **不可制作**
+&nbsp;
+&nbsp;
+&nbsp;
+
+
+### **浆果沙拉** （***berry_salad***）  
+> 恢复饱食度：3点  
+  恢复饥饿值：4点  
+  获取方式：无  
+  特殊属性：无  
+  
+<FoodImage 
+  src="/img/resourcepack/food/berry_salad.png" 
+  alt="浆果沙拉" 
+  width={250}
+/>
+
+***
+
+### **可口可乐** （***coca_cola***）  
+> 恢复饱食度：3点  
+  恢复饥饿值：4点  
+  获取方式：无  
+  特殊属性：无  
+  
+<FoodImage 
+  src="/img/resourcepack/food/coca_cola.png" 
+  alt="可口可乐" 
+  width={250}
+/>
+
+***
+
+### **百事可乐** （***pepsi_cola***）  
+> 恢复饱食度：3点  
+  恢复饥饿值：4点  
+  获取方式：无  
+  特殊属性：无  
+  
+<FoodImage 
+  src="/img/resourcepack/food/pepsi_cola.png" 
+  alt="百事可乐" 
+  width={250}
+/>
+
+***
+
+### **雪碧** （***sprite***）  
+> 恢复饱食度：3点  
+  恢复饥饿值：4点  
+  获取方式：无  
+  特殊属性：无  
+  
+<FoodImage 
+  src="/img/resourcepack/food/sprite.png" 
+  alt="雪碧" 
+  width={250}
+/>
+
+***
+
+### **芬达** （***fanta***）  
+> 恢复饱食度：3点  
+  恢复饥饿值：4点  
+  获取方式：无  
+  特殊属性：无  
+  
+<FoodImage 
+  src="/img/resourcepack/food/fanta.png" 
+  alt="芬达" 
+  width={250}
+/>
+
+***
+
+### **草莓酱** （***strawberry_jam***）  
+> 恢复饱食度：3点  
+  恢复饥饿值：4点  
+  获取方式：无  
+  特殊属性：无  
+  
+<FoodImage 
+  src="/img/resourcepack/food/strawberry_jam.png" 
+  alt="草莓酱" 
+  width={250}
+/>
+
+***
+
+### **草莓** （***strawberry***）  
+> 恢复饱食度：3点  
+  恢复饥饿值：4点  
+  获取方式：无  
+  特殊属性：无  
+  
+<FoodImage 
+  src="/img/resourcepack/food/strawberry.png" 
+  alt="草莓" 
+  width={250}
+/>
+
+***
