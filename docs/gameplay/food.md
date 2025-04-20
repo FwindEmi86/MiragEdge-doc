@@ -31,7 +31,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="bacon"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/bacon.png"
   special="无"
 />
@@ -41,7 +41,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="beer"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/beer.png"
   special="无"
 />
@@ -51,7 +51,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="bubble_tea"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/bubble_tea.png"
   special="无"
 />
@@ -61,7 +61,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="double_bread"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/double_bread.png"
   special="无"
 />
@@ -71,7 +71,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="pie"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/pie.png"
   special="无"
 />
@@ -81,7 +81,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="cheese"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/cheese.png"
   special="无"
 />
@@ -91,7 +91,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="candy_floss"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/candy_floss.png"
   special="无"
 />
@@ -101,7 +101,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="strawberry_donuts"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/strawberry_donuts.png"
   special="无"
 />
@@ -111,7 +111,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="big_ham"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/big_ham.png"
   special="无"
 />
@@ -121,7 +121,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="sauerkraut_meat_film"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/sauerkraut_meat_film.png"
   special="无"
 />
@@ -131,7 +131,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="Honey_claypots"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/Honey_claypots.png"
   special="无"
 />
@@ -141,7 +141,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="hotdog"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/hotdog.png"
   special="无"
 />
@@ -151,7 +151,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="dandelion_salad"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/dandelion_salad.png"
   special="无"
 />
@@ -161,7 +161,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="berry_salad"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/berry_salad.png"
   special="无"
 />
@@ -171,7 +171,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="beef_stew"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/beef_stew.png"
   special="无"
 />
@@ -181,7 +181,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="seagrass_salad"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/seagrass_salad.png"
   special="无"
 />
@@ -191,7 +191,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="ocean_medley"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/ocean_medley.png"
   special="无"
 />
@@ -201,7 +201,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="cave_medley"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/cave_medley.png"
   special="无"
 />
@@ -211,7 +211,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="carrot_candy"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/carrot_candy.png"
   special="无"
 />
@@ -221,7 +221,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="potato_candy"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/potato_candy.png"
   special="无"
 />
@@ -231,7 +231,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="grass_candy"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/grass_candy.png"
   special="无"
 />
@@ -241,7 +241,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="crimson_candy"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/crimson_candy.png"
   special="无"
 />
@@ -251,7 +251,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="warped_candy"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/warped_candy.png"
   special="无"
 />
@@ -261,7 +261,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="strawberry_ice_cream"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/strawberry_ice_cream.png"
   special="无"
 />
@@ -271,7 +271,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="strawberry_chocolate_ice_cream"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/strawberry_chocolate_ice_cream.png"
   special="无"
 />
@@ -281,7 +281,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="pizza"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/pizza.png"
   special="无"
 />
@@ -291,7 +291,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="cream_cupcakes"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/cream_cupcakes.png"
   special="无"
 />
@@ -301,7 +301,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="tofu"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/tofu.png"
   special="无"
 />
@@ -311,7 +311,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="stinky_tofu"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/stinky_tofu.png"
   special="无"
 />
@@ -321,7 +321,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="tacos"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/tacos.png"
   special="无"
 />
@@ -331,7 +331,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="popcorn"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/popcorn.png"
   special="无"
 />
@@ -341,7 +341,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="cut_cactus"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/cut_cactus.png"
   special="无"
 />
@@ -351,7 +351,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="zongzi"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/zongzi.png"
   special="无"
 />
@@ -361,7 +361,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="sushi"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/sushi.png"
   special="无"
 />
@@ -371,7 +371,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="beggars_style_chicken"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/beggars_style_chicken.png"
   special="无"
 />
@@ -381,7 +381,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="creeper_cookie"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/creeper_cookie.png"
   special="无"
 />
@@ -391,7 +391,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="lollipop"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/lollipop.png"
   special="无"
 />
@@ -401,7 +401,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="hamburger"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/hamburger.png"
   special="无"
 />
@@ -411,7 +411,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="lava_chicken"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/lava_chicken.png"
   special="无"
 />
@@ -421,7 +421,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="fish_soup"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/fish_soup.png"
   special="无"
 />
@@ -431,7 +431,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="sculk_medley"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/sculk_medley.png"
   special="无"
 />
@@ -441,7 +441,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="sweet_berries_cupcake"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/sweet_berries_cupcake.png"
   special="无"
 />
@@ -451,7 +451,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="glow_berries_cupcake"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/glow_berries_cupcake.png"
   special="无"
 />
@@ -461,7 +461,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="colorful_egg_custard"
   hunger={4}
   saturation={3}
-  source="craft"
+  source="合成"
   image="/img/resourcepack/food/hecheng/colorful_egg_custard.png"
   special="无"
 />
@@ -473,7 +473,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="fried_turtle_egg"
   hunger={4}
   saturation={3}
-  source="furnace"
+  source="熔炉"
   image="/img/resourcepack/food/hecheng/fried_turtle_egg.png"
   special="无"
 />
@@ -483,7 +483,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="fried_sniffer_egg"
   hunger={4}
   saturation={3}
-  source="furnace"
+  source="熔炉"
   image="/img/resourcepack/food/hecheng/fried_sniffer_egg.png"
   special="无"
 />
@@ -493,7 +493,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="fried_dragon_egg"
   hunger={4}
   saturation={3}
-  source="furnace"
+  source="熔炉"
   image="/img/resourcepack/food/hecheng/fried_dragon_egg.png"
   special="无"
 />
@@ -503,7 +503,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="roasted_pumpkin"
   hunger={4}
   saturation={3}
-  source="furnace"
+  source="熔炉"
   image="/img/resourcepack/food/hecheng/roasted_pumpkin.png"
   special="无"
 />
@@ -513,7 +513,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="toast"
   hunger={4}
   saturation={3}
-  source="furnace"
+  source="熔炉"
   image="/img/resourcepack/food/hecheng/toast.png"
   special="无"
 />
@@ -523,7 +523,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="fried_egg"
   hunger={4}
   saturation={3}
-  source="furnace"
+  source="熔炉"
   image="/img/resourcepack/food/hecheng/fried_egg.png"
   special="无"
 />
@@ -535,7 +535,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="coca_cola"
   hunger={4}
   saturation={3}
-  source="special"
+  source="其他"
   image="/img/resourcepack/food/coca_cola.png"
   special="无"
 />
@@ -545,7 +545,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="pepsi_cola"
   hunger={4}
   saturation={3}
-  source="special"
+  source="其他"
   image="/img/resourcepack/food/pepsi_cola.png"
   special="无"
 />
@@ -555,7 +555,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="sprite"
   hunger={4}
   saturation={3}
-  source="special"
+  source="其他"
   image="/img/resourcepack/food/sprite.png"
   special="无"
 />
@@ -565,7 +565,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="fanta"
   hunger={4}
   saturation={3}
-  source="special"
+  source="其他"
   image="/img/resourcepack/food/fanta.png"
   special="无"
 />
@@ -575,7 +575,7 @@ import FoodCard from '@site/src/components/FoodCard';
   enName="strawberry"
   hunger={4}
   saturation={3}
-  source="special"
+  source="其他"
   image="/img/resourcepack/food/strawberry.png"
   special="无"
 />

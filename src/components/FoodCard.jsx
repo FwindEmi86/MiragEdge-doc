@@ -11,9 +11,9 @@ export default function FoodCard({
 }) {
   // 来源类型样式映射
   const sourceStyle = {
-    craft: { bg: '#e3f2fd', color: '#1976d2', icon: '🛠️' },
-    furnace: { bg: '#fff3e0', color: '#ef6c00', icon: '🔥' },
-    special: { bg: '#fce4ec', color: '#c2185b', icon: '🎁' }
+    合成: { bg: '#e3f2fd', color: '#1976d2', icon: '🛠️' },
+    熔炉: { bg: '#fff3e0', color: '#ef6c00', icon: '🔥' },
+    其他: { bg: '#fce4ec', color: '#c2185b', icon: '🎁' }
   }[source];
 
   return (
@@ -33,8 +33,6 @@ export default function FoodCard({
         
         {/* 基础属性 */}
         <div className="food-meta">
-          <span className="meta-item">🍗 饥饿值 {hunger}</span>
-          <span className="meta-item">⚡ 饱和度 {saturation}</span>
           <span 
             className="source-tag"
             style={{ 
@@ -42,6 +40,8 @@ export default function FoodCard({
               color: sourceStyle.color
             }}
           >
+          <span className="meta-item"> 🍗 饥饿值 {hunger}</span>
+          <span className="meta-item">⚡ 饱和度 {saturation}</span>
             {sourceStyle.icon} {source}
           </span>
         </div>
