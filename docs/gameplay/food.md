@@ -4,6 +4,8 @@ slug: /docs/gameplay/food
 title: 🍔 更多食物
 ---
 
+import FoodCard from '@site/src/components/FoodCard';
+
 <div className="food-header">
 
 ![食物图标](/img/resourcepack/food/food.png)
