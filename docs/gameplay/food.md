@@ -20,8 +20,10 @@ title: 更多食物
   恢复饥饿值：4点  
   特殊属性：无  
   
-<img src="/img/resourcepack/food/hecheng/bacon.png" width="200" height="100">
-  
+<div>
+    <img src="/img/resourcepack/food/hecheng/bacon.png" width="200" height="100">
+</div>
+
 ***
 
 ### **啤酒** ***beer***  
@@ -30,7 +32,9 @@ title: 更多食物
   获取方式：合成  
   特殊属性：无  
   
-<img src="/img/resourcepack/food/hecheng/beer.png" width="150" height="75">
+<div>
+    <img src="/img/resourcepack/food/hecheng/beer.png" width="150" height="75">
+</div>
 
 ***
 
@@ -40,7 +44,9 @@ title: 更多食物
   获取方式：合成  
   特殊属性：无  
   
-<img src="/img/resourcepack/food/hecheng/bubble_tea.png" width="100" height="50">
+<div>
+    <img src="/img/resourcepack/food/hecheng/bubble_tea.png" width="100" height="50">
+</div>
 
 ***
 
