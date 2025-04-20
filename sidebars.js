@@ -48,6 +48,7 @@ module.exports = {
       label: '游戏玩法',
       items: [
         'gameplay/start',
+        'gameplay/food',
       ],
       collapsible: true,   // 是否可折叠（默认 true）
       collapsed: false,     // 初始是否折叠（默认 true）
