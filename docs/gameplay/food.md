@@ -1,3 +1,5 @@
+import FoodImage from '@site/src/components/FoodImage';
+
 ---
 sidebar_position: 2
 slug: /docs/gameplay/food
@@ -20,9 +22,11 @@ title: 更多食物
   恢复饥饿值：4点  
   特殊属性：无  
   
-<div>
-    <img src="/img/resourcepack/food/hecheng/bacon.png" width="200" height="100">
-</div>
+<FoodImage 
+  src="/img/resourcepack/food/hecheng/bacon.png" 
+  alt="培根" 
+  width={250}
+/>
 
 ***
 
