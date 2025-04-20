@@ -36,9 +36,11 @@ title: 更多食物
   获取方式：合成  
   特殊属性：无  
   
-<div>
-    <img src="/img/resourcepack/food/hecheng/beer.png" width="150" height="75">
-</div>
+<FoodImage 
+  src="/img/resourcepack/food/hecheng/beer.png" 
+  alt="啤酒" 
+  width={250}
+/>
 
 ***
 
@@ -48,9 +50,11 @@ title: 更多食物
   获取方式：合成  
   特殊属性：无  
   
-<div>
-    <img src="/img/resourcepack/food/hecheng/bubble_tea.png" width="100" height="50">
-</div>
+<FoodImage 
+  src="/img/resourcepack/food/hecheng/bubble_tea.png" 
+  alt="珍珠奶茶" 
+  width={250}
+/>
 
 ***
 
