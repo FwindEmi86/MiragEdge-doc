@@ -296,7 +296,7 @@ import FoodImage from '@site/src/components/FoodImage';
 
 ***
 
-### **草糖** ***grass_candy***  
+### **甘草糖** ***grass_candy***  
 > 恢复饱食度：3点  
   恢复饥饿值：4点  
   获取方式：合成  
@@ -304,7 +304,7 @@ import FoodImage from '@site/src/components/FoodImage';
   
 <FoodImage 
   src="/img/resourcepack/food/hecheng/grass_candy.png" 
-  alt="草糖" 
+  alt="甘草糖" 
   width={250}
 />
 
