@@ -1,10 +1,10 @@
-import FoodImage from '@site/src/components/FoodImage';
-
 ---
 sidebar_position: 2
 slug: /docs/gameplay/food
 title: 更多食物
 ---
+
+import FoodImage from '@site/src/components/FoodImage';
 
 ## ![](0D52EF57.png)更多的食物拓展！  
 &nbsp;:bulb:锐界幻境服务器添加了超多可爱又好赤的新食物  
