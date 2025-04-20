@@ -8,7 +8,7 @@ title: 更新日志
 <div class="log-header">
 
 **📌 文档维护声明**  
-本日志由 [**FwindEmi^狐风轩汐**](https://github.com/FwindEmi) 维护更新  
+本日志由 [**FwindEmi^狐风轩汐**](https://space.bilibili.com/359174372?spm_id_from=333.1007.0.0) 维护更新  
 *最后修订时间：2025年4月*
 
 </div>
