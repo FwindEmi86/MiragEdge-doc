@@ -6,7 +6,7 @@ title: 🍔 更多食物
 
 <div className="food-header">
 
-![食物图标](/img/food/0D5279AA.gif)
+![食物图标](/img/food/food.png)
 
 # 🍳 **更多食物拓展**  
 **✨ 新增38种特色食物**  
