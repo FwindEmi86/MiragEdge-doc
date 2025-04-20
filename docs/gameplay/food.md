@@ -733,7 +733,7 @@ import FoodImage from '@site/src/components/FoodImage';
 <FoodImage 
   src="/img/resourcepack/food/berry_salad.png" 
   alt="浆果沙拉" 
-  width={250}
+  width={50}
 />
 
 ***
@@ -747,7 +747,7 @@ import FoodImage from '@site/src/components/FoodImage';
 <FoodImage 
   src="/img/resourcepack/food/coca_cola.png" 
   alt="可口可乐" 
-  width={250}
+  width={50}
 />
 
 ***
@@ -761,7 +761,7 @@ import FoodImage from '@site/src/components/FoodImage';
 <FoodImage 
   src="/img/resourcepack/food/pepsi_cola.png" 
   alt="百事可乐" 
-  width={250}
+  width={50}
 />
 
 ***
@@ -775,7 +775,7 @@ import FoodImage from '@site/src/components/FoodImage';
 <FoodImage 
   src="/img/resourcepack/food/sprite.png" 
   alt="雪碧" 
-  width={250}
+  width={50}
 />
 
 ***
@@ -789,7 +789,7 @@ import FoodImage from '@site/src/components/FoodImage';
 <FoodImage 
   src="/img/resourcepack/food/fanta.png" 
   alt="芬达" 
-  width={250}
+  width={50}
 />
 
 ***
@@ -803,7 +803,7 @@ import FoodImage from '@site/src/components/FoodImage';
 <FoodImage 
   src="/img/resourcepack/food/strawberry_jam.png" 
   alt="草莓酱" 
-  width={250}
+  width={50}
 />
 
 ***
@@ -817,7 +817,7 @@ import FoodImage from '@site/src/components/FoodImage';
 <FoodImage 
   src="/img/resourcepack/food/strawberry.png" 
   alt="草莓" 
-  width={250}
+  width={50}
 />
 
 ***
