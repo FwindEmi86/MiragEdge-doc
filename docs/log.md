@@ -71,7 +71,7 @@ title: 更新日志
 - **内容扩展**  
     - 新增游戏食物系统文档:  [**食物拓展指南**](https://miragedge.top/docs/gameplay/food/)  
 
-***
+---
 
 ## **版本更新 (v1.0.x系列)**
 
