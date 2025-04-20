@@ -149,9 +149,20 @@
 }
 
 /* =====================
+   食物页面头部
+   ===================== */
+  .food-header {
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(135deg, #fff5f5 0%, #f8fff4 100%);
+    border-radius: 12px;
+    margin-bottom: 2rem;
+}
+
+/* =====================
    食物卡片核心容器
    ===================== */
-   .food-card {
+  .food-card {
     background: var(--ifm-background-surface-color);
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
