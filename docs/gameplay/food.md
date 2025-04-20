@@ -637,9 +637,9 @@ import FoodImage from '@site/src/components/FoodImage';
   恢复饥饿值：4点  
   获取方式：合成  
   特殊属性：无  
-  ***待补充 草莓×2，糖×1，玻璃瓶×1***
+  待补充 草莓×2，糖×1，玻璃瓶×1
 <FoodImage 
-  src="/img/resourcepack/food/strawberry_jam.png" 
+  src="/img/resourcepack/food/hecheng/strawberry_jam.png" 
   alt="草莓酱" 
   width={50}
 />
