@@ -24,8 +24,9 @@ import FoodCard from '@site/src/components/FoodCard';
 
 ***
 
-# **使用工作台合成**
+## **使用工作台合成**
 
+### 培根
 <FoodCard
   title="培根"
   enName="bacon"
@@ -36,6 +37,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 啤酒
 <FoodCard
   title="啤酒"
   enName="beer"
@@ -46,6 +48,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 珍珠奶茶
 <FoodCard
   title="珍珠奶茶"
   enName="bubble_tea"
@@ -56,6 +59,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 双份面包
 <FoodCard
   title="双份面包"
   enName="double_bread"
@@ -66,6 +70,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 派
 <FoodCard
   title="派"
   enName="pie"
@@ -76,6 +81,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 奶酪
 <FoodCard
   title="奶酪"
   enName="cheese"
@@ -86,6 +92,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 棉花糖
 <FoodCard
   title="棉花糖"
   enName="candy_floss"
@@ -96,6 +103,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 草莓甜甜圈
 <FoodCard
   title="草莓甜甜圈"
   enName="strawberry_donuts"
@@ -106,6 +114,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 大火腿
 <FoodCard
   title="大火腿"
   enName="big_ham"
@@ -116,6 +125,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 酸菜肉片
 <FoodCard
   title="酸菜肉片"
   enName="sauerkraut_meat_film"
@@ -126,6 +136,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 蜂蜜罐
 <FoodCard
   title="蜂蜜罐"
   enName="Honey_claypots"
@@ -136,6 +147,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 热狗
 <FoodCard
   title="热狗"
   enName="hotdog"
@@ -146,6 +158,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 蒲公英沙拉
 <FoodCard
   title="蒲公英沙拉"
   enName="dandelion_salad"
@@ -156,6 +169,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 浆果沙拉
 <FoodCard
   title="浆果沙拉"
   enName="berry_salad"
@@ -166,6 +180,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 炖牛肉
 <FoodCard
   title="炖牛肉"
   enName="beef_stew"
@@ -176,6 +191,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 海草沙拉
 <FoodCard
   title="海草沙拉"
   enName="seagrass_salad"
@@ -186,6 +202,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 海洋拼盘
 <FoodCard
   title="海洋拼盘"
   enName="ocean_medley"
@@ -196,6 +213,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 洞穴拼盘
 <FoodCard
   title="洞穴拼盘"
   enName="cave_medley"
@@ -206,6 +224,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 胡萝卜糖
 <FoodCard
   title="胡萝卜糖"
   enName="carrot_candy"
@@ -216,6 +235,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 土豆糖
 <FoodCard
   title="土豆糖"
   enName="potato_candy"
@@ -226,6 +246,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 甘草糖
 <FoodCard
   title="甘草糖"
   enName="grass_candy"
@@ -236,6 +257,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 绯红糖
 <FoodCard
   title="绯红糖"
   enName="crimson_candy"
@@ -246,6 +268,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 诡异糖
 <FoodCard
   title="诡异糖"
   enName="warped_candy"
@@ -256,6 +279,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 草莓冰淇淋
 <FoodCard
   title="草莓冰淇淋"
   enName="strawberry_ice_cream"
@@ -266,6 +290,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 草莓巧克力冰淇淋
 <FoodCard
   title="草莓巧克力冰淇淋"
   enName="strawberry_chocolate_ice_cream"
@@ -276,6 +301,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 披萨
 <FoodCard
   title="披萨"
   enName="pizza"
@@ -286,6 +312,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 奶油纸杯蛋糕
 <FoodCard
   title="奶油纸杯蛋糕"
   enName="cream_cupcakes"
@@ -296,6 +323,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 豆腐
 <FoodCard
   title="豆腐"
   enName="tofu"
@@ -306,6 +334,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 臭豆腐
 <FoodCard
   title="臭豆腐"
   enName="stinky_tofu"
@@ -316,6 +345,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 玉米卷
 <FoodCard
   title="玉米卷"
   enName="tacos"
@@ -326,6 +356,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 爆米花
 <FoodCard
   title="爆米花"
   enName="popcorn"
@@ -336,6 +367,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 切开的仙人掌
 <FoodCard
   title="切开的仙人掌"
   enName="cut_cactus"
@@ -346,6 +378,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 粽子
 <FoodCard
   title="粽子"
   enName="zongzi"
@@ -356,6 +389,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 寿司
 <FoodCard
   title="寿司"
   enName="sushi"
@@ -366,6 +400,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 叫花鸡
 <FoodCard
   title="叫花鸡"
   enName="beggars_style_chicken"
@@ -376,6 +411,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 苦力怕饼干
 <FoodCard
   title="苦力怕饼干"
   enName="creeper_cookie"
@@ -386,6 +422,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 棒棒糖
 <FoodCard
   title="棒棒糖"
   enName="lollipop"
@@ -396,6 +433,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 汉堡包
 <FoodCard
   title="汉堡包"
   enName="hamburger"
@@ -406,6 +444,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 熔岩鸡
 <FoodCard
   title="熔岩鸡"
   enName="lava_chicken"
@@ -416,6 +455,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 鱼汤
 <FoodCard
   title="鱼汤"
   enName="fish_soup"
@@ -426,6 +466,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 幽匿拼盘
 <FoodCard
   title="幽匿拼盘"
   enName="sculk_medley"
@@ -436,6 +477,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 甜浆果纸杯蛋糕
 <FoodCard
   title="甜浆果纸杯蛋糕"
   enName="sweet_berries_cupcake"
@@ -446,6 +488,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 荧光浆果纸杯蛋糕
 <FoodCard
   title="荧光浆果纸杯蛋糕"
   enName="glow_berries_cupcake"
@@ -456,6 +499,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 彩色蛋羹
 <FoodCard
   title="彩色蛋羹"
   enName="colorful_egg_custard"
@@ -466,8 +510,9 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
-# **使用熔炉制作**
+## **使用熔炉制作**
 
+### 煎乌龟蛋
 <FoodCard
   title="煎乌龟蛋"
   enName="fried_turtle_egg"
@@ -478,6 +523,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 煎嗅探兽蛋
 <FoodCard
   title="煎嗅探兽蛋"
   enName="fried_sniffer_egg"
@@ -488,6 +534,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 煎龙蛋
 <FoodCard
   title="煎龙蛋"
   enName="fried_dragon_egg"
@@ -498,6 +545,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 烤南瓜
 <FoodCard
   title="烤南瓜"
   enName="roasted_pumpkin"
@@ -508,6 +556,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 吐司
 <FoodCard
   title="吐司"
   enName="toast"
@@ -518,6 +567,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 煎蛋
 <FoodCard
   title="煎蛋"
   enName="fried_egg"
@@ -528,8 +578,9 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
-# **特殊渠道获得**
+## **特殊渠道获得**
 
+### 可口可乐
 <FoodCard
   title="可口可乐"
   enName="coca_cola"
@@ -540,6 +591,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 百事可乐
 <FoodCard
   title="百事可乐"
   enName="pepsi_cola"
@@ -550,6 +602,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 雪碧
 <FoodCard
   title="雪碧"
   enName="sprite"
@@ -560,6 +613,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 芬达
 <FoodCard
   title="芬达"
   enName="fanta"
@@ -570,6 +624,7 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 草莓
 <FoodCard
   title="草莓"
   enName="strawberry"

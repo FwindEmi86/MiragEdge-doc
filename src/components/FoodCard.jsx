@@ -40,9 +40,9 @@ export default function FoodCard({
               color: sourceStyle.color
             }}
           >
-          <span className="meta-item"> 🍗 饥饿值 {hunger}</span>
-          <span className="meta-item">⚡ 饱和度 {saturation}</span>
             {sourceStyle.icon} {source}
+          <span className="meta-item"> 🍗 饥饿值恢复: {hunger}</span>
+          <span className="meta-item">⚡ 饱和度恢复： {saturation}</span>
           </span>
         </div>
 
