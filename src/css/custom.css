@@ -28,84 +28,155 @@
   --ifm-color-primary-lightest: #ffffff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
-
-/* 标题样式 */
-.sidebar-title {
-  padding: 12px 16px;
-  font-size: 1.25rem;
-  font-weight: 600;
-  color: var(--ifm-color-primary);
-  border-radius: 8px;
-  margin: 8px 0;
-}
-
-/* 渐变分隔线 */
-.divider.gradient {
-  height: 2px;
-  background: linear-gradient(90deg, transparent, var(--ifm-color-primary), transparent);
-  margin: 16px 0;
-}
-
-/* 紧凑型图标分隔线 */
-.divider-icon {
-  text-align: center;
-  margin: 8px 0;
-  position: relative;
-}
-
-.divider-icon::before {
-  content: '✰'; /* Font Awesome 图标编码 */
-  font-family: 'Font Awesome 5 Free';
-  color: var(--ifm-color-primary);
-  font-size: 1.2rem;
-  padding: 0 12px;
-  background: var(--ifm-background-color);
-  position: relative;
-  z-index: 1;
-}
-
-.divider-icon::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  height: 1px;
-  background: linear-gradient(
-    to right, 
-    transparent, 
-    var(--ifm-color-primary), 
-    transparent
-  );
-}
-
-/* 基础宽度调整 */
-:root {
-  --doc-sidebar-width: 220px !important; /* 默认 300px */
-}
-
-/* 紧凑模式优化 */
-.menu {
-  padding: 0.5rem !important;
-}
-
-.menu__list-item-collapsible {
-  margin: 4px 0 !important;
-}
-
-.menu__link {
-  padding: 0.4rem 0.8rem !important;
-  font-size: 0.9em !important;
-  line-height: 1.4 !important;
-}
-
-/* 标题优化 */
-.sidebar-title {
-  font-size: 1.1rem !important;
-  padding: 0.8rem !important;
-  margin: 0.5rem 0 !important;
-}
-
+/* =====================
+   侧边栏核心样式
+   ===================== */
+   .sidebar-header {
+    text-align: center;
+    padding: 1.5rem 1rem;
+    background: linear-gradient(145deg, var(--ifm-color-primary-darkest), var(--ifm-color-primary-darker));
+    border-radius: 0 0 12px 12px;
+    margin-bottom: 1rem;
+  }
+  
+  .logo-wrap {
+    width: 60px;
+    height: 60px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo-icon {
+    color: white;
+    font-size: 2rem;
+  }
+  
+  .sidebar-title {
+    color: white;
+    font-size: 1.25rem;
+    margin: 0;
+    letter-spacing: 1px;
+  }
+  
+  /* =====================
+     分隔线样式
+     ===================== */
+  .divider {
+    margin: 1.5rem 0;
+    height: 2px;
+  }
+  
+  .divider.wave {
+    background: url('data:image/svg+xml,<svg viewBox="0 0 100 10" xmlns="http://www.w3.org/2000/svg"><path d="M0 5 Q25 0 50 5 T100 5" fill="none" stroke="%23{color}" stroke-width="1"/></svg>')
+      repeat-x;
+    stroke: var(--ifm-color-primary-lightest);
+    height: 10px;
+  }
+  
+  .divider.gradient {
+    background: linear-gradient(90deg, 
+      var(--ifm-color-primary) 0%, 
+      var(--ifm-color-primary-light) 50%,
+      var(--ifm-color-primary) 100%
+    );
+  }
+  
+  .divider.dotted {
+    background: repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 4px,
+      var(--ifm-color-primary-lightest) 4px,
+      var(--ifm-color-primary-lightest) 8px
+    );
+  }
+  
+  /* =====================
+     导航项样式
+     ===================== */
+  .sidebar-main-item .menu__link {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    margin: 0.25rem 0;
+    transition: all 0.3s ease;
+  }
+  
+  .sidebar-main-item .menu__link:hover {
+    background: var(--ifm-color-primary-lightest);
+    transform: translateX(8px);
+  }
+  
+  /* =====================
+     分类样式
+     ===================== */
+  .sidebar-category .menu__list-item-collapsible .menu__link {
+    font-size: 0.95rem;
+    font-weight: 500;
+    padding: 0.75rem 1.5rem;
+    position: relative;
+  }
+  
+  .sidebar-category .menu__list-item-collapsible .menu__link::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: var(--ifm-color-primary);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .sidebar-category .menu__list-item-collapsible .menu__link:hover::before {
+    opacity: 1;
+  }
+  
+  /* =====================
+     外部链接样式
+     ===================== */
+  .external-links {
+    padding: 1rem;
+    background: var(--ifm-color-emphasis-100);
+    border-radius: 8px;
+    margin: 1rem;
+  }
+  
+  .external-link.menu__link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+  }
+  
+  .external-link.menu__link:hover {
+    background: var(--ifm-color-primary-lightest);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  /* =====================
+     响应式适配
+     ===================== */
+  @media (max-width: 996px) {
+    .sidebar-header {
+      border-radius: 0;
+      padding: 1rem;
+    }
+    
+    .logo-wrap {
+      width: 48px;
+      height: 48px;
+    }
+  }
+  
 /* 日志规范样式 */
 .log-header {
   background: linear-gradient(145deg, var(#03194d), #092e58);

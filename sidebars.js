@@ -1,82 +1,157 @@
 module.exports = {
   tutorialSidebar: [
     { 
-      type: 'html', 
-      value: '<div class="sidebar-title"><i class="fas fa-book"></i>  锐界幻境 玩家文档</div>' 
+      type: 'html',
+      value: '<div class="sidebar-header"><div class="logo-wrap"><i class="fas fa-dragon logo-icon"></i></div><h2 class="sidebar-title">锐界幻境文档</h2></div>',
+    },
+    { type: 'html', value: '<div class="divider wave"></div>' },
+    {
+      type: 'doc',
+      id: 'intro',
+      label: '📜 文档前言',
+      className: 'sidebar-main-item',
+    },
+    {
+      type: 'doc',
+      id: 'review',
+      label: '🛡️ 玩家审核',
+      className: 'sidebar-main-item',
     },
     { type: 'html', value: '<div class="divider gradient"></div>' },
-    // 直接引用文档 ID（对应文件名）
-    'intro',       // 对应 docs/前言.md
-    'review',       // 对应 docs/玩家审核.md
     {
       type: 'category',
-      label: '教程',
+      label: '🎮 新手教程',
+      icon: '🎓',
       items: [
-        'tutorial/Client_Install',
-        'tutorial/Join_Server',
-        'tutorial/gameplay',
+        {
+          type: 'doc',
+          id: 'tutorial/Client_Install',
+          label: '💻 客户端安装',
+        },
+        {
+          type: 'doc',
+          id: 'tutorial/Join_Server',
+          label: '🌐 加入服务器',
+        },
+        {
+          type: 'doc',
+          id: 'tutorial/gameplay',
+          label: '⚔️ 基础玩法',
+        },
       ],
-      collapsible: true,   // 是否可折叠（默认 true）
-      collapsed: true,     // 初始是否折叠（默认 true）
+      collapsible: true,
+      collapsed: true,
+      className: 'sidebar-category tutorial-category',
     },
-    { type: 'html', value: '<div class="divider-icon"></div>' },
+    { type: 'html', value: '<div class="divider dotted"></div>' },
     {
       type: 'category',
-      label: '介绍',
+      label: '🌍 世界观',
+      icon: '📖',
       items: [
-        'introduction/SkyField',
-        'introduction/MDSH',
-        'introduction/MiragEdge',
-        'introduction/ZeroSate',
+        {
+          type: 'doc',
+          id: 'introduction/SkyField',
+          label: '☁️ 天空之境',
+        },
+        {
+          type: 'doc',
+          id: 'introduction/MDSH',
+          label: '🌃 现代上海',
+        },
+        {
+          type: 'doc',
+          id: 'introduction/MiragEdge',
+          label: '🏰 幻境要塞',
+        },
+        {
+          type: 'doc',
+          id: 'introduction/ZeroSate',
+          label: '❄️ 零度之境',
+        },
       ],
-      collapsible: true,   // 是否可折叠（默认 true）
-      collapsed: false,     // 初始是否折叠（默认 true）
+      collapsible: true,
+      collapsed: false,
+      className: 'sidebar-category world-category',
     },
-    { type: 'html', value: '<div class="divider-icon"></div>' },
+    { type: 'html', value: '<div class="divider star"></div>' },
     {
       type: 'category',
-      label: '规则',
+      label: '📜 服务器规则',
+      icon: '⚖️',
       items: [
-        'rule/rule',
+        {
+          type: 'doc',
+          id: 'rule/rule',
+          label: '🚦 基础守则',
+        },
       ],
-      collapsible: true,   // 是否可折叠（默认 true）
-      collapsed: true,     // 初始是否折叠（默认 true）
+      collapsible: true,
+      collapsed: true,
+      className: 'sidebar-category rule-category',
     },
-    { type: 'html', value: '<div class="divider-icon"></div>' },
+    { type: 'html', value: '<div class="divider arrow"></div>' },
     {
       type: 'category',
-      label: '游戏玩法',
+      label: '🎲 进阶玩法',
+      icon: '🎯',
       items: [
-        'gameplay/start',
-        'gameplay/food',
+        {
+          type: 'doc',
+          id: 'gameplay/start',
+          label: '🚀 快速入门',
+        },
+        {
+          type: 'doc',
+          id: 'gameplay/food',
+          label: '🍔 食物系统',
+        },
       ],
-      collapsible: true,   // 是否可折叠（默认 true）
-      collapsed: false,     // 初始是否折叠（默认 true）
+      collapsible: true,
+      collapsed: false,
+      className: 'sidebar-category gameplay-category',
     },
-    { type: 'html', value: '<div class="divider-icon"></div>' },
+    { type: 'html', value: '<div class="divider pulse"></div>' },
     {
       type: 'category',
-      label: '常见问题',  // 分类显示名称
+      label: '❓ 常见问题',
+      icon: '💡',
       items: [
-        'question/QQ',  // 子文档路径
-        'question/Game',
-        // 其他子项...
+        {
+          type: 'doc',
+          id: 'question/QQ',
+          label: '🐧 QQ相关问题',
+        },
+        {
+          type: 'doc',
+          id: 'question/Game',
+          label: '🎮 游戏问题',
+        },
       ],
-      // 可选配置项
-      collapsible: true,   // 是否可折叠（默认 true）
-      collapsed: true,     // 初始是否折叠（默认 true）
+      collapsible: true,
+      collapsed: true,
+      className: 'sidebar-category faq-category',
     },
-
-    'log',       // 对应 docs/更新日志.md
-
-    { type: 'html', value: '<div class="divider-icon"></div>' },
-    
-    // 添加外部链接
-    { type: 'html', value: '<div style="margin: 1rem 0"></div>' },
+    { type: 'html', value: '<div class="divider wave"></div>' },
+    {
+      type: 'doc',
+      id: 'log',
+      label: '📅 更新日志',
+      className: 'changelog-item',
+    },
+    { type: 'html', value: '<div class="external-links">' },
     {
       type: 'link',
-      label: '锐界幻境 文档',
-      href: 'https://miragedge.top'
-    }
+      label: '🌐 官方网站',
+      href: 'https://miragedge.top',
+      className: 'external-link',
+    },
+    {
+      type: 'link',
+      label: '👾 Discord社区',
+      href: 'https://discord.gg/your-invite-link',
+      className: 'external-link',
+    },
+    { type: 'html', value: '</div>' },
   ],
 };
