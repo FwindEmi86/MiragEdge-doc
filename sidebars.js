@@ -3,7 +3,7 @@ module.exports = {
   tutorialSidebar: [
     { 
       type: 'html',
-      value: '<div class="sidebar-header"><div class="logo-wrap"><i class="fas fa-dragon logo-icon"></i></div><h2 class="sidebar-title">锐界幻境文档</h2></div>',
+      value: '<div class="sidebar-header narrow-sidebar"><div class="logo-wrap"><i class="fas fa-dragon logo-icon"></i></div><h2 class="sidebar-title">锐界幻境文档</h2></div>',
     },
     { type: 'html', value: '<div class="divider wave"></div>' },
     {
