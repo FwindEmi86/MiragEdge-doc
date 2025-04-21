@@ -72,6 +72,12 @@ import { FaServer, FaUsers, FaShieldAlt, FaHeart } from 'react-icons/fa';
         <footer>—— 管理组 敬上</footer>
       </blockquote>
     </div>
+    <div className="vision-text">
+      <blockquote>
+        本文档部分艺术内容由AI生成，注意甄别<br/>
+        <footer>注*</footer>
+      </blockquote>
+    </div>
   </TabItem>
 
   <TabItem value="join" label="🚀 加入我们">
