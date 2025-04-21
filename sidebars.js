@@ -1,3 +1,4 @@
+// sidebars.js
 module.exports = {
   tutorialSidebar: [
     { 
@@ -21,7 +22,6 @@ module.exports = {
     {
       type: 'category',
       label: '🎮 新手教程',
-      icon: '🎓',
       items: [
         {
           type: 'doc',
@@ -46,28 +46,26 @@ module.exports = {
     { type: 'html', value: '<div class="divider dotted"></div>' },
     {
       type: 'category',
-      label: '🌍 世界观',
-      icon: '📖',
+      label: '🌍 世界介绍',
       items: [
         {
           type: 'doc',
           id: 'introduction/SkyField',
-          label: '☁️ 天空之境',
+          label: '☁️ 空之城',
         },
         {
           type: 'doc',
           id: 'introduction/MDSH',
-          label: '🌃 现代上海',
+          label: '🌃 梦始之空',
         },
         {
           type: 'doc',
           id: 'introduction/MiragEdge',
-          label: '🏰 幻境要塞',
-        },
+          label: '🏰 锐界幻境'
         {
           type: 'doc',
           id: 'introduction/ZeroSate',
-          label: '❄️ 零度之境',
+          label: '❄️ 零境',
         },
       ],
       collapsible: true,
@@ -78,7 +76,6 @@ module.exports = {
     {
       type: 'category',
       label: '📜 服务器规则',
-      icon: '⚖️',
       items: [
         {
           type: 'doc',
@@ -94,7 +91,6 @@ module.exports = {
     {
       type: 'category',
       label: '🎲 进阶玩法',
-      icon: '🎯',
       items: [
         {
           type: 'doc',
@@ -115,7 +111,6 @@ module.exports = {
     {
       type: 'category',
       label: '❓ 常见问题',
-      icon: '💡',
       items: [
         {
           type: 'doc',
