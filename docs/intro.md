@@ -84,6 +84,7 @@ import { FaServer, FaUsers, FaShieldAlt, FaHeart } from 'react-icons/fa';
       <div className="method java">
         <h4>点击加入QQ交流群</h4>
         <code><a href="https://qm.qq.com/cgi-bin/qm/qr?k=r_yUquo3bQwX3bL97RwG1aVj41WIEOI3&jump_from=webapi&authKey=A76pYGWh45XBe5V4kV5m3LWyR3XRpIl30FETYB0/scIEMeRGhIEDlQWmD5HVjSbj" target="_blank" rel="noopener noreferrer">523914625</a></code>
+        <div className="port">入群绑定账号可进服</div>
       </div>
     </div>
   </TabItem>
