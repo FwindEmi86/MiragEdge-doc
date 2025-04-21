@@ -61,7 +61,8 @@ module.exports = {
         {
           type: 'doc',
           id: 'introduction/MiragEdge',
-          label: '🏰 锐界幻境'
+          label: '🏰 锐界幻境',
+        },
         {
           type: 'doc',
           id: 'introduction/ZeroSate',
