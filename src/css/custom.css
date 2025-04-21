@@ -28,7 +28,6 @@
   --ifm-color-primary-lightest: #ffffff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
-
 /* =====================
    侧边栏核心样式
    ===================== */
@@ -86,26 +85,61 @@
   .sidebar-category.rule-category .menu__label::before {
     content: '📜';
   }
-
-/* =====================
-   调整侧边栏宽度
-   ===================== */
-   .docSidebarContainer {
-    width: 220px; /* 调整侧边栏宽度 */
+  
+  /* =====================
+     分隔线样式
+     ===================== */
+  .divider {
+    height: 4px;
+    margin: 1rem 0;
   }
   
-  .docMainContainer {
-    margin-left: 220px; /* 确保主内容区域与侧边栏对齐 */
+  .divider.wave {
+    background: repeating-linear-gradient(
+      -45deg,
+      var(--ifm-color-primary-darkest),
+      var(--ifm-color-primary-darkest) 10px,
+      var(--ifm-color-primary-darker) 10px,
+      var(--ifm-color-primary-darker) 20px
+    );
   }
   
-  @media (max-width: 996px) {
-    .docSidebarContainer {
-      width: 180px; /* 响应式调整侧边栏宽度 */
-    }
+  .divider.gradient {
+    background: linear-gradient(to right, var(--ifm-color-primary-darkest), var(--ifm-color-primary-darker));
+  }
   
-    .docMainContainer {
-      margin-left: 180px; /* 响应式调整主内容区域对齐 */
-    }
+  .divider.dotted {
+    border-top: 1px dotted var(--ifm-color-primary-darkest);
+    background: none;
+  }
+  
+  .divider.star {
+    background: url('/img/star-divider.png') center/contain no-repeat;
+  }
+  
+  .divider.arrow {
+    background: url('/img/arrow-divider.png') center/contain no-repeat;
+  }
+  
+  .divider.pulse {
+    background: radial-gradient(circle, var(--ifm-color-primary-darker) 15%, transparent 16%);
+  }
+  
+  /* =====================
+     外部链接样式
+     ===================== */
+  .external-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .external-links a.external-link {
+    text-decoration: none;
+    color: var(--ifm-color-primary);
+    font-weight: bold;
   }
   
 /* 日志规范样式 */

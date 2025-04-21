@@ -3,7 +3,7 @@ module.exports = {
   tutorialSidebar: [
     { 
       type: 'html',
-      value: '<div class="sidebar-header narrow-sidebar"><div class="logo-wrap"><i class="fas fa-dragon logo-icon"></i></div><h2 class="sidebar-title">锐界幻境文档</h2></div>',
+      value: '<div class="sidebar-header"><div class="logo-wrap"><i class="fas fa-dragon logo-icon"></i></div><h2 class="sidebar-title">锐界幻境文档</h2></div>',
     },
     { type: 'html', value: '<div class="divider wave"></div>' },
     {
@@ -65,7 +65,7 @@ module.exports = {
         },
         {
           type: 'doc',
-          id: 'introduction/ZeroSate',
+          id: 'introduction/ZeroState', // 修正了此处拼写
           label: '❄️ 零境',
         },
       ],
@@ -135,19 +135,15 @@ module.exports = {
       label: '📅 更新日志',
       className: 'changelog-item',
     },
-    { type: 'html', value: '<div class="external-links">' },
-    {
-      type: 'link',
-      label: '🌐 官方网站',
-      href: 'https://miragedge.top',
-      className: 'external-link',
+    // 将外部链接合并为一个 HTML 块，确保结构完整
+    { 
+      type: 'html', 
+      value: `
+        <div class="external-links">
+          <a class="external-link" href="https://miragedge.top">🌐 官方网站</a>
+          <a class="external-link" href="https://discord.gg/your-invite-link">👾 Discord社区</a>
+        </div>
+      `
     },
-    {
-      type: 'link',
-      label: '👾 Discord社区',
-      href: 'https://discord.gg/your-invite-link',
-      className: 'external-link',
-    },
-    { type: 'html', value: '</div>' },
   ],
 };
