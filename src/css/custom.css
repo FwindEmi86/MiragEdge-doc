@@ -49,10 +49,15 @@
     align-items: center;
     justify-content: center;
   }
-  
+
   .logo-icon {
-    color: white;
-    font-size: 2rem;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-image: url('img/sidebar-logo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   
   .sidebar-title {
@@ -87,7 +92,7 @@
   }
   
   /* =====================
-   分隔线样式（优化美化版，无图片）
+   分隔线样式
    ===================== */
 
 .divider {
@@ -120,60 +125,6 @@
 /* 点状效果 */
 .divider.dotted {
   border-top: 1px dotted var(--ifm-color-primary-darkest);
-}
-
-/* 星形分隔线：在中间显示星形符号 */
-.divider.star {
-  border-top: 1px solid var(--ifm-color-primary-darkest);
-  height: 0;
-}
-.divider.star::after {
-  content: "★";
-  position: absolute;
-  top: -10px; /* 距离分割线上移调整到合适位置 */
-  left: 50%;
-  transform: translateX(-50%);
-  background: #fff; /* 根据页面背景色进行调整 */
-  padding: 0 5px;
-  font-size: 1.25rem;
-  color: var(--ifm-color-primary-darkest);
-}
-
-/* 箭头分隔线：利用伪元素和边框创建箭头形状 */
-.divider.arrow {
-  border-top: 1px solid var(--ifm-color-primary-darkest);
-  height: 0;
-}
-.divider.arrow::after {
-  content: '';
-  position: absolute;
-  top: -6px;
-  left: 50%;
-  transform: translateX(-50%);
-  border-left: 6px solid transparent;
-  border-right: 6px solid transparent;
-  border-top: 6px solid var(--ifm-color-primary-darkest);
-}
-
-/* 脉冲效果 */
-.divider.pulse {
-  height: 4px;
-  background: radial-gradient(
-    circle,
-    var(--ifm-color-primary-darker) 15%,
-    transparent 16%
-  );
-}
-
-/*过渡动画或悬停效果*/
-.divider.star::after,
-.divider.arrow::after {
-  transition: transform 0.3s ease;
-}
-
-.divider.star:hover::after,
-.divider.arrow:hover::after {
-  transform: translateX(-50%) scale(1.1);
 }
 
   /* =====================

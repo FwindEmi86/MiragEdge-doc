@@ -1,9 +1,16 @@
 // sidebars.js
 module.exports = {
   tutorialSidebar: [
-    { 
+    {
       type: 'html',
-      value: '<div class="sidebar-header"><div class="logo-wrap"><i class="fas fa-dragon logo-icon"></i></div><h2 class="sidebar-title">锐界幻境文档</h2></div>',
+      value: `
+        <div class="sidebar-header">
+          <div class="logo-wrap">
+            <i class="logo-icon"></i>
+          </div>
+          <h2 class="sidebar-title">锐界幻境文档</h2>
+        </div>
+      `
     },
     { type: 'html', value: '<div class="divider wave"></div>' },
     {
@@ -18,7 +25,7 @@ module.exports = {
       label: '🛡️ 玩家审核',
       className: 'sidebar-main-item',
     },
-    { type: 'html', value: '<div class="divider gradient"></div>' },
+    { type: 'html', value: '<div class="divider dotted"></div>' },
     {
       type: 'category',
       label: '🎮 新手教程',
@@ -43,7 +50,7 @@ module.exports = {
       collapsed: true,
       className: 'sidebar-category tutorial-category',
     },
-    { type: 'html', value: '<div class="divider dotted"></div>' },
+    { type: 'html', value: '<div class="divider gradient"></div>' },
     {
       type: 'category',
       label: '🌍 世界介绍',
@@ -73,7 +80,7 @@ module.exports = {
       collapsed: false,
       className: 'sidebar-category world-category',
     },
-    { type: 'html', value: '<div class="divider star"></div>' },
+    { type: 'html', value: '<div class="divider gradient"></div>' },
     {
       type: 'category',
       label: '📜 服务器规则',
@@ -88,7 +95,7 @@ module.exports = {
       collapsed: true,
       className: 'sidebar-category rule-category',
     },
-    { type: 'html', value: '<div class="divider arrow"></div>' },
+    { type: 'html', value: '<div class="divider dotted"></div>' },
     {
       type: 'category',
       label: '🎲 进阶玩法',
@@ -108,7 +115,7 @@ module.exports = {
       collapsed: false,
       className: 'sidebar-category gameplay-category',
     },
-    { type: 'html', value: '<div class="divider pulse"></div>' },
+    { type: 'html', value: '<div class="divider gradient"></div>' },
     {
       type: 'category',
       label: '❓ 常见问题',
@@ -128,13 +135,13 @@ module.exports = {
       collapsed: true,
       className: 'sidebar-category faq-category',
     },
-    { type: 'html', value: '<div class="divider wave"></div>' },
     {
       type: 'doc',
       id: 'log',
       label: '📅 更新日志',
       className: 'changelog-item',
     },
+    { type: 'html', value: '<div class="divider wave"></div>' },
     // 将外部链接合并为一个 HTML 块，确保结构完整
     { 
       type: 'html', 
