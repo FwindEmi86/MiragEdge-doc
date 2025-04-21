@@ -15,7 +15,7 @@ import { FaServer, FaUsers, FaShieldAlt, FaHeart } from 'react-icons/fa';
 
 <h1 className="server-title">
   MiragEdge <span className="star">✰</span> 锐界幻境
-  <small className="server-subtitle">独立于现实的乌托邦👼🏻远离困恼之地（锐界）和天堂般的境地（幻境）</small>
+  <small className="server-subtitle">独立于现实的乌托邦</small>
 </h1>
 
 </div>
@@ -27,7 +27,7 @@ import { FaServer, FaUsers, FaShieldAlt, FaHeart } from 'react-icons/fa';
     <h3>核心架构</h3>
     <ul>
       <li>Java 1.21.1 Purpur 核心</li>
-      <li><span className="tag bedrock">基岩版支持</span> 间歇泉桥接</li>
+      <li><span className="tag bedrock">Geyser 基岩版支持</span></li>
       <li><span className="tag waterfall">Waterfall 负载均衡</span></li>
     </ul>
   </div>
@@ -46,8 +46,8 @@ import { FaServer, FaUsers, FaShieldAlt, FaHeart } from 'react-icons/fa';
     <div className="feature-icon"><FaUsers /></div>
     <h3>社区理念</h3>
     <ul>
-      <li>零商业化的纯净体验</li>
-      <li>7×24 小时管理在线</li>
+      <li>公益化的纯净体验</li>
+      <li>几乎7×24 小时管理在线</li>
       <li>跨次元社交生态</li>
     </ul>
   </div>
@@ -68,6 +68,7 @@ import { FaServer, FaUsers, FaShieldAlt, FaHeart } from 'react-icons/fa';
   <TabItem value="vision" label="✨ 愿景使命" default>
     <div className="vision-text">
       <blockquote>
+        👼🏻远离困恼之地（锐界）和天堂般的境地（幻境）<br/>
         在数字荒漠中打造一片绿洲<br/>
         让每个玩家都能找到属于自己的幻境<br/>
         <footer>—— 管理组 敬上</footer>

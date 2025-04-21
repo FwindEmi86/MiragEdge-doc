@@ -171,6 +171,9 @@
   width: 200px;
   height: 200px;
   background: radial-gradient(rgba(52, 152, 219, 0.4), transparent 60%);
+  background-size: contain; /* 确保背景图片保持比例 */
+  background-position: center; /* 居中显示背景图片 */
+  background-repeat: no-repeat; /* 防止背景图片重复 */
   transform: translate(-50%, -50%);
   z-index: 0;
 }
