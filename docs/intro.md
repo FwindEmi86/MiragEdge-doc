@@ -10,11 +10,9 @@ import { FaServer, FaUsers, FaShieldAlt, FaHeart } from 'react-icons/fa';
 
 <div className="server-hero">
 
-![ME-LOGO](/img/ME-logo.png "锐界幻境")
-<div className="logo-glow"></div>
-
 <h1 className="server-title">
-  MiragEdge <span className="star">✰</span> 锐界幻境
+  MiragEdge <span className="star">✰</span> 锐界幻境<br/>
+  <br/>
   <small className="server-subtitle">独立于现实的乌托邦</small>
 </h1>
 
@@ -78,14 +76,14 @@ import { FaServer, FaUsers, FaShieldAlt, FaHeart } from 'react-icons/fa';
 
   <TabItem value="join" label="🚀 加入我们">
     <div className="join-methods">
-      <div className="method java">
-        <h4>Java 版加入方式</h4>
-        <code>miragedge.cn</code>
-      </div>
       <div className="method bedrock">
-        <h4>基岩版加入方式</h4>
+        <h4>服务器 加入方式</h4>
         <code>miragedge.cn</code>
-        <div className="port">端口: 19132</div>
+        <div className="port">基岩版端口: 19132</div>
+      </div>
+      <div className="method java">
+        <h4>点击加入QQ交流群</h4>
+        <code><a href="https://qm.qq.com/cgi-bin/qm/qr?k=r_yUquo3bQwX3bL97RwG1aVj41WIEOI3&jump_from=webapi&authKey=A76pYGWh45XBe5V4kV5m3LWyR3XRpIl30FETYB0/scIEMeRGhIEDlQWmD5HVjSbj" target="_blank" rel="noopener noreferrer">523914625</a></code>
       </div>
     </div>
   </TabItem>
