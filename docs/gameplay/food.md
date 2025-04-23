@@ -224,6 +224,17 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 紫颂果糖果
+<FoodCard
+  title="紫颂果糖果"
+  enName="chorus_candy"
+  hunger={4}
+  saturation={3}
+  source="合成"
+  image="/img/resourcepack/food/hecheng/chorus_candy.png"
+  special="无"
+/>
+
 ### 胡萝卜糖
 <FoodCard
   title="胡萝卜糖"
