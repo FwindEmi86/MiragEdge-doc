@@ -521,6 +521,17 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
+### 草莓酱
+<FoodCard
+  title="草莓酱"
+  enName="strawberry_jam"
+  hunger={4}
+  saturation={3}
+  source="合成"
+  image="/img/resourcepack/food/strawberry_jam.png"
+  special="还没写完整的合成表嘤嘤嘤，先用 草莓×2，糖×1，玻璃瓶×1"
+/>
+
 ## **使用熔炉制作**
 
 ### 煎乌龟蛋
