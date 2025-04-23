@@ -1,15 +1,13 @@
 #!/bin/bash
 
 eval "$(ssh-agent -s)"
-
 ssh-add ~/.ssh/docusaurus
 
 git fetch origin main
-
 git checkout main
-
 git merge origin/main --no-edit
 
 npm run build
+echo "Build complete, now starting the website service..."
 
-npm run serve
+exec npm run serve
