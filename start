@@ -1,7 +1,5 @@
 #!/bin/bash
 
-npm stop serve
-
 eval "$(ssh-agent -s)"
 
 ssh-add ~/.ssh/docusaurus
