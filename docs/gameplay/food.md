@@ -125,9 +125,9 @@ import FoodCard from '@site/src/components/FoodCard';
   special="无"
 />
 
-### 酸菜肉片
+### 肉夹馍
 <FoodCard
-  title="酸菜肉片"
+  title="肉夹馍"
   enName="sauerkraut_meat_film"
   hunger={7}
   saturation={3}
