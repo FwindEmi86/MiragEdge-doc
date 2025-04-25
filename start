@@ -3,8 +3,6 @@
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/docusaurus
 
-git config user.email "2011857087@qq.com"
-git config user.name "FwindEmi86"
 git fetch origin main
 git checkout main
 git merge origin/main --no-edit
