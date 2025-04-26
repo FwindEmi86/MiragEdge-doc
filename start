@@ -7,6 +7,6 @@ git fetch origin main
 git checkout main
 git merge origin/main --no-edit
 
-npm run build
-echo "Build complete, now starting the website service..."
-exec npm run serve
+#npm run build
+#echo "Build complete, now starting the website service..."
+#exec npm run serve
