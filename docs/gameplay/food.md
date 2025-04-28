@@ -8,8 +8,6 @@ import FoodCard from '@site/src/components/FoodCard';
 
 <div className="food-header">
 
-![食物图标](/img/resourcepack/food/food.png)
-
 # 🍳 **更多食物拓展**  
 **✨ 新增57种特色食物**  
 在本指南中您可以查询到所有新增食物的详细信息，包含：  
