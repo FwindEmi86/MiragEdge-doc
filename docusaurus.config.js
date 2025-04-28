@@ -13,7 +13,7 @@ const config = {
   title: '锐界幻境',
   tagline: '👼🏻远离困恼之地（锐界）和天堂般的境地（幻境）',
   favicon: '/img/B-LOGO.ico',
-  url: 'https://miragedge.top',
+  url: 'https://doc.miragedge.top',
   baseUrl: '/',
   organizationName: 'FwindEmi',
   projectName: 'MiragEdge-doc',
@@ -59,7 +59,7 @@ const config = {
         },
         items: [
           {
-            href: '#',
+            href: 'https://miragedge.top', // 主页链接
             position: 'right', // 在导航栏右侧显示
             label: '官网', // 显示的标签
           },
