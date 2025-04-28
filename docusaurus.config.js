@@ -59,14 +59,19 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar', // 使用文档侧边栏
-            sidebarId: 'tutorialSidebar', // 侧边栏 ID
-            position: 'left', // 在导航栏左侧显示
-            label: '文档', // 显示的标签
+            href: '#',
+            position: 'right', // 在导航栏右侧显示
+            label: '官网', // 显示的标签
           },
           {
-            href: 'https://github.com/FwindEmi86/MiragEdge',
-            label: 'GitHub', // GitHub 链接
+            type: 'docSidebar', // 使用文档侧边栏
+            sidebarId: 'tutorialSidebar', // 侧边栏 ID
+            position: 'right',
+            label: '文档',
+          },
+          {
+            href: 'https://space.bilibili.com/359174372?spm_id_from=333.1007.0.0',
+            label: 'B站主页', // B站 链接
             position: 'right', // 在导航栏右侧显示
           },
         ],
