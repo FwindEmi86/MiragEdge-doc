@@ -24,8 +24,8 @@ const config = {
   // 有用的元数据，例如 HTML 的语言属性。
   // 例如，如果您的站点是中文，可以将 "en" 替换为 "zh-Hans"。
   i18n: {
-    defaultLocale: 'en', // 设置默认语言
-    locales: ['en'], // 定义支持的语言
+    defaultLocale: 'zh-Hans', // 设置默认语言
+    locales: ['zh-Hans'], // 定义支持的语言
   },
 
   presets: [
