@@ -419,7 +419,7 @@
     gap: 10px;
     padding: 1rem;
     background: rgba(255, 243, 224, 0.3);
-    border: 1px solid rgba(239, 108, 0, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 8px;
     margin: 1rem 0;
     position: relative;
@@ -448,7 +448,7 @@
   }
   
   .special-text {
-    color: var(--ifm-color-warning-darkest);
+    color:rgba(255, 255, 255, 0.842);
     font-size: 0.9rem;
     line-height: 1.5;
     position: relative;
