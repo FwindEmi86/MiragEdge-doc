@@ -45,7 +45,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={1.2}
   source="合成"
   image="/img/resourcepack/food/hecheng/beer.png"
-  special="小麦果汁！有很强的饱腹感，饮用后获得10秒饱和效果"
+  special="小麦果汁！有很强的饱腹感，喝多之后头昏昏的，饮用后获得10秒饱和效果，一分钟内饮用超过3次将随机打乱物品栏"
 />
 
 ### 珍珠奶茶
@@ -56,7 +56,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={1.2}
   source="合成"
   image="/img/resourcepack/food/hecheng/bubble_tea.png"
-  special="这珍珠...怪怪的？饮用后获得15秒的生命恢复效果"
+  special="这珍珠...怪怪的？饮用后获得15秒的生命恢复效果，在45秒内免疫末影珍珠的伤害"
 />
 
 ### 双份面包
@@ -122,7 +122,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={13}
   source="合成"
   image="/img/resourcepack/food/hecheng/big_ham.png"
-  special="看起来好像一把棒槌....食用后获得20秒力量2效果，15秒健康效果"
+  special="看起来好像一把棒槌....打人很痛的样子 食用后获得20秒力量2效果，15秒健康效果，在30秒内获得2倍暴击伤害"
 />
 
 ### 肉夹馍
@@ -178,7 +178,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={7.2}
   source="合成"
   image="/img/resourcepack/food/hecheng/berry_salad.png"
-  special="锐界幻境森林风味，美味无需多盐，食用后获得30秒健康"
+  special="锐界幻境森林风味，美味无需多盐，狐狸好像挺喜欢吃的嘛？食用后获得30秒健康，30秒内提升0.5倍背刺伤害"
 />
 
 ### 炖牛肉
@@ -222,7 +222,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={6}
   source="合成"
   image="/img/resourcepack/food/hecheng/cave_medley.png"
-  special="锐界幻境洞穴风味，食用后获得45秒夜视，30秒急迫"
+  special="锐界幻境洞穴风味  食用后获得45秒夜视，30秒急迫"
 />
 
 ### 紫颂果糖果
@@ -233,7 +233,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={0}
   source="合成"
   image="/img/resourcepack/food/hecheng/chorus_candy.png"
-  special="保留了一部分原有的味道，食用后随机传送"
+  special="保留了一部分原有的味道，是故意的  食用后随机传送"
 />
 
 ### 胡萝卜糖
@@ -288,7 +288,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={0}
   source="合成"
   image="/img/resourcepack/food/hecheng/warped_candy.png"
-  special="不！好！吃！食用后附近的疣猪兽将获得30秒虚弱2效果"
+  special="不！好！吃！  食用后附近的疣猪兽将获得30秒虚弱2效果"
 />
 
 ### 草莓冰淇淋
@@ -299,7 +299,8 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={5}
   source="合成"
   image="/img/resourcepack/food/hecheng/strawberry_ice_cream.png"
-  special="无"
+  special="冰冰凉凉香香甜甜思思滑滑甜甜蜜蜜飒飒爽爽的美味冰淇淋！！！
+  食用后获得25秒抗火"
 />
 
 ### 草莓巧克力冰淇淋
@@ -310,7 +311,8 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={6}
   source="合成"
   image="/img/resourcepack/food/hecheng/strawberry_chocolate_ice_cream.png"
-  special="无"
+  special="香香脆脆冰冰凉凉甜甜蜜蜜香香甜甜的巧克力草莓味冰淇淋！！你感到周围都凉快了起来
+  食用后获得15秒速度2，对周围生物施加15秒寒冷"
 />
 
 ### 披萨
@@ -321,7 +323,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={12.6}
   source="合成"
   image="/img/resourcepack/food/hecheng/pizza.png"
-  special="无"
+  special="锐界幻境田园风味披萨，长的像狐狸耳朵，吃了会不会变成狐狸？食用后获得30秒健康"
 />
 
 ### 奶油纸杯蛋糕
@@ -332,7 +334,8 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={8}
   source="合成"
   image="/img/resourcepack/food/hecheng/cream_cupcakes.png"
-  special="无"
+  special="小时候挺爱吃的，随着长大好像只能在锐界幻境吃到了...你好像回到了童年
+  食用后获得15秒饱和，30秒抗性提升，提升冲刺速度"
 />
 
 ### 豆腐
@@ -343,7 +346,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={1}
   source="合成"
   image="/img/resourcepack/food/hecheng/tofu.png"
-  special="无"
+  special="想吃锐界幻境腐竹的豆腐欸嘿嘿...."
 />
 
 ### 臭豆腐
@@ -354,7 +357,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={3}
   source="合成"
   image="/img/resourcepack/food/hecheng/stinky_tofu.png"
-  special="无"
+  special="好臭！！虽然吃着香，但是请不要在公共场合食用！食用后周围实体获得10秒虚弱，10秒缓慢，5秒反胃"
 />
 
 ### 玉米卷
@@ -365,7 +368,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={6}
   source="合成"
   image="/img/resourcepack/food/hecheng/tacos.png"
-  special="无"
+  special="歪比歪比，歪比叭卜！食用后在周围生成几只僵尸"
 />
 
 ### 爆米花
@@ -376,7 +379,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={12}
   source="合成"
   image="/img/resourcepack/food/hecheng/popcorn.png"
-  special="无"
+  special="金灿灿的像金子一样！闻起来也像金子一样！吃起来也像金子一样！"
 />
 
 ### 切开的仙人掌
@@ -387,7 +390,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={2}
   source="合成"
   image="/img/resourcepack/food/hecheng/cut_cactus.png"
-  special="无"
+  special="锐界幻境沙漠风味，切开的香气使周围的骆驼充满干劲，但其实对于人类来说不好吃.... 食用后获得5秒反胃，周围的骆驼获得20秒生命恢复"
 />
 
 ### 粽子
@@ -398,7 +401,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={4}
   source="合成"
   image="/img/resourcepack/food/hecheng/zongzi.png"
-  special="无"
+  special="锐界幻境黏糊糊端午风味，你感觉像吃下了一整个端午！食用后获得20秒跳跃提升，15秒生命恢复"
 />
 
 ### 寿司
@@ -409,7 +412,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={4}
   source="合成"
   image="/img/resourcepack/food/hecheng/sushi.png"
-  special="无"
+  special="锐界幻境和风风味，你感受到了大海在被包裹在米饭里面的香味"
 />
 
 ### 叫花鸡
@@ -420,7 +423,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={12.6}
   source="合成"
   image="/img/resourcepack/food/hecheng/beggars_style_chicken.png"
-  special="无"
+  special="一只鲜嫩的鸡被散发清香的荷叶包裹，闻起来奇香无比，周围的动物也因此放松"
 />
 
 ### 苦力怕饼干
@@ -431,7 +434,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={2}
   source="合成"
   image="/img/resourcepack/food/hecheng/creeper_cookie.png"
-  special="无"
+  special="浓浓的火药味...食用后会发生小型爆炸（不会破坏方块）"
 />
 
 ### 棒棒糖
@@ -442,7 +445,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={4}
   source="合成"
   image="/img/resourcepack/food/hecheng/lollipop.png"
-  special="无"
+  special="小时候总会含在嘴里慢慢融化细细品味，食用后获得30秒抗性提升"
 />
 
 ### 汉堡包
@@ -453,7 +456,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={16}
   source="合成"
   image="/img/resourcepack/food/hecheng/hamburger.png"
-  special="无"
+  special="锐界幻境星期四风味，比肯德基更健康！食用后获得15秒饱和，30秒健康"
 />
 
 ### 熔岩鸡
@@ -464,7 +467,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={12.6}
   source="合成"
   image="/img/resourcepack/food/hecheng/lava_chicken.png"
-  special="无"
+  special="火热的岩浆🔥🔥🔥美味的鸡肉🤤🤤🤤史蒂夫的熔岩烤鸡😍😍😍食用后获得30秒抗火，30秒自发光，25秒熔岩行走"
 />
 
 ### 鱼汤
@@ -475,7 +478,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={10}
   source="合成"
   image="/img/resourcepack/food/hecheng/fish_soup.png"
-  special="无"
+  special="美味的鱼肉❤️❤️❤️健康的萝卜😍😍😍狐狸的美味鱼汤🤤🤤🤤食用后获得30秒健康
 />
 
 ### 幽匿拼盘
@@ -486,7 +489,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={15}
   source="合成"
   image="/img/resourcepack/food/hecheng/sculk_medley.png"
-  special="无"
+  special="锐界幻境幽匿风味，虽然不好吃但是就是很想吃...食用后获得10秒饱和，5秒反胃"
 />
 
 ### 甜浆果纸杯蛋糕
@@ -497,7 +500,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={4}
   source="合成"
   image="/img/resourcepack/food/hecheng/sweet_berries_cupcake.png"
-  special="无"
+  special="锐界幻境童年风味，食用后获得5秒抗性提升"
 />
 
 ### 荧光浆果纸杯蛋糕
@@ -508,7 +511,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={4}
   source="合成"
   image="/img/resourcepack/food/hecheng/glow_berries_cupcake.png"
-  special="无"
+  special="锐界幻境童年风味，食用后获得5秒抗性提升，10秒自发光"
 />
 
 ### 彩色蛋羹
@@ -519,7 +522,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={1145141919810}
   source="合成"
   image="/img/resourcepack/food/hecheng/colorful_egg_custard.png"
-  special="无"
+  special="这...未免太奢侈了些？但是看起来味道很好的样子！食用后获得10分钟抗性提升5，5分钟速度2，5分钟生命恢复2，10分钟生命提升5..."
 />
 
 ### 草莓酱
@@ -543,7 +546,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={1}
   source="熔炉"
   image="/img/resourcepack/food/hecheng/fried_turtle_egg.png"
-  special="无"
+  special="好吃但是不建议吃，这..."
 />
 
 ### 煎嗅探兽蛋
@@ -554,7 +557,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={3}
   source="熔炉"
   image="/img/resourcepack/food/hecheng/fried_sniffer_egg.png"
-  special="无"
+  special="来自远古的味道...唇齿留香,食用后获得30秒健康，1分钟抗性提升"
 />
 
 ### 煎龙蛋
@@ -565,7 +568,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={114514}
   source="熔炉"
   image="/img/resourcepack/food/hecheng/fried_dragon_egg.png"
-  special="无"
+  special="奢侈中的奢侈，真的可以吃得起吗....食用后获得30分钟抗性提升2，30分钟生命恢复1，30分钟伤害吸收5"
 />
 
 ### 烤南瓜
@@ -576,7 +579,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={4.8}
   source="熔炉"
   image="/img/resourcepack/food/hecheng/roasted_pumpkin.png"
-  special="无"
+  special="锐界幻境烧烤风味，健康美味"
 />
 
 ### 吐司
@@ -587,7 +590,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={7}
   source="熔炉"
   image="/img/resourcepack/food/hecheng/toast.png"
-  special="无"
+  special="锐界幻境早餐风味，搭配培根煎蛋食用更佳！食用后获得10秒生命恢复"
 />
 
 ### 煎蛋
@@ -598,7 +601,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={2}
   source="熔炉"
   image="/img/resourcepack/food/hecheng/fried_egg.png"
-  special="无"
+  special="早餐搭档，简单好吃"
 />
 
 ## **特殊渠道获得**
@@ -611,7 +614,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={3}
   source="其他"
   image="/img/resourcepack/food/coca_cola.png"
-  special="无"
+  special="气泡水"
 />
 
 ### 百事可乐
@@ -622,7 +625,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={3}
   source="其他"
   image="/img/resourcepack/food/pepsi_cola.png"
-  special="无"
+  special="气泡水"
 />
 
 ### 雪碧
@@ -633,7 +636,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={3}
   source="其他"
   image="/img/resourcepack/food/sprite.png"
-  special="无"
+  special="气泡水"
 />
 
 ### 芬达
@@ -644,7 +647,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={3}
   source="其他"
   image="/img/resourcepack/food/fanta.png"
-  special="无"
+  special="气泡水"
 />
 
 ### 草莓
@@ -655,5 +658,5 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={0}
   source="其他"
   image="/img/resourcepack/food/strawberry.png"
-  special="无"
+  special="草莓"
 />
