@@ -135,6 +135,12 @@ module.exports = {
       collapsed: true,
       className: 'sidebar-category faq-category',
     },
+    {
+      type: 'doc',
+      id: 'log',
+      label: '📅 更新日志',
+      className: 'changelog-item',
+    },
     { type: 'html', value: '<div class="divider dotted"></div>' },
     {
       type: 'category',
@@ -154,12 +160,6 @@ module.exports = {
       collapsible: true,
       collapsed: true,
       className: 'sidebar-category faq-category',
-    },
-    {
-      type: 'doc',
-      id: 'log',
-      label: '📅 更新日志',
-      className: 'changelog-item',
     },
     { type: 'html', value: '<div class="divider wave"></div>' },
     // 将外部链接合并为一个 HTML 块，确保结构完整
