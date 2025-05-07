@@ -135,6 +135,26 @@ module.exports = {
       collapsed: true,
       className: 'sidebar-category faq-category',
     },
+    { type: 'html', value: '<div class="divider dotted"></div>' },
+    {
+      type: 'category',
+      label: '🎨 开发文档',
+      items: [
+        {
+          type: 'doc',
+          id: 'develop/intro',
+          label: '💖 这是什么？',
+        },
+        {
+          type: 'doc',
+          id: 'develop/potion_effect_bottle',
+          label: '🍷 药水效果瓶',
+        },
+      ],
+      collapsible: true,
+      collapsed: true,
+      className: 'sidebar-category faq-category',
+    },
     {
       type: 'doc',
       id: 'log',
@@ -148,7 +168,6 @@ module.exports = {
       value: `
         <div class="external-links">
           <a class="external-link" href="https://miragedge.top">🌐 官方网站</a>
-          <a class="external-link" href="https://discord.gg/your-invite-link">👾 Discord社区</a>
         </div>
       `
     },
