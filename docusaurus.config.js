@@ -70,7 +70,7 @@ const config = {
             label: '文档',
           },
           {
-            href: 'https://space.bilibili.com/359174372?spm_id_from=333.1007.0.0',
+            href: 'https://space.bilibili.com/359174372',
             label: 'B站主页', // B站 链接
             position: 'right', // 在导航栏右侧显示
           },
