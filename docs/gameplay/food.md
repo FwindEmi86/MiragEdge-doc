@@ -34,7 +34,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={6.4}
   source="合成"
   image="/img/resourcepack/food/hecheng/bacon.png"
-  special="炸的treetree的"
+  special="treetree的炸培根"
 />
 
 ### 啤酒
@@ -45,7 +45,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={1.2}
   source="合成"
   image="/img/resourcepack/food/hecheng/beer.png"
-  special="小麦果汁！有很强的饱腹感，喝多之后头昏昏的，饮用后获得10秒饱和效果，一分钟内饮用超过3次将随机打乱物品栏"
+  special="小麦果汁！有很强的饱腹感，喝多会醉，饮用后获得8秒饱和效果，一分钟内饮用超过3次将随机打乱物品栏"
 />
 
 ### 珍珠奶茶
@@ -56,7 +56,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={1.2}
   source="合成"
   image="/img/resourcepack/food/hecheng/bubble_tea.png"
-  special="这珍珠...怪怪的？饮用后获得15秒的生命恢复效果，在45秒内免疫末影珍珠的伤害"
+  special="这珍珠...怪怪的？饮用后获得5秒的生命恢复效果，并小范围随机传送"
 />
 
 ### 双份面包
@@ -100,7 +100,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={3}
   source="合成"
   image="/img/resourcepack/food/hecheng/candy_floss.png"
-  special="用来组成锐界幻境的云，食用后获得30秒跳跃提升"
+  special="锐界幻境的云是它组成的？食用后可获得30秒缓降"
 />
 
 ### 草莓甜甜圈
@@ -111,7 +111,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={4}
   source="合成"
   image="/img/resourcepack/food/hecheng/strawberry_donuts.png"
-  special="看起来香香软软的，闻起来也是香香软软的，但是好像太腻了....食用后获得5秒生命恢复，5秒反胃"
+  special="香香软软的，但是一口吃掉好像太腻了.... 食用后获得5秒生命恢复，3秒反胃"
 />
 
 ### 大火腿
@@ -133,7 +133,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={3}
   source="合成"
   image="/img/resourcepack/food/hecheng/sauerkraut_meat_film.png"
-  special="超好吃的牛肉肉夹馍!!!吃完感觉整个锐界幻境变得超级好玩！！！食用后获得40秒速度，40秒急迫，25秒健康"
+  special="超好吃的肉夹馍!!! 吃完整个锐界幻境都能变得超级好吃！！！食用后获得40秒速度I，40秒急迫，25秒健康"
 />
 
 ### 蜂蜜罐
@@ -144,7 +144,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={12}
   source="合成"
   image="/img/resourcepack/food/hecheng/Honey_claypots.png"
-  special="一个花盆里面装着满满当当的蜂蜜，跟锐界幻境的腐竹一样甜美诱人，但是吃完会得糖尿病 食用后获得30秒生命恢复，1分钟急迫，15秒失明"
+  special="盆里面装着满满当当的蜂蜜，和我们的腐竹一样甜美诱人，但是吃完会得糖尿病 食用后获得30秒生命恢复，1分钟急迫，15秒失明"
 />
 
 ### 热狗
@@ -155,7 +155,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={12.6}
   source="合成"
   image="/img/resourcepack/food/hecheng/hotdog.png"
-  special="经典美式风味，味道还说的过去，食用后获得20秒速度，10秒生命恢复"
+  special="经典风味，食用后获得10秒速度，6秒生命恢复"
 />
 
 ### 蒲公英沙拉
@@ -166,7 +166,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={6}
   source="合成"
   image="/img/resourcepack/food/hecheng/dandelion_salad.png"
-  special="其实...锐界幻境也是有些不那么好吃的，但是蒲公英好像可以治愈一些疾病？食用后获得5秒反胃，5秒生命恢复2，40秒抗性提升，1分钟健康"
+  special="其实...幻境里也有些是不那么好吃的，但是蒲公英好像可以治愈一些疾病？食用后获得5秒反胃，5秒生命恢复II，40秒抗性提升，60秒健康"
 />
 
 ### 浆果沙拉
@@ -177,7 +177,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={7.2}
   source="合成"
   image="/img/resourcepack/food/hecheng/berry_salad.png"
-  special="锐界幻境森林风味，美味无需多盐，狐狸好像挺喜欢吃的嘛？食用后获得30秒健康，30秒内提升0.5倍背刺伤害"
+  special="幻境森林中的特产，美味无需多盐，狐狸好像挺喜欢吃的嘛？食用后获得30秒健康，30秒内提升0.5倍背刺伤害"
 />
 
 ### 炖牛肉
@@ -221,7 +221,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={6}
   source="合成"
   image="/img/resourcepack/food/hecheng/cave_medley.png"
-  special="锐界幻境洞穴风味  食用后获得45秒夜视，30秒急迫"
+  special="幻境洞穴风味  食用后获得45秒夜视，30秒急迫"
 />
 
 ### 紫颂果糖果
@@ -232,7 +232,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={0}
   source="合成"
   image="/img/resourcepack/food/hecheng/chorus_candy.png"
-  special="保留了一部分原有的味道，是故意的  食用后随机传送"
+  special="保留了一部分原有的味道，是故意的  食用后会随机传送"
 />
 
 ### 胡萝卜糖
@@ -243,7 +243,7 @@ import FoodCard from '@site/src/components/FoodCard';
   saturation={0}
   source="合成"
   image="/img/resourcepack/food/hecheng/carrot_candy.png"
-  special="你身上的胡萝卜味吸引了兔子和猪，它们将逃跑的慢一些，20秒内经过的每个猪或者兔子都获得30秒缓慢"
+  special="这是兔兔最爱的糖果！！！"
 />
 
 ### 土豆糖
