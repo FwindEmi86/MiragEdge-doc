@@ -393,11 +393,11 @@ import FoodCard from '@site/src/components/FoodCard';
 <FoodCard
   title="粽子"
   enName="zongzi"
-  hunger={6}
-  saturation={4}
+  hunger={5}
+  saturation={3}
   source="合成"
   image="/img/resourcepack/food/hecheng/zongzi.png"
-  special="锐界幻境黏糊糊端午风味，你感觉像吃下了一整个端午！食用后获得20秒跳跃提升，15秒生命恢复"
+  special="锐界幻境黏糊糊端午风味，感觉像吃下了一整个端午！食用后获得3秒跳跃提升，5秒生命恢复"
 />
 
 ### 寿司
