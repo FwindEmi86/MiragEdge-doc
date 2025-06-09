@@ -28,72 +28,66 @@ module.exports = {
     { type: 'html', value: '<div class="divider dotted"></div>' },
     {
       type: 'category',
-      label: '🎮 新手教程',
+      label: '🔐 社区规则',
       items: [
         {
           type: 'doc',
-          id: 'tutorial/Client_Install',
-          label: '💻 客户端安装',
+          id: 'rule/ServerRule',
+          label: '🚦 服务器玩家守则',
         },
         {
           type: 'doc',
-          id: 'tutorial/Join_Server',
-          label: '🌐 加入服务器',
-        },
-        {
-          type: 'doc',
-          id: 'tutorial/gameplay',
-          label: '⚔️ 基础玩法',
-        },
-      ],
-      collapsible: true,
-      collapsed: true,
-      className: 'sidebar-category tutorial-category',
-    },
-    { type: 'html', value: '<div class="divider gradient"></div>' },
-    {
-      type: 'category',
-      label: '🌍 世界介绍',
-      items: [
-        {
-          type: 'doc',
-          id: 'introduction/SkyField',
-          label: '☁️ 空之城',
-        },
-        {
-          type: 'doc',
-          id: 'introduction/MDSH',
-          label: '🌃 梦始之空',
-        },
-        {
-          type: 'doc',
-          id: 'introduction/MiragEdge',
-          label: '🏰 锐界幻境',
-        },
-        {
-          type: 'doc',
-          id: 'introduction/ZeroState', // 修正了此处拼写
-          label: '❄️ 零境',
-        },
-      ],
-      collapsible: true,
-      collapsed: false,
-      className: 'sidebar-category world-category',
-    },
-    { type: 'html', value: '<div class="divider gradient"></div>' },
-    {
-      type: 'category',
-      label: '📜 服务器规则',
-      items: [
-        {
-          type: 'doc',
-          id: 'rule/rule',
-          label: '🚦 基础守则',
+          id: 'rule/MemberRule',
+          label: '🤴 交流群成员守则',
         },
       ],
       collapsible: true,
       collapsed: true,
       className: 'sidebar-category rule-category',
+    },
+    { type: 'html', value: '<div class="divider gradient"></div>' },
+    {
+      type: 'category',
+      label: '🎮 新手教程',
+      items: [
+        {
+          type: 'doc',
+          id: 'tutorial/BackGround',
+          label: '💖 背景介绍',
+        },
+        {
+          type: 'category',
+          label: '🌐 加入服务器',
+          items: [
+            {
+              type: 'doc',
+              id: 'tutorial/ClientInstall',
+              label: '💻 客户端安装',
+            },
+            {
+              type: 'doc',
+              id: 'tutorial/ServerJoin',
+              label: '🔗 入服方法&链接',
+            },
+            {
+              type: 'doc',
+              id: 'tutorial/Whitelist',
+              label: '📝 白名单系统',
+            },
+          ],
+          collapsible: true,
+          collapsed: true,
+          className: 'sidebar-category tutorial-category',
+        },
+        {
+          type: 'doc',
+          id: 'tutorial/Gameplay',
+          label: '⚔️ 核心玩法',
+        },
+      ],
+      collapsible: true,
+      collapsed: false,
+      className: 'sidebar-category tutorial-category',
     },
     { type: 'html', value: '<div class="divider dotted"></div>' },
     {
@@ -102,8 +96,33 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          id: 'gameplay/start',
-          label: '🚀 快速入门',
+          id: 'gameplay/CustomCroups',
+          label: '🪻 星露谷种植',
+        },
+        {
+          type: 'doc',
+          id: 'gameplay/CustomFishing',
+          label: '🐟 星露谷钓鱼',
+        },
+        {
+          type: 'doc',
+          id: 'gameplay/AdvancedEnchantments',
+          label: '📕 高级附魔',
+        },
+        {
+          type: 'doc',
+          id: 'gameplay/MMO',
+          label: '🗡 装备升级系统',
+        },
+        {
+          type: 'doc',
+          id: 'gameplay/Dungeon',
+          label: '😈 地牢副本挑战',
+        },
+        {
+          type: 'doc',
+          id: 'gameplay/Jobs',
+          label: '😽 工作系统',
         },
         {
           type: 'doc',
@@ -112,7 +131,7 @@ module.exports = {
         },
       ],
       collapsible: true,
-      collapsed: false,
+      collapsed: true,
       className: 'sidebar-category gameplay-category',
     },
     { type: 'html', value: '<div class="divider gradient"></div>' },

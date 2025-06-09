@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
-slug: /docs/rule
-title: 🎮 游玩须知
+slug: /docs/ServerRule
+title: 🎮 服务器玩家守则
 ---
 
 ## 🌸 锐界幻境 🌸

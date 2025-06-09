@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-slug: /docs/tutorial/Join_Server
+slug: /docs/tutorial/ServerJoin
 title: 入服方法
 ---
 

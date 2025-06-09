@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
-slug: /docs/tutorial/gameplay
-title: 游玩教程
+sidebar_position: 4
+slug: /docs/tutorial/Gameplay
+title: 核心玩法
 ---
