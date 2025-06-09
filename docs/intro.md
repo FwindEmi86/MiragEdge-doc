@@ -62,6 +62,12 @@ import { FaServer, FaUsers, FaShieldAlt, FaHeart } from 'react-icons/fa';
 
 </div>
 
+<div className="vision-text">
+  <blockquote>
+    我希望这份文档能帮助你尽可能解决在服务器中游玩所可能遇到的问题！<br/>
+  </blockquote>
+</div>
+
 <Tabs>
   <TabItem value="vision" label="✨ 愿景使命" default>
     <div className="vision-text">
@@ -69,7 +75,7 @@ import { FaServer, FaUsers, FaShieldAlt, FaHeart } from 'react-icons/fa';
         👼🏻远离困恼之地（锐界）和天堂般的境地（幻境）<br/>
         在数字荒漠中打造一片绿洲<br/>
         让每个玩家都能找到属于自己的幻境<br/>
-        <footer>—— 管理组 敬上</footer>
+        <footer>—— 狐风轩汐 敬上</footer>
       </blockquote>
     </div>
     <div className="vision-text">

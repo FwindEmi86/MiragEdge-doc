@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 slug: /docs/tutorial/ClientInstall
-title: 安装游戏客户端
+title: 💻 客户端安装
 ---
 
 ## 客户端安装指南
