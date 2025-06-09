@@ -141,13 +141,13 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          id: 'question/QQ',
-          label: '🐧 QQ相关问题',
+          id: 'question/Game',
+          label: '🎮 游戏问题',
         },
         {
           type: 'doc',
-          id: 'question/Game',
-          label: '🎮 游戏问题',
+          id: 'question/QQ',
+          label: '🐧 QQ相关问题',
         },
       ],
       collapsible: true,
