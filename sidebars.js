@@ -81,7 +81,7 @@ module.exports = {
         },
         {
           type: 'doc',
-          id: 'tutorial/Gameplay',
+          id: 'tutorial/gameplay',
           label: '⚔️ 核心玩法',
         },
       ],
