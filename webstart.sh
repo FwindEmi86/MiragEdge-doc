@@ -21,11 +21,11 @@ echo " "
 git fetch origin $BRANCH
 git reset --hard origin/$BRANCH
 
-echo " "
-echo " "
-echo "代码拉取完成！正在清理安装npm依赖..."
-echo " "
-echo " "
+#echo " "
+#echo " "
+#echo "代码拉取完成！正在清理安装npm依赖..."
+#echo " "
+#echo " "
 
 # 清理并安装依赖
 #rm -rf node_modules
@@ -33,7 +33,8 @@ echo " "
 
 echo " "
 echo " "
-echo "清理安装完成！正在构建网站..."
+#echo "清理安装完成！正在构建网站..."
+echo "代码拉取完成！正在构建网站..."
 echo " "
 echo " "
 
