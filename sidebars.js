@@ -105,9 +105,18 @@ module.exports = {
           label: '🐟 星露谷钓鱼',
         },
         {
-          type: 'doc',
-          id: 'gameplay/AdvancedEnchantments',
+          type: 'category',
           label: '📕 高级附魔',
+          items: [
+            {
+              type: 'doc',
+              id: 'gameplay/AdvancedEnchantments/list',
+              label: '附魔列表',
+            },
+          ],
+          collapsible: true,
+          collapsed: true,
+          className: 'sidebar-category gameplay-category',
         },
         {
           type: 'doc',
