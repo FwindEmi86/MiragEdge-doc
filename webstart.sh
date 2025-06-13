@@ -28,8 +28,8 @@ echo " "
 echo " "
 
 # 清理并安装依赖
-rm -rf node_modules
-npm install --force
+#rm -rf node_modules
+#npm install --force
 
 echo " "
 echo " "
