@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Layout from '@theme/Layout';
-import styles from './404.module.css';
+import styles from './custom404.module.css';
 import SearchBar from '@theme/SearchBar';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
