@@ -14,7 +14,7 @@ title: 🎮 服务器玩家守则
 ## 🚨 行为守则 | 违者必究
 
 ### 💬 游戏内聊天交流规范
-<details>
+<details open>
 <summary>📌 点击展开/收起规则</summary>
 
 #### ❗ 严禁内容
@@ -44,7 +44,7 @@ title: 🎮 服务器玩家守则
 ---
 
 ### 🎮 游戏行为规范
-<details>
+<details open>
 <summary>📌 点击展开/收起规则</summary>
 
 #### 🛑 封禁行为
