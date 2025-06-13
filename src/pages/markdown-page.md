@@ -2,6 +2,6 @@
 title: Markdown 默认配置
 ---
 
-# Markdown page example
+# Markdown 默认配置
 
-You don't need React to write simple standalone pages.
+如果你不需要React去编写独立界面，Markdown是一个绝佳的选择！
