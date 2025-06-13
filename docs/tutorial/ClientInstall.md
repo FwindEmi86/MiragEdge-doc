@@ -18,7 +18,7 @@ title: 💻 客户端安装
   - 在交流群，群文件中，找到 下图所示 文件夹  
   ![基岩版群文件目录](/img/BEGameFile.png "基岩版群文件目录")  
   *基岩版群文件目录*  
-  [**MineBBS下载**](http://www.minebbs.net/mc/#/)  
+  [**MCDL下载站**](https://mcbedl.com/)  
 2. 下载 `MCBE-1.21.xx.zip`
 3. 使用压缩工具解压并安装
 
