@@ -100,7 +100,7 @@ export default function Home() {
         <div className={clsx(styles.heroContent, 'container')}>
           <div className={styles.logoContainer}>
             <h1 className={styles.title}>锐界幻境</h1>
-            <div className={styles.subtitle}>高版本互通 · 创新玩法 · 极致体验</div>
+            <div className={styles.subtitle}>创新玩法 · 高版本互通 · 极致体验</div>
           </div>
           
           <div className={styles.ctaButtons}>
