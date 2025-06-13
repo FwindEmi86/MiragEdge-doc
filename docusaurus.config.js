@@ -88,7 +88,7 @@ const config = {
  	    <a href="https://beian.miit.gov.cn" id="beian" target="_blank">苏ICP备2024133820号-1</a>
       	  </div>
 	  <div>
-            2020 - ${new Date().getFullYear()} Miragedge✰锐界幻境 By FwindEmi
+            2020 - ${new Date().getFullYear()} MiragEdge✰锐界幻境 By FwindEmi
 	`,
       },
       prism: {

@@ -59,7 +59,6 @@ import { FaServer, FaUsers, FaShieldAlt, FaHeart } from 'react-icons/fa';
       <li>群服互通自动白名单</li>
     </ul>
   </div>
-
 </div>
 
 <div className="vision-text">
@@ -80,7 +79,7 @@ import { FaServer, FaUsers, FaShieldAlt, FaHeart } from 'react-icons/fa';
     </div>
     <div className="vision-text">
       <blockquote>
-        本文档部分艺术内容由AI生成，注意甄别<br/>
+        本文档部分内容排版由AI生成，注意甄别<br/>
         <footer>注*</footer>
       </blockquote>
     </div>
