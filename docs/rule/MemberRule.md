@@ -14,7 +14,7 @@ title: 🐧 交流群成员守则
 ## 🚨 行为守则 | 违者必究
 
 ### 💬 群内发言交流规范
-<details open>
+<details>
 <summary>📌 点击展开/收起规则</summary>
 
 #### ❗ 严禁内容
@@ -46,7 +46,7 @@ title: 🐧 交流群成员守则
 ---
 
 ### 👥 群内行为规范
-<details open>
+<details>
 <summary>📌 点击展开/收起规则</summary>
 
 #### 🛑 封禁行为
