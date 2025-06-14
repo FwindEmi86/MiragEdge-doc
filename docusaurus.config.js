@@ -19,8 +19,7 @@ const config = {
   },
 
   // 脚本加载配置
-  scripts: [
-  ],
+  scripts: [],
 
   // 插件配置
   plugins: [
@@ -49,7 +48,7 @@ const config = {
         theme: {
           customCss: './src/css/custom.css',
         },
-      },
+      }, 
     ],
   ],
 
@@ -84,11 +83,13 @@ const config = {
         },
       ],
     },
+    // 颜色模式配置
     colorMode: {
       defaultMode: 'dark',
       disableSwitch: true,
       respectPrefersColorScheme: false,
     },
+    // 页脚配置
     footer: {
       style: 'dark',
       copyright: `

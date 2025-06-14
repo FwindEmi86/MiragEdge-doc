@@ -6,7 +6,9 @@ export default function NotFound() {
   const canvasRef = useRef(null);
   const [blocks, setBlocks] = useState([]);
   const animationRef = useRef(null);
+  const isActiveRef = useRef(true);
   
+
   // 创建随机方块数据
   useEffect(() => {
     if (typeof window === 'undefined') return;
@@ -43,6 +45,7 @@ export default function NotFound() {
     
     const canvas = canvasRef.current;
     const ctx = canvas.getContext('2d');
+    if (!ctx) return;
     
     // 设置Canvas尺寸
     const setCanvasSize = () => {
@@ -54,7 +57,7 @@ export default function NotFound() {
     
     // 粒子系统
     const particles = [];
-    const particleCount = window.innerWidth < 768 ? 30 : 50;
+    const particleCount = Math.min(window.innerWidth < 768 ? 30 : 50, 50);
     const colors = ['#64ffda', '#00e5ff', '#2979ff', '#536dfe'];
     
     class Particle {
@@ -65,7 +68,6 @@ export default function NotFound() {
         this.speedX = Math.random() * 1 - 0.5;
         this.speedY = Math.random() * 1 - 0.5;
         this.color = colors[Math.floor(Math.random() * colors.length)];
-        this.lastUpdate = 0;
       }
       
       update() {
@@ -94,10 +96,12 @@ export default function NotFound() {
     const grid = {};
     
     const updateGrid = () => {
+      // 清除现有网格
       for (const key in grid) {
         delete grid[key];
       }
       
+      // 重新填充网格
       particles.forEach(particle => {
         const gridX = Math.floor(particle.x / gridSize);
         const gridY = Math.floor(particle.y / gridSize);
@@ -108,9 +112,14 @@ export default function NotFound() {
       });
     };
     
+    updateGrid(); // 初始网格
+    
     // 动画循环
     let lastTimestamp = 0;
+    
     const animate = (timestamp) => {
+      if (!isActiveRef.current) return;
+      
       // 限制帧率
       if (timestamp - lastTimestamp < 16) {
         animationRef.current = requestAnimationFrame(animate);
@@ -172,81 +181,88 @@ export default function NotFound() {
     // 窗口大小调整处理
     const handleResize = () => {
       setCanvasSize();
+      updateGrid();
     };
     
     window.addEventListener('resize', handleResize);
     
     // 清理函数
     return () => {
+      isActiveRef.current = false;
       if (animationRef.current) {
         cancelAnimationFrame(animationRef.current);
       }
       window.removeEventListener('resize', handleResize);
     };
   }, []);
+  
+  // 确保方块数据有效
+  const safeBlocks = blocks.filter(
+    block => block && block.type && block.position && block.offset
+  );
 
   return (
     <Layout title="页面未找到" description="您访问的页面不存在">
-      <div className={styles.container}>
-        <canvas 
-          ref={canvasRef}
-          className={styles.particleCanvas}
-        />
-        
-        <div className={styles.content}>
-          <div className={styles.errorContainer}>
-            <div className={styles.errorCode}>
-              <span>4</span>
-              <div className={styles.minecraftBlock404}>
-                <div className={styles.blockFace}></div>
-                <div className={styles.blockFace}></div>
-                <div className={styles.blockFace}></div>
-                <div className={styles.blockFace}></div>
-                <div className={styles.blockFace}></div>
-                <div className={styles.blockFace}></div>
+          <div className={styles.container}>
+            <canvas 
+              ref={canvasRef}
+              className={styles.particleCanvas}
+            />
+            
+            <div className={styles.content}>
+            <div className={styles.errorContainer}>
+              <div className={styles.errorCode}>
+                <span>4</span>
+                <div className={styles.minecraftBlock404}>
+                  <div className={styles.blockFace}></div>
+                  <div className={styles.blockFace}></div>
+                  <div className={styles.blockFace}></div>
+                  <div className={styles.blockFace}></div>
+                  <div className={styles.blockFace}></div>
+                  <div className={styles.blockFace}></div>
+                </div>
+                <span>4</span>
               </div>
-              <span>4</span>
-            </div>
-            
-            <h1 className={styles.title}>页面未找到</h1>
-            <p className={styles.description}>
-              哎呀，看起来你访问的页面不存在或已被移除<br />
-              <span className={styles.hint}>可能是链接发生了变化或页面已被删除</span>
-            </p>
-            
-            <div className={styles.searchSection}>
-              <p className={styles.searchHint}>尝试右上角搜索你需要的内容</p>
-            </div>
-            
-            <div className={styles.actions}>
-              <a href="/" className={styles.primaryButton}>
-                返回首页
-              </a>
-              <a href="/docs/intro" className={styles.secondaryButton}>
-                查看文档
-              </a>
+              
+              <h1 className={styles.title}>页面未找到</h1>
+              <p className={styles.description}>
+                哎呀，看起来你访问的页面不存在或已被移除<br />
+                <span className={styles.hint}>可能是链接发生了变化或页面已被删除</span>
+              </p>
+              
+              <div className={styles.searchSection}>
+                <p className={styles.searchHint}>尝试右上角搜索你需要的内容</p>
+              </div>
+              
+              <div className={styles.actions}>
+                <a href="/" className={styles.primaryButton}>
+                  返回首页
+                </a>
+                <a href="/" className={styles.secondaryButton}>
+                  查看文档
+                </a>
+              </div>
             </div>
           </div>
+          
+          <div className={styles.minecraftBlocks}>
+            {safeBlocks.map(block => (
+              <div 
+                key={block.id}
+                className={styles.minecraftBlock}
+                style={{
+                  backgroundColor: block.type.color,
+                  left: `${block.position.x}%`,
+                  top: `${block.position.y}%`,
+                  transform: `rotate(${block.rotation}deg) translate(${block.offset.x}px, ${block.offset.y}px)`,
+                  transitionDelay: `${block.id * 100}ms`,
+                  opacity: 1
+                }}
+                data-name={block.type.name}
+              />
+            ))}
+          </div>
         </div>
-        
-        <div className={styles.minecraftBlocks}>
-          {blocks.map(block => (
-            <div 
-              key={block.id}
-              className={styles.minecraftBlock}
-              style={{
-                backgroundColor: block.type.color,
-                left: `${block.position.x}%`,
-                top: `${block.position.y}%`,
-                transform: `rotate(${block.rotation}deg) translate(${block.offset.x}px, ${block.offset.y}px)`,
-                transitionDelay: `${block.id * 100}ms`,
-                opacity: 1
-              }}
-              data-name={block.type.name}
-            />
-          ))}
-        </div>
-      </div>
     </Layout>
   );
 }
