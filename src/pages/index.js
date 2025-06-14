@@ -112,7 +112,6 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <script src="/live2d/autoload.js"></script>
       </div>
       
       <div className={clsx(styles.features, 'container')}>
