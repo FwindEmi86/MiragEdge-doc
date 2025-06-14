@@ -67,10 +67,10 @@ const Live2DWidget = () => {
         
         // 5. 加载模型 - 添加错误处理
         try {
-          model = await Live2DModel.from('/live2d/models/mao_pro_zh/mao_pro.model3.json');
+          model = await Live2DModel.from('https://cdn.jsdelivr.net/gh/guansss/pixi-live2d-display/test/assets/haru/haru_greeter_t03.model3.json');
         } catch (e) {
           console.error('主模型加载失败，尝试默认模型', e);
-          model = await Live2DModel.from('https://cdn.jsdelivr.net/gh/guansss/pixi-live2d-display/test/assets/haru/haru_greeter_t03.model3.json');
+          model = await Live2DModel.from('/live2d/models/mao_pro_zh/mao_pro.model3.json');
         }
         
         // 6. 添加到舞台并配置
