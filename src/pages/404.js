@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Layout from '@theme/Layout';
 import styles from './404.module.css';
-import useBaseUrl from '@docusaurus/useBaseUrl';
 
 export default function NotFound() {
   const canvasRef = useRef(null);
