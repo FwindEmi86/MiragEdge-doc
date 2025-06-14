@@ -11,12 +11,12 @@ const Live2DWidget = () => {
     let app = null;
     let model = null;
     let resizeHandler = null;
+    let tickerHandler = null;
     
     const initLive2D = async () => {
       try {
         setLoading(true);
         setError(null);
-        console.log("开始初始化 Live2D");
         
         // 1. 确保所有依赖就绪
         await Promise.all([
@@ -48,11 +48,8 @@ const Live2DWidget = () => {
           })
         ]);
         
-        console.log("所有依赖已加载");
-        
         // 2. 使用全局 PIXI 对象
         const PIXI = window.PIXI;
-        console.log("PIXI 版本:", PIXI.VERSION);
         
         // 3. 初始化 PIXI 应用
         app = new PIXI.Application({
@@ -61,59 +58,59 @@ const Live2DWidget = () => {
           width: 300,
           height: 300,
           autoStart: true,
-          forceCanvas: true, // 使用 Canvas 渲染
-          resolution: window.devicePixelRatio || 1
+          resolution: window.devicePixelRatio || 1,
+          antialias: true
         });
-        console.log("PIXI 应用已初始化");
-        
-        // 添加测试图形
-        const testGraphics = new PIXI.Graphics();
-        testGraphics.beginFill(0x00FF00);
-        testGraphics.drawCircle(50, 50, 30);
-        testGraphics.endFill();
-        app.stage.addChild(testGraphics);
-        console.log("测试图形已添加");
         
         // 4. 动态加载 Live2D 库
         const { Live2DModel } = await import('pixi-live2d-display');
-        console.log("pixi-live2d-display 已加载");
         
-        // 5. 加载模型
-        console.log("开始加载模型...");
-        const modelPath = 'https://cdn.jsdelivr.net/gh/guansss/pixi-live2d-display/test/assets/haru/haru_greeter_t03.model3.json';
-        model = await Live2DModel.from(modelPath);
-        console.log("模型加载成功:", model);
+        // 5. 加载模型 - 添加错误处理
+        try {
+          model = await Live2DModel.from('/live2d/models/mao_pro_zh/mao_pro.model3.json');
+        } catch (e) {
+          console.error('主模型加载失败，尝试默认模型', e);
+          model = await Live2DModel.from('https://cdn.jsdelivr.net/gh/guansss/pixi-live2d-display/test/assets/haru/haru_greeter_t03.model3.json');
+        }
         
         // 6. 添加到舞台并配置
         app.stage.addChild(model);
-        console.log("模型已添加到舞台");
-        
-        // 居中显示模型
+        model.scale.set(0.2);
         model.position.set(
-          app.screen.width / 2,
-          app.screen.height / 2
+          window.innerWidth - 200,
+          window.innerHeight - 400
         );
         
-        // 调整缩放
-        model.scale.set(1.0); // 原始大小
+        // 7. 禁用模型交互（修复 isInteractive 错误）
+        model.interactive = false;
+        model.buttonMode = false;
         
-        // 打印模型信息
-        console.log("模型可见性:", model.visible);
-        console.log("模型透明度:", model.alpha);
-        console.log("模型尺寸:", model.width, model.height);
+        // 8. 添加手动交互处理（避免 PIXI 内部错误）
+        let lastClickTime = 0;
+        canvasRef.current.addEventListener('click', (e) => {
+          const now = Date.now();
+          if (now - lastClickTime < 300) return; // 防双击
+          lastClickTime = now;
+          
+          const motions = Object.keys(model.motions);
+          if (motions.length > 0) {
+            const randomMotion = motions[Math.floor(Math.random() * motions.length)];
+            model.motion(randomMotion);
+          }
+        });
         
-        // 7. 窗口调整处理
+        // 9. 窗口调整处理
         resizeHandler = () => {
           if (model) {
             model.position.set(
-              app.screen.width / 2,
-              app.screen.height / 2
+              window.innerWidth - 200,
+              window.innerHeight - 400
             );
           }
         };
         window.addEventListener('resize', resizeHandler);
         
-        // 8. 添加模型更新循环
+        // 10. 添加模型更新循环
         app.ticker.add(() => {
           if (model) {
             model.update(app.ticker.deltaMS);
@@ -121,7 +118,6 @@ const Live2DWidget = () => {
         });
         
         setLoading(false);
-        console.log("Live2D 初始化完成");
         
       } catch (error) {
         console.error('Live2D 初始化失败:', error);
@@ -136,6 +132,10 @@ const Live2DWidget = () => {
     return () => {
       if (resizeHandler) {
         window.removeEventListener('resize', resizeHandler);
+      }
+      
+      if (canvasRef.current) {
+        canvasRef.current.removeEventListener('click', () => {});
       }
       
       if (app) {
@@ -191,7 +191,7 @@ const Live2DWidget = () => {
           height: '300px',
           zIndex: 999,
           pointerEvents: 'auto',
-          border: '1px solid red' // 添加边框以便调试
+          display: loading || error ? 'none' : 'block'
         }}
       />
     </>
