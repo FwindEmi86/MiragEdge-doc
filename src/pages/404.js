@@ -1,12 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Layout from '@theme/Layout';
 import styles from './404.module.css';
-import SearchBar from '@theme/SearchBar';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 export default function NotFound() {
-  const { siteConfig } = useDocusaurusContext();
-  const [countdown, setCountdown] = useState(5);
   
   useEffect(() => {
     // 粒子背景效果
@@ -138,26 +134,7 @@ export default function NotFound() {
     };
     
     createMinecraftBlocks();
-    
-    // 倒计时重定向
-    const timer = setInterval(() => {
-      setCountdown(prev => {
-        if (prev <= 1) {
-          clearInterval(timer);
-          window.location.href = '/';
-          return 0;
-        }
-        return prev - 1;
-      });
-    }, 1000);
-    
-    return () => clearInterval(timer);
   }, []);
-  
-  const popularLinks = [
-    { title: '网站首页', url: '/' },
-    { title: '文档开始', url: '/docs/intro' },
-  ];
 
   return (
     <Layout>
@@ -187,14 +164,10 @@ export default function NotFound() {
             <h1 className={styles.title}>页面未找到</h1>
             <p className={styles.description}>
               哎呀，看起来你访问的页面不存在或已被移除。<br />
-              <span className={styles.countdown}>{countdown}秒后自动返回首页</span>
             </p>
             
             <div className={styles.searchSection}>
-              <p className={styles.searchHint}>或者尝试搜索你需要的内容：</p>
-              <div className={styles.searchBar}>
-                <SearchBar />
-              </div>
+              <p className={styles.searchHint}>或者尝试右上角搜索你需要的内容~</p>
             </div>
             
             <div className={styles.actions}>
@@ -204,21 +177,6 @@ export default function NotFound() {
               <a href="/docs/intro" className={styles.secondaryButton}>
                 查看文档
               </a>
-            </div>
-          </div>
-          
-          <div className={styles.linksSection}>
-            <h3 className={styles.sectionTitle}>热门页面</h3>
-            <div className={styles.linksGrid}>
-              {popularLinks.map((link, index) => (
-                <a 
-                  key={index} 
-                  href={link.url} 
-                  className={styles.linkCard}
-                >
-                  {link.title}
-                </a>
-              ))}
             </div>
           </div>
         </div>
