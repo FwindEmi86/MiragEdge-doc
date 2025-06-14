@@ -238,7 +238,7 @@ export default function NotFound() {
                 <a href="/" className={styles.primaryButton}>
                   返回首页
                 </a>
-                <a href="/" className={styles.secondaryButton}>
+                <a href="/docs/intro" className={styles.secondaryButton}>
                   查看文档
                 </a>
               </div>
