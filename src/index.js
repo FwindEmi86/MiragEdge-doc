@@ -1,91 +1,16 @@
 import React, { useEffect } from 'react';
-import Layout from '@theme/Layout';
-import styles from './index.module.css';
-import clsx from 'clsx';
+
+useEffect(() => {
+  const script = document.createElement('script');
+  script.src = '/live2d/autoload.js';
+  script.async = true;
+  document.body.appendChild(script);
+  return () => {
+    document.body.removeChild(script);
+  };
+}, []);
 
 export default function Home() {
-  // 粒子背景效果（保持不变）
-  useEffect(() => {
-    const canvas = document.getElementById('particle-canvas');
-    if (!canvas) return;
-
-    const ctx = canvas.getContext('2d');
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
-
-    const particles = [];
-    const particleCount = 80;
-    const colors = ['#64ffda', '#00e5ff', '#2979ff', '#536dfe'];
-
-    class Particle {
-      constructor() {
-        this.x = Math.random() * canvas.width;
-        this.y = Math.random() * canvas.height;
-        this.size = Math.random() * 2 + 1;
-        this.speedX = Math.random() * 1 - 0.5;
-        this.speedY = Math.random() * 1 - 0.5;
-        this.color = colors[Math.floor(Math.random() * colors.length)];
-      }
-
-      update() {
-        this.x += this.speedX;
-        this.y += this.speedY;
-        if (this.x > canvas.width || this.x < 0) this.speedX *= -1;
-        if (this.y > canvas.height || this.y < 0) this.speedY *= -1;
-      }
-
-      draw() {
-        ctx.fillStyle = this.color;
-        ctx.beginPath();
-        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
-        ctx.fill();
-      }
-    }
-
-    const createParticles = () => {
-      for (let i = 0; i < particleCount; i++) {
-        particles.push(new Particle());
-      }
-    };
-
-    const animate = () => {
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-      particles.forEach((particle, i) => {
-        particle.update();
-        particle.draw();
-        particles.forEach((other, j) => {
-          if (i < j) {
-            const dx = particle.x - other.x;
-            const dy = particle.y - other.y;
-            const distance = Math.sqrt(dx * dx + dy * dy);
-            if (distance < 100) {
-              ctx.beginPath();
-              ctx.strokeStyle = particle.color;
-              ctx.lineWidth = 0.2;
-              ctx.moveTo(particle.x, particle.y);
-              ctx.lineTo(other.x, other.y);
-              ctx.stroke();
-            }
-          }
-        });
-      });
-      requestAnimationFrame(animate);
-    };
-
-    createParticles();
-    animate();
-
-    const handleResize = () => {
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
-    };
-    window.addEventListener('resize', handleResize);
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
-
   return (
     <Layout>
       <div className={styles.heroContainer}>
@@ -112,7 +37,6 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <script src="/live2d/autoload.js"></script>
       </div>
       
       <div className={clsx(styles.features, 'container')}>
@@ -159,6 +83,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <script src="/live2d/autoload.js"></script>
     </Layout>
   );
 }
