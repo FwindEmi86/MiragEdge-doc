@@ -1,10 +1,18 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import Layout from '@theme/Layout';
 import styles from './index.module.css';
 import clsx from 'clsx';
+import Live2DWidget from '../components/Live2DWidget';
 
 export default function Home() {
+  // 修复 SSR 问题 - 使用 useState + useEffect
+  const [showLive2D, setShowLive2D] = useState(false);
+  
   useEffect(() => {
+    // 检查是否在主页
+    if (window.location.pathname === '/') {
+      setShowLive2D(true);
+    }
     // 粒子背景效果
     const canvas = document.getElementById('particle-canvas');
     if (canvas) {
@@ -161,6 +169,9 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      {/* 只在主页显示 Live2D */}
+      {showLive2D && <Live2DWidget />}
     </Layout>
   );
 }

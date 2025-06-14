@@ -18,14 +18,43 @@ const config = {
     locales: ['zh-Hans'],
   },
 
-  // 插件配置 (移到 themeConfig 外部)
+  // 脚本加载配置
+  scripts: [
+    //加载 PixiJS
+    {
+      src: 'https://cdn.jsdelivr.net/npm/pixi.js@6.5.2/dist/browser/pixi.min.js',
+      defer: true,
+      id: 'pixi-script'
+    },
+    //Cubism 2
+    {
+      src: '/live2d/webgl/live2d.min.js',
+      defer: true,
+      id: 'live2d-script',
+      'data-name': 'live2d'
+    },
+    //Cubism Core
+    {
+      src: '/live2d/core/live2dcubismcore.min.js',
+      defer: true,
+      id: 'live2d-core-script',
+      'data-name': 'live2dcore'
+    },
+    //检查脚本
+    {
+      src: '/pixi-check.js',
+      defer: true
+    },
+  ],
+
+  // 插件配置
   plugins: [
     [
       "@easyops-cn/docusaurus-search-local",
       {
         indexDocs: true,
         indexBlog: false,
-        indexPages: false,
+        indexPages: true,
         language: "zh",
         searchResultLimits: 8,
       },

@@ -1,16 +1,10 @@
-import React, { useEffect } from 'react';
+import Live2DInitializer from './Live2DInitializer';
 
-export default function Root({ children }) {
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://fastly.jsdelivr.net/npm/live2d-widgets@0/autoload.js';
-    script.async = true;
-    document.body.appendChild(script);
-
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
-
-  return <>{children}</>;
+export default function Root({children}) {
+  return (
+    <>
+      <Live2DInitializer />
+      {children}
+    </>
+  );
 }

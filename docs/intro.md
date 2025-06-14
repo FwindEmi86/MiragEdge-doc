@@ -64,6 +64,7 @@ import { FaServer, FaUsers, FaShieldAlt, FaHeart } from 'react-icons/fa';
 <div className="vision-text">
   <blockquote>
     我希望这份文档能帮助你尽可能解决在服务器中游玩所可能遇到的问题！<br/>
+    擅用右上角的搜索QWQ ~ <br/>
   </blockquote>
 </div>
 
