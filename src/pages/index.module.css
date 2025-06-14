@@ -17,6 +17,17 @@ html, body {
   overflow-x: hidden;
 }
 
+/* Live2D 容器样式 */
+.live2d-container {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 300px;
+  height: 300px;
+  z-index: 1000;
+  pointer-events: auto;
+}
+
 /* 粒子画布 */
 .heroContainer {
   position: relative;
@@ -33,7 +44,7 @@ html, body {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 0;
+  z-index: 0 !important;
   background: linear-gradient(135deg, #0a192f 0%, #0d1b2a 100%);
 }
 

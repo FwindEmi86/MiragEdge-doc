@@ -5,12 +5,10 @@ import clsx from 'clsx';
 import Live2DWidget from '../components/Live2DWidget';
 
 export default function Home() {
-  // 修复 SSR 问题 - 使用 useState + useEffect
   const [showLive2D, setShowLive2D] = useState(false);
   
   useEffect(() => {
-    // 检查是否在主页
-    if (window.location.pathname === '/') {
+    if (typeof window !== 'undefined' && window.location.pathname === '/') {
       setShowLive2D(true);
     }
     // 粒子背景效果
@@ -123,6 +121,7 @@ export default function Home() {
             </a>
           </div>
         </div>
+        {showLive2D && <Live2DWidget />}
       </div>
       
       <div className={clsx(styles.features, 'container')}>
@@ -169,9 +168,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-      {/* 只在主页显示 Live2D */}
-      {showLive2D && <Live2DWidget />}
     </Layout>
   );
 }

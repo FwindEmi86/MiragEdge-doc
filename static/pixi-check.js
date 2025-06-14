@@ -23,9 +23,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   };
   
-  // 初始检查
   if (!window.PIXI) {
-    setTimeout(loadPixi, 300); // 给主脚本一点时间加载
+    setTimeout(loadPixi, 300);
   } else {
     window.dispatchEvent(new Event('pixi-loaded'));
   }
