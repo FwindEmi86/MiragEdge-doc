@@ -163,7 +163,7 @@ export default function NotFound() {
             
             <h1 className={styles.title}>页面未找到</h1>
             <p className={styles.description}>
-              哎呀，看起来你访问的页面不存在或已被移除。<br />
+              哎呀，看起来你访问的页面不存在或已被移除<br />
             </p>
             
             <div className={styles.searchSection}>
