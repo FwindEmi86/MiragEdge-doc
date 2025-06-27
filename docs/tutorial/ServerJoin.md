@@ -7,6 +7,11 @@ title: 🔗 入服方法&链接
 **最新地址与端口**  
 请前往【[**锐界幻境QQ交流群**](https://qm.qq.com/q/7oYTVQeBtS/)】群公告查看最新地址
 
+### 账号绑定
+    - 为了安全，首次进入服务器时需要将游戏账号绑定QQ，[**不会绑定？点我查看**](https://doc.miragedge.top/docs/tutorial/Whitelist/)  
+
+---
+
 ### ▍ 基岩版入服方法
 
 #### 1. 前提条件
@@ -45,8 +50,3 @@ title: 🔗 入服方法&链接
 3. 输入地址 `miragedge.top`（无需填写端口）
 4. 双击服务器列表完成连接
 5. 提示需要加载资源包，请同意，否则影响正常游玩
-
----
-
-### 账号绑定
-    - 为了安全，首次进入服务器时需要将游戏账号绑定QQ，[**不会绑定？点我查看**](https://doc.miragedge.top/docs/tutorial/Whitelist/)  
