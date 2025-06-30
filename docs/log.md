@@ -51,7 +51,7 @@ import FoodCard from '@site/src/components/FoodCard';
 
 <div className="version-card">
   <div className="version-header">
-    <h2 className="version-title">版本更新 (V.0.2.11)</h2>
+    <h2 className="version-title">版本更新 (V.0.2.12)</h2>
     <div className="version-date">2025年7月1日</div>
   </div>
   

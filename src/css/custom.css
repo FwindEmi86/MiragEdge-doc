@@ -593,11 +593,11 @@
 
 /* 暗色模式样式支持 */
 [data-theme='dark'] .image-card {
-  background: #2a2a2a;
+  background: #2a2a2ac9;
   border-color: #444;
 }
 [data-theme='dark'] .image-container {
-  background: #1e1e1e;
+  background: #1e1e1eda;
 }
 [data-theme='dark'] .image-caption {
   background: #252525;
