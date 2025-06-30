@@ -300,6 +300,7 @@
   padding: 1rem;
   margin: 1.5rem 0;
 }
+
 /* 图片卡片容器 */
 .image-card {
   display: inline-flex;
@@ -318,6 +319,20 @@
 .image-card:hover {
   transform: translateY(-3px);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+/* 暗色模式样式支持 */
+[data-theme='dark'] .image-card {
+  background: #2a2a2a;
+  border-color: #444;
+}
+[data-theme='dark'] .image-container {
+  background: #1e1e1e;
+}
+[data-theme='dark'] .image-caption {
+  background: #252525;
+  border-color: #444;
+  color: #ccc;
 }
 
 /* 响应式图片容器 */

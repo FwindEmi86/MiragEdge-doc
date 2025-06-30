@@ -134,22 +134,22 @@ import FoodCard from '@site/src/components/FoodCard';
     > 触发方式：含关键词"星玖"/"星玖姬"或直接@  
     > 功能：支持图像/文档识别，持续更新知识库  
   ▸ 关闭狐钰星翼助手的免费AI功能  
-  
+
 <div className="image-grid">
   <div className="image-card">
     <div className="image-container zoomable">
       <img 
         src="/img/server-log/xingjiurenshe.png" 
-        alt="星玖姬多模态助手界面" 
+        alt="星玖姬多模态助手人设" 
       />
     </div>
-    <div className="image-caption">星玖姬多模态助手界面</div>
+    <div className="image-caption">星玖姬多模态助手人设</div>
   </div>
   
   <div className="image-card">
     <div className="image-container zoomable">
       <img 
-        src="/img/server-log/assistant-features.png" 
+        src="/img/server-log/xingjiu-features.png" 
         alt="多模态交互功能演示" 
       />
     </div>
