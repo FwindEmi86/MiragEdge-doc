@@ -3,13 +3,15 @@ slug: /docs/log
 title: 更新日志
 ---
 
-## 🏕️ 锐界幻境更新日志
+import FoodCard from '@site/src/components/FoodCard';
 
-<div class="log-header">
+<div className="food-header">
 
-**📌 文档维护声明**  
-本日志由 [**FwindEmi^狐风轩汐**](https://space.bilibili.com/359174372?spm_id_from=333.1007.0.0) 维护更新  
-*最后修订时间：2025年6月*
+# 🍳 **🏕️ 锐界幻境更新日志**  
+**✨ 所有历史更新内容记录**  
+在本日志中您可以查询到所有历史更新内容  
+📌本日志由 [**FwindEmi^狐风轩汐**](https://space.bilibili.com/359174372) 维护更新  
+*最后修订时间：2025年7月*  
 
 </div>
 
@@ -46,6 +48,49 @@ title: 更新日志
 
 </div>
 
+```html
+<!--
+
+{/* 单张图片示例 */}
+
+<div className="image-card">
+  <img src="/img/server-log/gerenxinxikapian.png" alt="个人信息卡片" />
+  <div className="image-caption">个人信息卡片 - 全新配色设计</div>
+</div>
+
+{/* 多张图片网格布局 */}
+
+<div className="image-grid">
+
+  {/* 卡片1 */}
+  <div className="image-card">
+    <img 
+      src="/img/server-log/xingjiurenshe.png" 
+      alt="星玖姬多模态助手" 
+    />
+    <div className="image-caption">星玖姬多模态助手界面</div>
+  </div>
+  
+  {/* 卡片2 */}
+  <div className="image-card">
+    <img 
+      src="/img/server-log/system-update.png" 
+      alt="经济系统更新" 
+    />
+    <div className="image-caption">新货币：灵叶与星痕石</div>
+  </div>
+</div>
+
+-->
+```
+---
+
+## **版本更新 (V.0.2.12)**
+
+### 游戏 **优化更新** - 2025年7月1日  
+- **其他优化**
+  ▸ 取消Java菜单隐藏物品栏功能  
+
 ---
 
 ## **版本更新 (V.0.2.11)**
@@ -76,14 +121,6 @@ title: 更新日志
 
 ---
 
-### **已知问题说明**  
-⚠️ **资源包兼容性**  
-Java 1.21.6正式版资源包加载异常问题仍在排查中，临时解决方案：  
-▸ 使用 Java 1.21.5 或 1.20.x 版本  
-▸ 等待后续热修复更新  
-
----
-
 ## **版本更新 (V.0.2.10)**
 
 ### 游戏 **优化更新** - 2025年6月29日  
@@ -107,8 +144,10 @@ Java 1.21.6正式版资源包加载异常问题仍在排查中，临时解决方
   ▸ 更新群聊个人信息卡片配色（贴合锐界幻境主题）  
   ▸ 添加开启菜单时的烟花特效  
 
-![个人信息卡片](/img/server-log/gerenxinxikapian.png "个人信息卡片")  
-*个人信息卡片*
+<div className="image-card">
+  <img src="/img/server-log/gerenxinxikapian.png" alt="个人信息卡片" />
+  <div className="image-caption">个人信息卡片 - 全新配色设计</div>
+</div>
 
 #### **内容调整**  
 - **神秘道具**  
@@ -121,8 +160,24 @@ Java 1.21.6正式版资源包加载异常问题仍在排查中，临时解决方
     > 功能：支持图像/文档识别，持续更新知识库  
   ▸ 关闭狐钰星翼助手的免费AI功能  
 
-![星玖姬](/img/server-log/xingjiurenshe.png "星玖姬")  
-*星玖姬*
+<div className="image-grid">
+
+  <div className="image-card">
+    <img 
+      src="/img/server-log/xingjiurenshe.png" 
+      alt="星玖姬多模态助手" 
+    />
+    <div className="image-caption">星玖姬多模态助手</div>
+  </div>
+  
+  <div className="image-card">
+    <img 
+      src="/img/server-log/xingjiu-features.png" 
+      alt="助手功能展示" 
+    />
+    <div className="image-caption">多模态交互功能演示</div>
+  </div>
+</div>
 
 ---
 
