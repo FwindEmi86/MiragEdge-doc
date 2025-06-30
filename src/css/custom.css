@@ -460,42 +460,45 @@
 }
 
 /* 更新类型定义表格 */
+
 .log-definition {
-  border-collapse: collapse;
-  width: 100%;
-  box-shadow: var(--card-shadow);
-  text-align: center;
-  border-radius: 16px;
-  overflow: hidden;
-  margin: 2.5rem 0;
-  background: var(--bg-secondary);
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 16px;
+    overflow: hidden;
+    background: var(--bg-secondary);
+    box-shadow: var(--card-shadow);
+    table-layout: fixed; /* 关键修复：固定表格布局 */
 }
-
-.log-definition th {
-  background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-color) 100%);
-  color: white;
-  padding: 16px;
-  font-size: 1.2rem;
-  font-weight: 600;
-}
-
+        
+.log-definition th, 
 .log-definition td {
-  padding: 14px;
-  border-bottom: 1px solid var(--border-color);
-  color: var(--text-secondary);
-  font-size: 1.05rem;
+    padding: 16px;
+    text-align: center;
+    border: 1px solid var(--border-color);
+    word-wrap: break-word;
 }
-
+        
+.log-definition th {
+    background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-color) 100%);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 18px;
+}
+        
 .type-quality {
-  color: #38a169;
-  font-weight: 700;
+    color: var(--success-color);
+    font-weight: 700;
+    font-size: 1.1rem;
 }
-
+        
 .type-optimize {
-  color: #4299e1;
-  font-weight: 700;
+    color: var(--info-color);
+     font-weight: 700;
+     font-size: 1.1rem;
 }
-
+        
 /* 提示框样式 */
 .update-tips {
   background: rgba(74, 108, 247, 0.15);
