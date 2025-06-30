@@ -265,7 +265,7 @@
    日志页面
    ===================== */
 
-/* 日志头部样式 */
+/* 日志头部样式
 .log-definition {
   border-collapse: collapse;
   width: 100%;
@@ -301,6 +301,276 @@
   margin: 1.5rem 0;
 }
 
+/* 图片卡片容器
+.image-card {
+  display: inline-flex;
+  flex-direction: column;
+  margin: 16px 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border: 1px solid #eaeaea;
+  background: white;
+  transition: all 0.3s ease;
+  max-width: 100%;
+  position: relative;
+}
+
+.image-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+*/
+
+/* 暗色模式样式支持
+[data-theme='dark'] .image-card {
+  background: #2a2a2a;
+  border-color: #444;
+}
+[data-theme='dark'] .image-container {
+  background: #1e1e1e;
+}
+[data-theme='dark'] .image-caption {
+  background: #252525;
+  border-color: #444;
+  color: #ccc;
+} 
+*/
+
+/* 响应式图片容器
+.image-container {
+  position: relative;
+  overflow: hidden;
+  background: #f8f8f8;
+  min-height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+*/
+
+/* 自适应图片
+.image-container img {
+  display: block;
+  max-width: 100%;
+  max-height: 300px;
+  object-fit: contain;
+  padding: 12px;
+}
+*/
+
+/* 图片标题
+.image-caption {
+  text-align: center;
+  padding: 10px 15px;
+  font-size: 14px;
+  color: #5a5a5a;
+  background: #f9f9f9;
+  border-top: 1px solid #eee;
+  font-weight: 500;
+}
+*/
+
+/* 图片网格布局
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  margin: 24px 0;
+}
+*/
+
+/* 单图居中容器
+.image-center {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+*/
+
+/* 小图放大效果
+.image-container.zoomable {
+  cursor: zoom-in;
+}
+.image-container.zoomable:hover img {
+  transform: scale(1.05);
+}
+.image-container.zoomable img {
+  transition: transform 0.3s ease;
+}
+*/
+
+/* 移动端优化
+@media (max-width: 768px) {
+  .image-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .image-card {
+    margin: 12px 0;
+  }
+}
+
+*/
+
+
+/* =====================
+   日志页面 - 优化版
+   ===================== */
+
+/* 更新类型定义表格 */
+.log-definition {
+  border-collapse: collapse;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  text-align: center;
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 2rem 0;
+}
+
+.log-definition th {
+  background: linear-gradient(135deg, var(--ifm-color-primary) 0%, var(--ifm-color-primary-dark) 100%);
+  color: white;
+  padding: 14px;
+  font-size: 1.1rem;
+}
+
+.log-definition td {
+  padding: 12px;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.type-quality {
+  color: var(--ifm-color-success);
+  font-weight: 700;
+}
+
+.type-optimize {
+  color: var(--ifm-color-info);
+  font-weight: 700;
+}
+
+/* 提示框样式 */
+.update-tips {
+  background: rgba(var(--ifm-color-primary-rgb), 0.06);
+  border-left: 4px solid var(--ifm-color-primary);
+  padding: 1.2rem;
+  margin: 2rem 0;
+  border-radius: 0 8px 8px 0;
+}
+
+/* 版本卡片样式 */
+.version-card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+  margin-bottom: 3rem;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(var(--ifm-color-primary-rgb), 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.version-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+.version-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6px;
+  height: 100%;
+  background: linear-gradient(to bottom, var(--ifm-color-primary), var(--ifm-color-primary-dark));
+}
+
+.version-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid rgba(var(--ifm-color-primary-rgb), 0.1);
+}
+
+.version-title {
+  font-size: 1.8rem;
+  margin: 0;
+  color: var(--ifm-color-primary-darkest);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.version-title::before {
+  content: "🔹";
+  color: var(--ifm-color-primary);
+}
+
+.version-date {
+  background: rgba(var(--ifm-color-primary-rgb), 0.1);
+  color: var(--ifm-color-primary-dark);
+  border-radius: 20px;
+  padding: 6px 16px;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+/* 更新内容样式 */
+.update-section {
+  margin-bottom: 1.8rem;
+}
+
+.section-title {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: var(--ifm-color-primary-dark);
+  display: flex;
+  align-items: center;
+}
+
+.section-title::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--ifm-color-primary);
+  margin-right: 10px;
+}
+
+.update-item {
+  margin: 0.8rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+  line-height: 1.6;
+}
+
+.update-item::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: var(--ifm-color-primary);
+  font-weight: bold;
+}
+
+.update-subitem {
+  margin: 0.5rem 0;
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+.update-subitem::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--ifm-color-primary-light);
+}
+
 /* 图片卡片容器 */
 .image-card {
   display: inline-flex;
@@ -333,6 +603,16 @@
   background: #252525;
   border-color: #444;
   color: #ccc;
+}
+[data-theme='dark'] .version-card {
+  background: #1e1e1e;
+  border-color: #333;
+}
+[data-theme='dark'] .version-title {
+  color: var(--ifm-color-primary-lightest);
+}
+[data-theme='dark'] .log-definition th {
+  background: linear-gradient(135deg, var(--ifm-color-primary-dark) 0%, var(--ifm-color-primary-darker) 100%);
 }
 
 /* 响应式图片容器 */
@@ -401,7 +681,28 @@
   .image-card {
     margin: 12px 0;
   }
+  .version-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .version-title {
+    font-size: 1.5rem;
+  }
+  .food-header {
+    padding: 1.5rem;
+  }
 }
+
+/* 分隔线样式 */
+.version-divider {
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--ifm-color-primary-light), transparent);
+  margin: 2rem 0;
+  border: none;
+}
+
+
 
 /* =====================
    食物页面头部

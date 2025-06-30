@@ -47,113 +47,186 @@ import FoodCard from '@site/src/components/FoodCard';
 
 </div>
 
----
+<hr className="version-divider" />
 
-## **版本更新 (V.0.2.12)**
-
-### 游戏 **优化更新** - 2025年7月1日  
-- **其他优化**
-  ▸ 取消Java菜单隐藏物品栏功能  
-
-### 网页 **优化更新** - 2025年7月1日  
-
-- 为日志页面优化图片展示样式、美化顶部信息展示
-
----
-
-## **版本更新 (V.0.2.11)**
-
-### 游戏 **优化更新** - 2025年6月30日  
-#### **核心机制优化**  
-- **死亡系统**  
-  ▸ 为所有世界启用立即重生规则  
-  ▸ 解决死亡后延迟重生导致的物品丢失问题  
-
-- **耕作系统调整**  
-  ▸ 新增地狱疣连锁采集功能（使用锄头触发）  
-  ▸ 移除作物连续下蹲催熟功能（平衡性调整）  
-
-#### **兼容性与稳定性**  
-- **协议支持扩展**  
-  ▸ 修复高版本协议异常问题  
-  ▸ 支持版本范围：  
-    - Java版：1.18 → 1.21.6  
-    - 基岩版：1.21.50 → 1.21.92  
-  ▸ *注意：Java 1.21.6资源包加载异常暂未解决，建议更换版本*  
-
-- **其他优化**  
-  ▸ 修复全服数据包过载导致的踢出问题  
-  ▸ 优化反作弊系统，减少误判踢出  
-  ▸ 降低方块交互/数据包异常的误判率  
-  ▸ 允许投影等模组的快速放置功能  
-
----
-
-## **版本更新 (V.0.2.10)**
-
-### 游戏 **优化更新** - 2025年6月29日  
-#### **BUG修复**  
-- 修复菜单钟表物品吞物品BUG  
-  ▸ 解决物品快捷栏第一格为空时强制替换最后一格物品的问题  
-- 修复离线变量系统的经济数据异常  
-  ▸ 解决 `Data too long for column 'vault'` 错误  
-- 修复在线奖励数据异步操作造成的堵塞  
-- 修复赞助系统支付账户问题  
-
-#### **功能优化**  
-- **菜单系统**  
-  ▸ 添加物品给予失败的文字提醒  
-  ▸ 修改菜单名和Lore为静态显示  
-  ▸ 优化Java菜单性能（解决首次打开卡顿）  
-  ▸ 删除鱼店菜单多余字符 `&`  
-- **奖励系统**  
-  ▸ 在线时间奖励提醒间隔改为30分钟（原3分钟）  
-- **视觉效果**  
-  ▸ 更新群聊个人信息卡片配色（贴合锐界幻境主题）  
-  ▸ 添加开启菜单时的烟花特效  
-
-<div className="image-center">
-  <div className="image-card">
-    <div className="image-container zoomable">
-      <img 
-        src="/img/server-log/gerenxinxikapian.png" 
-        alt="个人信息卡片 - 全新幻境主题配色" 
-      />
-    </div>
-    <div className="image-caption">个人信息卡片 - 全新幻境主题配色</div>
+<div className="version-card">
+  <div className="version-header">
+    <h2 className="version-title">版本更新 (V.0.2.12)</h2>
+    <div className="version-date">2025年7月1日</div>
+  </div>
+  
+  <div className="update-section">
+    <h3 className="section-title">游戏优化更新</h3>
+    <ul style={{listStyleType: 'none', paddingLeft: 0}}>
+      <li className="update-item">
+        <strong>其他优化</strong>
+        <div className="update-subitem">▸ 取消Java菜单隐藏物品栏功能</div>
+      </li>
+    </ul>
+  </div>
+  
+  <div className="update-section">
+    <h3 className="section-title">网页优化更新</h3>
+    <ul style={{listStyleType: 'none', paddingLeft: 0}}>
+      <li className="update-item">为日志页面优化图片展示样式、美化顶部信息展示</li>
+    </ul>
   </div>
 </div>
 
-#### **内容调整**  
-- **神秘道具**  
-  ▸ 删除牛仔超能力道具（与骑乘功能重复）  
-  ▸ 删除传送师道具（存在随机传送风险）  
-  ▸ 汉化三个变形生物及道具提示文本  
-- **群聊系统**  
-  ▸ 正式推出 **星玖姬多模态助手**  
-    > 触发方式：含关键词"星玖"/"星玖姬"或直接@  
-    > 功能：支持图像/文档识别，持续更新知识库  
-  ▸ 关闭狐钰星翼助手的免费AI功能  
+<hr className="version-divider" />
 
-<div className="image-grid">
-  <div className="image-card">
-    <div className="image-container zoomable">
-      <img 
-        src="/img/server-log/xingjiurenshe.png" 
-        alt="星玖姬多模态助手人设" 
-      />
-    </div>
-    <div className="image-caption">星玖姬多模态助手人设</div>
+<div className="version-card">
+  <div className="version-header">
+    <h2 className="version-title">版本更新 (V.0.2.11)</h2>
+    <div className="version-date">2025年6月30日</div>
   </div>
   
-  <div className="image-card">
-    <div className="image-container zoomable">
-      <img 
-        src="/img/server-log/xingjiu-features.png" 
-        alt="多模态交互功能演示" 
-      />
+  <div className="update-section">
+    <h3 className="section-title">游戏优化更新</h3>
+    
+    <div className="update-section">
+      <h4 className="section-title">核心机制优化</h4>
+      
+      <div className="update-item">
+        <strong>死亡系统</strong>
+        <div className="update-subitem">▸ 为所有世界启用立即重生规则</div>
+        <div className="update-subitem">▸ 解决死亡后延迟重生导致的物品丢失问题</div>
+      </div>
+      
+      <div className="update-item">
+        <strong>耕作系统调整</strong>
+        <div className="update-subitem">▸ 新增地狱疣连锁采集功能（使用锄头触发）</div>
+        <div className="update-subitem">▸ 移除作物连续下蹲催熟功能（平衡性调整）</div>
+      </div>
     </div>
-    <div className="image-caption">多模态交互功能演示</div>
+    
+    <div className="update-section">
+      <h4 className="section-title">兼容性与稳定性</h4>
+      
+      <div className="update-item">
+        <strong>协议支持扩展</strong>
+        <div className="update-subitem">▸ 修复高版本协议异常问题</div>
+        <div className="update-subitem">▸ 支持版本范围：</div>
+        <div className="update-subitem" style={{paddingLeft: '2rem'}}>
+          - Java版：1.18 → 1.21.6<br />
+          - 基岩版：1.21.50 → 1.21.92
+        </div>
+        <div className="update-subitem">▸ <em>注意：Java 1.21.6资源包加载异常暂未解决，建议更换版本</em></div>
+      </div>
+      
+      <div className="update-item">
+        <strong>其他优化</strong>
+        <div className="update-subitem">▸ 修复全服数据包过载导致的踢出问题</div>
+        <div className="update-subitem">▸ 优化反作弊系统，减少误判踢出</div>
+        <div className="update-subitem">▸ 降低方块交互/数据包异常的误判率</div>
+        <div className="update-subitem">▸ 允许投影等模组的快速放置功能</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr className="version-divider" />
+
+<div className="version-card">
+  <div className="version-header">
+    <h2 className="version-title">版本更新 (V.0.2.10)</h2>
+    <div className="version-date">2025年6月29日</div>
+  </div>
+  
+  <div className="update-section">
+    <h3 className="section-title">游戏优化更新</h3>
+    
+    <div className="update-section">
+      <h4 className="section-title">BUG修复</h4>
+      <ul style={{listStyleType: 'none', paddingLeft: 0}}>
+        <li className="update-item">修复菜单钟表物品吞物品BUG</li>
+        <div className="update-subitem">▸ 解决物品快捷栏第一格为空时强制替换最后一格物品的问题</div>
+        
+        <li className="update-item">修复离线变量系统的经济数据异常</li>
+        <div className="update-subitem">▸ 解决 `Data too long for column 'vault'` 错误</div>
+        
+        <li className="update-item">修复在线奖励数据异步操作造成的堵塞</li>
+        <li className="update-item">修复赞助系统支付账户问题</li>
+      </ul>
+    </div>
+    
+    <div className="update-section">
+      <h4 className="section-title">功能优化</h4>
+      
+      <div className="update-item">
+        <strong>菜单系统</strong>
+        <div className="update-subitem">▸ 添加物品给予失败的文字提醒</div>
+        <div className="update-subitem">▸ 修改菜单名和Lore为静态显示</div>
+        <div className="update-subitem">▸ 优化Java菜单性能（解决首次打开卡顿）</div>
+        <div className="update-subitem">▸ 删除鱼店菜单多余字符 `&`</div>
+      </div>
+      
+      <div className="update-item">
+        <strong>奖励系统</strong>
+        <div className="update-subitem">▸ 在线时间奖励提醒间隔改为30分钟（原3分钟）</div>
+      </div>
+      
+      <div className="update-item">
+        <strong>视觉效果</strong>
+        <div className="update-subitem">▸ 更新群聊个人信息卡片配色（贴合锐界幻境主题）</div>
+        <div className="update-subitem">▸ 添加开启菜单时的烟花特效</div>
+        
+        <div className="image-center">
+          <div className="image-card">
+            <div className="image-container zoomable">
+              <img 
+                src="/img/server-log/gerenxinxikapian.png" 
+                alt="个人信息卡片 - 全新幻境主题配色" 
+              />
+            </div>
+            <div className="image-caption">个人信息卡片 - 全新幻境主题配色</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div className="update-section">
+      <h4 className="section-title">内容调整</h4>
+      
+      <div className="update-item">
+        <strong>神秘道具</strong>
+        <div className="update-subitem">▸ 删除牛仔超能力道具（与骑乘功能重复）</div>
+        <div className="update-subitem">▸ 删除传送师道具（存在随机传送风险）</div>
+        <div className="update-subitem">▸ 汉化三个变形生物及道具提示文本</div>
+      </div>
+      
+      <div className="update-item">
+        <strong>群聊系统</strong>
+        <div className="update-subitem">▸ 正式推出 <strong>星玖姬多模态助手</strong></div>
+        <div className="update-subitem" style={{paddingLeft: '2rem'}}>
+          &gt; 触发方式：含关键词"星玖"/"星玖姬"或直接@<br />
+          &gt; 功能：支持图像/文档识别，持续更新知识库
+        </div>
+        <div className="update-subitem">▸ 关闭狐钰星翼助手的免费AI功能</div>
+        
+        <div className="image-grid">
+          <div className="image-card">
+            <div className="image-container zoomable">
+              <img 
+                src="/img/server-log/xingjiurenshe.png" 
+                alt="星玖姬多模态助手人设" 
+              />
+            </div>
+            <div className="image-caption">星玖姬多模态助手人设</div>
+          </div>
+          
+          <div className="image-card">
+            <div className="image-container zoomable">
+              <img 
+                src="/img/server-log/xingjiu-features.png" 
+                alt="多模态交互功能演示" 
+              />
+            </div>
+            <div className="image-caption">多模态交互功能演示</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
