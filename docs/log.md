@@ -57,19 +57,15 @@ import FoodCard from '@site/src/components/FoodCard';
   
   <div className="update-section">
     <h3 className="section-title">游戏优化更新</h3>
-    <ul style={{listStyleType: 'none', paddingLeft: 0}}>
-      <li className="update-item">
-        <strong>其他优化</strong>
-        <div className="update-subitem">▸ 取消Java菜单隐藏物品栏功能</div>
-      </li>
-    </ul>
+    <div className="update-item">
+      <strong>其他优化</strong>
+      <div className="update-subitem">▸ 取消Java菜单隐藏物品栏功能</div>
+    </div>
   </div>
   
   <div className="update-section">
     <h3 className="section-title">网页优化更新</h3>
-    <ul style={{listStyleType: 'none', paddingLeft: 0}}>
-      <li className="update-item">为日志页面优化图片展示样式、美化顶部信息展示</li>
-    </ul>
+    <div className="update-item">为日志页面优化图片展示样式、美化顶部信息展示</div>
   </div>
 </div>
 
@@ -107,7 +103,7 @@ import FoodCard from '@site/src/components/FoodCard';
         <strong>协议支持扩展</strong>
         <div className="update-subitem">▸ 修复高版本协议异常问题</div>
         <div className="update-subitem">▸ 支持版本范围：</div>
-        <div className="update-subitem" style={{paddingLeft: '2rem'}}>
+        <div className="update-subitem" style={{paddingLeft: '2.5rem'}}>
           - Java版：1.18 → 1.21.6<br />
           - 基岩版：1.21.50 → 1.21.92
         </div>
@@ -138,16 +134,14 @@ import FoodCard from '@site/src/components/FoodCard';
     
     <div className="update-section">
       <h4 className="section-title">BUG修复</h4>
-      <ul style={{listStyleType: 'none', paddingLeft: 0}}>
-        <li className="update-item">修复菜单钟表物品吞物品BUG</li>
-        <div className="update-subitem">▸ 解决物品快捷栏第一格为空时强制替换最后一格物品的问题</div>
-        
-        <li className="update-item">修复离线变量系统的经济数据异常</li>
-        <div className="update-subitem">▸ 解决 `Data too long for column 'vault'` 错误</div>
-        
-        <li className="update-item">修复在线奖励数据异步操作造成的堵塞</li>
-        <li className="update-item">修复赞助系统支付账户问题</li>
-      </ul>
+      <div className="update-item">修复菜单钟表物品吞物品BUG</div>
+      <div className="update-subitem">▸ 解决物品快捷栏第一格为空时强制替换最后一格物品的问题</div>
+      
+      <div className="update-item">修复离线变量系统的经济数据异常</div>
+      <div className="update-subitem">▸ 解决 <code>Data too long for column 'vault'</code> 错误</div>
+      
+      <div className="update-item">修复在线奖励数据异步操作造成的堵塞</div>
+      <div className="update-item">修复赞助系统支付账户问题</div>
     </div>
     
     <div className="update-section">
@@ -158,7 +152,7 @@ import FoodCard from '@site/src/components/FoodCard';
         <div className="update-subitem">▸ 添加物品给予失败的文字提醒</div>
         <div className="update-subitem">▸ 修改菜单名和Lore为静态显示</div>
         <div className="update-subitem">▸ 优化Java菜单性能（解决首次打开卡顿）</div>
-        <div className="update-subitem">▸ 删除鱼店菜单多余字符 `&`</div>
+        <div className="update-subitem">▸ 删除鱼店菜单多余字符 <code>&</code></div>
       </div>
       
       <div className="update-item">
@@ -198,7 +192,7 @@ import FoodCard from '@site/src/components/FoodCard';
       <div className="update-item">
         <strong>群聊系统</strong>
         <div className="update-subitem">▸ 正式推出 <strong>星玖姬多模态助手</strong></div>
-        <div className="update-subitem" style={{paddingLeft: '2rem'}}>
+        <div className="update-subitem" style={{paddingLeft: '2.5rem'}}>
           &gt; 触发方式：含关键词"星玖"/"星玖姬"或直接@<br />
           &gt; 功能：支持图像/文档识别，持续更新知识库
         </div>
@@ -209,10 +203,10 @@ import FoodCard from '@site/src/components/FoodCard';
             <div className="image-container zoomable">
               <img 
                 src="/img/server-log/xingjiurenshe.png" 
-                alt="星玖姬多模态助手人设" 
+                alt="星玖姬多模态助手" 
               />
             </div>
-            <div className="image-caption">星玖姬多模态助手人设</div>
+            <div className="image-caption">星玖姬多模态助手</div>
           </div>
           
           <div className="image-card">
@@ -227,6 +221,42 @@ import FoodCard from '@site/src/components/FoodCard';
         </div>
       </div>
     </div>
+  </div>
+</div>
+
+<hr className="version-divider" />
+
+<div className="version-card">
+  <div className="version-header">
+    <h2 className="version-title">版本更新 (V.0.2.8)</h2>
+    <div className="version-date">2025年6月14日</div>
+  </div>
+  
+  <div className="update-section">
+    <h3 className="section-title">网站功能更新</h3>
+    <div className="update-item">添加玩家数据统计图表功能</div>
+    <div className="update-item">优化文档搜索算法</div>
+  </div>
+</div>
+
+<hr className="version-divider" />
+
+<div className="version-card">
+  <div className="version-header">
+    <h2 className="version-title">版本更新 (V.0.2.0)</h2>
+    <div className="version-date">2025年5月13日</div>
+  </div>
+  
+  <div className="update-section">
+    <h3 className="section-title">游戏功能更新</h3>
+    <div className="update-item">新增幻境探索系统</div>
+    <div className="update-item">添加星痕石货币系统</div>
+  </div>
+  
+  <div className="update-section">
+    <h3 className="section-title">网站体验更新</h3>
+    <div className="update-item">优化移动端浏览体验</div>
+    <div className="update-item">添加暗黑模式切换功能</div>
   </div>
 </div>
 
