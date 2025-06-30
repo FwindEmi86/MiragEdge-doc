@@ -51,7 +51,7 @@ title: 更新日志
 
 <div className="version-card">
   <h2 id="v0.2.12">
-    # V.0.2.12
+    ## V.0.2.12
     <span className="version-date">2025年7月1日</span>
   </h2>
   
@@ -104,7 +104,7 @@ title: 更新日志
 
 <div className="version-card">
   <h2 id="v0.2.10">
-    # V.0.2.10
+    ## V.0.2.10
     <span className="version-date">2025年6月29日</span>
   </h2>
   
@@ -183,7 +183,7 @@ title: 更新日志
 
 <div className="version-card">
   <h2 id="v0.2.9">
-    # V.0.2.9
+    ## V.0.2.9
     <span className="version-date">2025年5月13日</span>
   </h2>
   
