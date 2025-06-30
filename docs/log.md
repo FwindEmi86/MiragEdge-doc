@@ -151,6 +151,12 @@ title: 更新日志
       - 删除传送师道具（存在随机传送风险）
       - 汉化三个变形生物及道具提示文本
     
+    - **群聊系统**
+      - 正式推出 **星玖姬多模态助手**
+        > 触发方式：含关键词"星玖"/"星玖姬"或直接@  
+        > 功能：支持图像/文档识别，持续更新知识库
+      - 关闭狐钰星翼助手的免费AI功能
+      
     <div className="image-grid">
       <div className="image-card">
         <div className="image-container">
@@ -161,13 +167,6 @@ title: 更新日志
         </div>
         <div className="image-caption">星玖姬多模态助手</div>
       </div>
-
-    - **群聊系统**
-      - 正式推出 **星玖姬多模态助手**
-        > 触发方式：含关键词"星玖"/"星玖姬"或直接@  
-        > 功能：支持图像/文档识别，持续更新知识库
-      - 关闭狐钰星翼助手的免费AI功能
-      
       <div className="image-card">
         <div className="image-container">
           <img 
@@ -178,13 +177,14 @@ title: 更新日志
         <div className="image-caption">多模态交互功能演示</div>
       </div>
     </div>
+
   </div>
 </div>
 
 <div className="version-card">
   <h2 id="v0.2.9">
     ## V.0.2.9
-    <span className="version-date">2025年5月13日</span>
+    <span className="version-date">2025年6月28日</span>
   </h2>
   
   <div className="log-content">
