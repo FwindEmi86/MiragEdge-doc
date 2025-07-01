@@ -6,7 +6,7 @@ title: 更新日志
 <div className="log-header">
 
 # **🏕️ 锐界幻境更新日志**  
-**✨ 所有历史更新内容记录**  
+**✨ 其实这个记录主要是给服主看的QWQ**  
 📌本日志由 [**FwindEmi^狐风轩汐**](https://space.bilibili.com/359174372) 维护更新  
 *最后修订时间：2025年7月*  
 
