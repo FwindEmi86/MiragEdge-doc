@@ -56,6 +56,7 @@ title: 更新日志
     ## V.0.2.12
     <span className="version-date">2025年7月1日</span>
   </h2>
+  <div className="version-card-line"> </div>
   
   <div className="log-content">
     ### 游戏优化更新
@@ -75,6 +76,7 @@ title: 更新日志
     ## V.0.2.11
     <span className="version-date">2025年6月30日</span>
   </h2>
+  <div className="version-card-line"> </div>
   
   <div className="log-content">
     ### 游戏优化更新
@@ -109,7 +111,8 @@ title: 更新日志
     ## V.0.2.10
     <span className="version-date">2025年6月29日</span>
   </h2>
-  
+  <div className="version-card-line"> </div>
+
   <div className="log-content">
     ### 游戏优化更新
     

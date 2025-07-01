@@ -375,17 +375,6 @@
   padding-bottom: 1rem;
 }
 
-/* 横线分隔 */
-.version-card h2::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background: rgba(74, 108, 247, 0.2);
-}
-
 .version-date {
   background: rgba(74, 108, 247, 0.2);
   color: var(--primary-color);
@@ -393,6 +382,17 @@
   padding: 6px 16px;
   font-weight: 700;
   font-size: 1rem;
+}
+
+/* 横线分隔 */
+.version-card-line {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: rgba(74, 108, 247, 0.2);
 }
 
 /* 内容区域样式 */
