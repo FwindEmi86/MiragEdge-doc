@@ -506,16 +506,16 @@
   margin-top: 40px;
   padding: 20px;
   border-radius: 8px;
-  background-color: #f5f5f7;
-  border: 1px solid #e0e0e5;
+  background-color: #23232c;
+  border: 1px solid #444450;
   text-align: center;
   font-size: 0.95rem;
-  color: #666;
+  color: #dfdfdf;
   line-height: 1.6;
 }
 
 .footer-note a {
-  color: #1a73e8;
+  color: #2ec2ef;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.2s ease;
