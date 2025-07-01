@@ -461,6 +461,7 @@
 
 /* 更新类型定义表格 */
 
+
 .log-definition {
     width: 100%;
     border-collapse: collapse;
@@ -468,36 +469,42 @@
     overflow: hidden;
     background: var(--bg-secondary);
     box-shadow: var(--card-shadow);
-    table-layout: fixed; /* 关键修复：固定表格布局 */
+    table-layout: fixed;
+    margin: 1.5rem 0;
 }
         
-.log-definition th, 
-.log-definition td {
-    padding: 16px;
-    text-align: center;
-    border: 1px solid var(--border-color);
-    word-wrap: break-word;
-}
+        .fixed-table {
+            table-layout: auto;
+            width: 100%;
+        }
         
-.log-definition th {
-    background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-color) 100%);
-    color: white;
-    font-size: 1.2rem;
-    font-weight: 600;
-    padding: 18px;
-}
+        .log-definition th, 
+        .log-definition td {
+            padding: 16px;
+            text-align: center;
+            border: 1px solid var(--border-color);
+            word-wrap: break-word;
+        }
         
-.type-quality {
-    color: var(--success-color);
-    font-weight: 700;
-    font-size: 1.1rem;
-}
+        .log-definition th {
+            background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-color) 100%);
+            color: white;
+            font-size: 1.2rem;
+            font-weight: 600;
+            padding: 18px;
+        }
         
-.type-optimize {
-    color: var(--info-color);
-     font-weight: 700;
-     font-size: 1.1rem;
-}
+        .type-quality {
+            color: var(--success-color);
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+        
+        .type-optimize {
+            color: var(--info-color);
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
         
 /* 提示框样式 */
 .update-tips {
@@ -651,6 +658,30 @@
     align-items: flex-start;
     gap: 12px;
   }
+}
+
+.footer-note {
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f5f5f7;
+  border: 1px solid #e0e0e5;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+.footer-note a {
+  color: #1a73e8;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.footer-note a:hover {
+  color: #0d5dba;
+  text-decoration: underline;
 }
 
 /* =====================
