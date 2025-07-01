@@ -12,7 +12,7 @@ title: 更新日志
 
 </div>
 
-### 📚 更新类型定义
+## 📚 更新类型定义
 
 <div class="table-container">
   <table className="log-definition">
@@ -40,7 +40,7 @@ title: 更新日志
 
 <div class="update-tips">
 
-💡 **版本标识规范**  
+## 💡 **版本标识规范**  
 - 主版本 `V.1.0.0`：架构级更新  
 - 次版本 `V.1.1.0`：功能级更新  
 - 修订号 `V.1.1.1`：优化/修复更新
