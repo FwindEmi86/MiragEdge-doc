@@ -459,52 +459,43 @@
   text-decoration: underline;
 }
 
-/* 更新类型定义表格 */
-
-
-.log-definition {
-    width: 100%;
-    border-collapse: collapse;
-    border-radius: 16px;
-    overflow: hidden;
-    background: var(--bg-secondary);
-    box-shadow: var(--card-shadow);
-    table-layout: fixed;
-    margin: 1.5rem 0;
+/* 表格容器 */
+.table-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 0;
 }
-        
-        .fixed-table {
-            table-layout: auto;
-            width: 100%;
-        }
-        
-        .log-definition th, 
-        .log-definition td {
-            padding: 16px;
-            text-align: center;
-            border: 1px solid var(--border-color);
-            word-wrap: break-word;
-        }
-        
-        .log-definition th {
-            background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-color) 100%);
-            color: white;
-            font-size: 1.2rem;
-            font-weight: 600;
-            padding: 18px;
-        }
-        
-        .type-quality {
-            color: var(--success-color);
-            font-weight: 700;
-            font-size: 1.1rem;
-        }
-        
-        .type-optimize {
-            color: var(--info-color);
-            font-weight: 700;
-            font-size: 1.1rem;
-        }
+
+/* 表格样式 */
+.log-definition {
+  border-collapse: collapse;
+  width: auto; /* 自适应宽度 */
+  margin: 0 auto; /* 水平居中 */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.log-definition th {
+  background-color: var(--ifm-color-primary);
+  color: rgb(255, 255, 255);
+  padding: 12px;
+}
+
+.log-definition td {
+  padding: 10px;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.type-quality {
+  color: var(--ifm-color-success);
+  font-weight: 600;
+}
+
+.type-optimize {
+  color: var(--ifm-color-info);
+  font-weight: 600;
+}
         
 /* 提示框样式 */
 .update-tips {
@@ -682,6 +673,17 @@
 .footer-note a:hover {
   color: #0d5dba;
   text-decoration: underline;
+}
+
+/* =====================
+   食物页面头部
+   ===================== */
+  .food-header {
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(135deg, #a9b3d6 0%, #88ade0 100%);
+    border-radius: 12px;
+    margin-bottom: 2rem;
 }
 
 /* =====================

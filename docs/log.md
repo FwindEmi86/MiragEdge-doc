@@ -14,27 +14,29 @@ title: 更新日志
 
 ### 📚 更新类型定义
 
-<table className="log-definition">
-  <thead>
-    <tr>
-      <th width="15%">类型</th>
-      <th width="40%">游戏更新范畴</th>
-      <th width="40%">网站更新范畴</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td className="type-quality">质量更新</td>
-      <td>新增玩法/系统、内容删减、功能重构</td>
-      <td>文档结构调整、核心内容更新</td>
-    </tr>
-    <tr>
-      <td className="type-optimize">优化更新</td>
-      <td>BUG修复、性能优化、机制调整</td>
-      <td>界面样式优化、交互体验改进</td>
-    </tr>
-  </tbody>
-</table>
+<div class="table-container">
+  <table className="log-definition">
+    <thead>
+      <tr>
+        <th width="15%">类型</th>
+        <th width="40%">游戏更新范畴</th>
+        <th width="40%">网站更新范畴</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td className="type-quality">质量更新</td>
+        <td>新增玩法/系统、内容删减、功能重构</td>
+        <td>文档结构调整、核心内容更新</td>
+      </tr>
+      <tr>
+        <td className="type-optimize">优化更新</td>
+        <td>BUG修复、性能优化、机制调整</td>
+        <td>界面样式优化、交互体验改进</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <div class="update-tips">
 
