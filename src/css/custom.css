@@ -370,22 +370,33 @@
   margin-top: 0;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end; /* 底部对齐 */
   padding-bottom: 1rem;
-  /* 移除h2的底部边框 */
+  position: relative;
+  /* 移除默认底部边框 */
   border-bottom: none;
+}
+
+/* 添加在h2底部的横线 - 只出现在日期下方 */
+.version-card h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: calc(100% - 40%); /* 只占用右侧40%宽度 */
+  height: 2px;
+  background: rgba(74, 108, 247, 0.2);
 }
 
 .version-date {
   background: rgba(74, 108, 247, 0.2);
   color: var(--primary-color);
   border-radius: 24px;
-  padding: 6px 16px 8px; /* 增加底部内边距 */
+  padding: 6px 16px;
   font-weight: 700;
   font-size: 1rem;
   position: relative;
-  /* 添加底部边框 */
-  border-bottom: 2px solid rgba(74, 108, 247, 0.2);
+  z-index: 2; /* 确保日期在横线上方 */
 }
 
 /* 内容区域样式 */
