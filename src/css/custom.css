@@ -526,8 +526,6 @@
   font-size: 1.8rem;
   color: var(--text-primary);
   margin-top: 0;
-  padding-bottom: 1rem;
-  border-bottom: 2px solid rgba(74, 108, 247, 0.2);
   display: flex;
   justify-content: space-between;
   align-items: center;
