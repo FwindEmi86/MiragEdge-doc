@@ -52,6 +52,39 @@ title: 更新日志
 ## 最新更新
 
 <div className="version-card">
+  <h2 id="v0.3.0">
+    ## V.0.3.0
+    <span className="version-date">2025年7月6日</span>
+  </h2>
+  <div className="version-card-line"> </div>
+  
+  <div className="log-content">
+    ### 游戏质量更新
+    - **任务系统加入**
+      - 添加每日挑战任务
+        · 共55个任务  
+        · 每天抽取6个随机难度任务  
+        · 可以赚取少量的灵叶或物品奖励  
+        · 当日全部完成可获得5000灵叶  
+      - 加入委托任务系统
+        · 只是加入还没实装功能
+
+    <div className="image-center">
+      <div className="image-card">
+        <div className="image-container">
+          <img 
+            src="/img/server-log/meirirenwutiaozhan.png" 
+            alt="每日任务挑战 - 来赚点外快？" 
+          />
+        </div>
+        <div className="image-caption">每日任务挑战 - 来赚点外快？</div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<div className="version-card">
   <h2 id="v0.2.12">
     ## V.0.2.12
     <span className="version-date">2025年7月1日</span>
