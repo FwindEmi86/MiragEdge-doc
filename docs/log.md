@@ -87,6 +87,19 @@ title: 更新日志
     - 基岩版菜单添加在线系统商店（可以不去主城买东西了awa）  
     - 修改基岩版菜单文字配色为 &9靛蓝+&1深蓝（更好看了）  
     - 修改广告牌显示的货币为灵叶  
+    - 其他细节优化...  
+    
+    <div className="image-center">
+      <div className="image-card">
+        <div className="image-container">
+          <img 
+            src="/img/server-log/befrom.png" 
+            alt="基岩版表单 - 更好的文字配色" 
+          />
+        </div>
+        <div className="image-caption">基岩版表单 - 更好的文字配色</div>
+      </div>
+    </div>
     
   </div>
 </div>
