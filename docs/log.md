@@ -4,52 +4,49 @@ title: 更新日志
 ---
 
 <div className="log-header">
-
 # **🏕️ 锐界幻境更新日志**  
 **✨ 其实这个记录主要是给服主看的QWQ**  
 📌本日志由 [**FwindEmi^狐风轩汐**](https://space.bilibili.com/359174372) 维护更新  
 *最后修订时间：2025年7月*  
-
 </div>
-
-## 📚 更新类型定义
-
-<div class="table-container">
-  <table className="log-definition">
-    <thead>
-      <tr>
-        <th width="15%">类型</th>
-        <th width="40%">游戏更新范畴</th>
-        <th width="40%">网站更新范畴</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td className="type-quality">质量更新</td>
-        <td>新增玩法/系统、内容删减、功能重构</td>
-        <td>文档结构调整、核心内容更新</td>
-      </tr>
-      <tr>
-        <td className="type-optimize">优化更新</td>
-        <td>BUG修复、性能优化、机制调整</td>
-        <td>界面样式优化、交互体验改进</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
 <div class="update-tips">
-
 ## 💡 **版本标识规范**  
-- 主版本 `V.1.0.0`：架构级更新  
-- 次版本 `V.1.1.0`：功能级更新  
-- 修订号 `V.1.1.1`：优化/修复更新
-
+- 主版本 `V.1.0.0`：体系总架构更新  
+- 次版本 `V.1.1.0`：主题内容更新  
+- 修订号 `V.1.1.1`：主题内优化修复更新  
 </div>
 
 ---
 
 ## 最新更新
+
+<div className="version-card">
+  <h2 id="v0.3.1">
+    ## V.0.3.1
+    <span className="version-date">2025年7月9日</span>
+  </h2>
+  <div className="version-card-line"> </div>
+  
+  <div className="log-content">
+    ### 游戏内容更新
+    - **升级端核心版本到1.21.4**  
+      - 收纳袋正式加入  
+      - 苍园觉醒更新、苍白花园  
+    - **传送锚点（家）的名称支持中文**  
+    - **取消玩家互传的同意等待时间**  
+    - **使用BBR2网络拥塞控制，优化TCP链路**  
+    - **购买国人反作弊插件，汉化并升级了混合反作弊系统**
+    - **购买国人同步插件**
+
+    ### 游戏优化更新
+    - 修复了点击高级附魔相关物品导致的踢出问题  
+    - 修复了新版本NPC异常消失的问题  
+    - 修复了一些协议错误问题  
+    - 其他细节优化...  
+    
+    
+  </div>
+</div>
 
 <div className="version-card">
   <h2 id="v0.3.0">

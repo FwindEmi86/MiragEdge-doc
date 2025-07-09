@@ -311,36 +311,6 @@
   padding: 20px 0;
 }
 
-/* 表格样式 */
-.log-definition {
-  border-collapse: collapse;
-  width: auto; /* 自适应宽度 */
-  margin: 0 auto; /* 水平居中 */
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  text-align: center;
-}
-
-.log-definition th {
-  background-color: var(--ifm-color-primary);
-  color: rgb(255, 255, 255);
-  padding: 12px;
-}
-
-.log-definition td {
-  padding: 10px;
-  border-bottom: 1px solid var(--ifm-color-emphasis-200);
-}
-
-.type-quality {
-  color: var(--ifm-color-success);
-  font-weight: 600;
-}
-
-.type-optimize {
-  color: var(--ifm-color-info);
-  font-weight: 600;
-}
-        
 /* 提示框样式 */
 .update-tips {
   background: rgba(74, 108, 247, 0.15);
