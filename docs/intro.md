@@ -24,7 +24,7 @@ import { FaServer, FaUsers, FaShieldAlt, FaHeart } from 'react-icons/fa';
     <div className="feature-icon"><FaServer /></div>
     <h3>核心架构</h3>
     <ul>
-      <li>Java 1.21.1 Purpur 核心</li>
+      <li>Java 1.21.4 Purpur 核心</li>
       <li><span className="tag bedrock">Geyser 基岩版支持</span></li>
       <li><span className="tag waterfall">Waterfall 负载均衡</span></li>
     </ul>
@@ -78,19 +78,13 @@ import { FaServer, FaUsers, FaShieldAlt, FaHeart } from 'react-icons/fa';
         <footer>—— 狐风轩汐 敬上</footer>
       </blockquote>
     </div>
-    <div className="vision-text">
-      <blockquote>
-        本文档部分内容排版由AI生成，注意甄别<br/>
-        <footer>注*</footer>
-      </blockquote>
-    </div>
   </TabItem>
 
   <TabItem value="join" label="🚀 加入我们">
     <div className="join-methods">
       <div className="method bedrock">
         <h4>服务器 加入方式</h4>
-        <code>miragedge.cn</code>
+        <code>miragedge.top</code>
         <div className="port">基岩版端口: 19132</div>
       </div>
       <div className="method java">

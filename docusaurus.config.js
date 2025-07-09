@@ -99,6 +99,9 @@ const config = {
         <div>
           2020 - ${new Date().getFullYear()} MiragEdge✰锐界幻境 By FwindEmi
         </div>
+        <div>
+          本站由<a href="https://www.rainyun.com/FwindEmi_" id="yuyun" target="_blank">雨云</a>提供计算服务
+        </div>
       `,
     },
     prism: {
