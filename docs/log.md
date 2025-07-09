@@ -26,7 +26,7 @@ title: 更新日志
     <span className="version-date">2025年7月9日</span>
   </h2>
   <div className="version-card-line"> </div>
-  
+
   <div className="log-content">
     ### 游戏内容更新
     - **升级端核心版本到1.21.4**  
@@ -47,8 +47,7 @@ title: 更新日志
     ### 网站优化更新
     - 去除了日志页面的更新类型定义模块
     - 优化了日志页面的版本标识规范
-    
-    
+
   </div>
 </div>
 
