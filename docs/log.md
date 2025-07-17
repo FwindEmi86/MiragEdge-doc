@@ -21,6 +21,26 @@ title: 更新日志
 ## 最新更新
 
 <div className="version-card">
+  <h2 id="v0.3.2">
+    ## V.0.3.2
+    <span className="version-date">2025年7月10日</span>
+  </h2>
+  <div className="version-card-line"> </div>
+
+  <div className="log-content">
+    ### 游戏更新内容
+    - **升级端核心版本到1.21.4**  
+
+    ### 游戏内容调整
+    - 传送锚点（家）的名称现在支持中文  
+
+    ### 游戏问题修复
+    - 修复了点击高级附魔相关物品导致的踢出问题  
+
+  </div>
+</div>
+
+<div className="version-card">
   <h2 id="v0.3.1">
     ## V.0.3.1
     <span className="version-date">2025年7月9日</span>

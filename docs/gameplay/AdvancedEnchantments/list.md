@@ -1,11 +1,11 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 slug: /docs/gameplay/AdvancedEnchantments/list
 title: 附魔列表
 
 ---
 
-#### **^_^善用搜索~**
+#### **^_^善用F3搜索~**
   - 狐风轩汐 编写
 
 | 附魔名称 | 应用类型 | 作用效果 |

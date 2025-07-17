@@ -26,7 +26,7 @@ import { FaServer, FaUsers, FaShieldAlt, FaHeart } from 'react-icons/fa';
     <ul>
       <li>Java 1.21.4 Purpur 核心</li>
       <li><span className="tag bedrock">Geyser 基岩版支持</span></li>
-      <li><span className="tag waterfall">Waterfall 负载均衡</span></li>
+      <li><span className="tag waterfall">Velocity 负载均衡</span></li>
     </ul>
   </div>
 
