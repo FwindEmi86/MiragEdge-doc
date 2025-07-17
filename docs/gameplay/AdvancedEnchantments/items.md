@@ -1,4 +1,10 @@
-# 附魔系统物品大全
+---
+sidebar_position: 1
+slug: /docs/gameplay/AdvancedEnchantments/items
+title: 附魔相关物品
+---
+
+# 高级附魔相关物品大全
 
 ## 🧰 核心功能
 ### 附魔槽  
