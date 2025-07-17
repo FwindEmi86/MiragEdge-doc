@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-slug: /docs/gameplay/AdvancedEnchantments/AdvancedEnchantments
+slug: /docs/gameplay/AdvancedEnchantments/info
 title: 📕 高级附魔
 ---
 

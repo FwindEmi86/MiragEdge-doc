@@ -110,7 +110,7 @@ module.exports = {
           items: [
             {
               type: 'doc',
-              id: 'gameplay/AdvancedEnchantments/AdvancedEnchantments',
+              id: 'gameplay/AdvancedEnchantments/info',
               label: '介绍',
             },
             {
