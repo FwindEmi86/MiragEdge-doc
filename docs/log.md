@@ -21,6 +21,508 @@ title: 更新日志
 ## 最新更新
 
 <div className="version-card">
+  <h2 id="v0.4.5">
+    ## V.0.4.5
+    <span className="version-date">2025年8月7日</span>
+  </h2>
+  <div className="version-card-line"> </div>
+
+  <div className="log-content">
+    ### 游戏更新内容
+    - 基岩版菜单新增随身背包功能（Java版近期更新）
+    
+    ### 游戏内容调整
+    - 每日任务「无女巫」击杀数要求：15→3
+    - 每日任务「蜜蜂狂欢」打碎数要求：8→2
+    - 优化背包自动整理功能，新增双击空白格整理
+    - 资源服删除怪物等级系统
+    - 优化资源服血月汉化消息，强化尸潮，平衡掉落物
+    - 通过服务端材质包去除基岩版title文本黑色背景
+    - 调整新手礼包桃木剑/钢镐耐久
+    
+    ### 游戏问题修复
+    - 修复基岩版/Java侧边栏互斥开关问题
+    - 修复无权限使用"传送到本世界生成点"功能
+    - 修复次元口袋绑定指令物品可放置问题
+    - 修复跨服随身背包数据不同步
+    - 修复新玩家重复获取铁质新手礼包
+    - 修复新手护甲问题并提高耐久
+    - 删除火球功能（避免服务端不稳定）
+  </div>
+</div>
+
+<div className="version-card">
+  <h2 id="v0.4.4">
+    ## V.0.4.4
+    <span className="version-date">2025年8月5日</span>
+  </h2>
+  <div className="version-card-line"> </div>
+
+  <div className="log-content">
+    ### 游戏内容调整
+    - 技能提示信息改为actionbar发送
+    - 顶部bossbar仅显示生物血量信息
+    - 侧边栏战力显示改为生命值，新增法力显示
+    - 强化技能系统防挂机检测
+    - 调整技能系统平衡性
+    - 删除测试中的高级装备合成表
+    - 完全汉化工作系统消息提示
+    - 取消工作系统顶端bossbar消息
+    
+    ### 游戏问题修复
+    - 修复主城与实体/方块交互异常
+    - 修复技能经验刷取漏洞
+    - 修复每日任务数值显示错误和错别字
+    - 修复零境家园地皮世界异常道路区块
+  </div>
+</div>
+
+<div className="version-card">
+  <h2 id="v0.4.3">
+    ## V.0.4.3
+    <span className="version-date">2025年8月3日</span>
+  </h2>
+  <div className="version-card-line"> </div>
+
+  <div className="log-content">
+    ### 游戏问题修复
+    - 修复资源服时间无法流动的问题
+    - 修复「铜矿石狂潮」每日任务无法完成
+  </div>
+</div>
+
+<div className="version-card">
+  <h2 id="v0.4.2">
+    ## V.0.4.2
+    <span className="version-date">2025年8月1日</span>
+  </h2>
+  <div className="version-card-line"> </div>
+
+  <div className="log-content">
+    ### 游戏问题修复
+    - 修复等价交换物品异常保存退还问题
+    - 统一界面风格，美化颜色
+  </div>
+</div>
+
+<div className="version-card">
+  <h2 id="v0.4.1">
+    ## V.0.4.1
+    <span className="version-date">2025年7月31日</span>
+  </h2>
+  <div className="version-card-line"> </div>
+
+  <div className="log-content">
+    ### 游戏内容调整
+    - 等价交换添加雕纹凝灰岩石砖
+    - 等价交换删除盔甲架
+    - 实体加载范围调整（掉落物/经验球等由0→16）
+    
+    ### 游戏问题修复
+    - 修复掉落物/矿车/船冻结问题
+    - 修复箭矢/三叉戟空中停滞
+    - 修复屏障异常显示
+    - 新增传送门卡死重置机制
+  </div>
+</div>
+
+<div className="version-card">
+  <h2 id="v0.4.0">
+    ## V.0.4.0
+    <span className="version-date">2025年7月30日</span>
+  </h2>
+  <div className="version-card-line"> </div>
+
+  <div className="log-content">
+    ### 游戏内容调整
+    - Java登录超时时间设为60分钟
+    - 普通玩家可同时工作数：1→2份
+    - 会员玩家可同时工作数：2→4份
+    - 新增烟熏炉/高炉为可注册工作方块
+    - 新玩家自动加入「工匠」工作
+    - 工作有效期设为7天（过期自动撤职）
+    - 移除工作升级全服通知
+    - 优化工作系统提示
+    - 删除无用工作数据
+    - 侧边栏移除工作内容显示
+    - 工作积分商店删除不平衡武器
+    - 每级经验需求公式：27×级数
+    - 玩家默认等级设为2级52经验
+    - 系统性能优化（关闭睡眠/调度提升）
+    - 彩虹小铺移除混凝土/陶瓦（移至等价交换）
+    
+    ### 游戏问题修复
+    - 修复等价交换小数转换问题
+    - 修复差价刷钱漏洞
+    - 删除3个生存不可获取物品
+    - 平衡物品定价
+    - 修复玩家首级经验需求异常
+    - 修复NPC消失问题
+    - 修复「熔炉运转」每日任务
+  </div>
+</div>
+
+<div className="version-card">
+  <h2 id="v0.3.19">
+    ## V.0.3.19
+    <span className="version-date">2025年7月29日</span>
+  </h2>
+  <div className="version-card-line"> </div>
+
+  <div className="log-content">
+    ### 游戏更新内容
+    - 主城新增挂机池（奖励灵叶/经验）
+    - 新增自动清除异常悬浮字功能
+    - 新增火焰弹合成配方（烟火之星+火药+恶魂泪）
+    
+    ### 游戏内容调整
+    - 优化登录服文字显示
+    - 新增绑定邮箱自助重置密码
+    - 缩短会话保持时长
+    - 优化群组占位符显示
+    - 提升群组稳定性与NPC渲染
+    - Java菜单暂时移除会员商店
+    - 神秘之尘价格调整为38星痕石
+    - 全服挂机检测阈值统一为6分钟
+    - 捕捉蛋需求等级15→5级
+    
+    ### 游戏问题修复
+    - 移除火焰弹爆炸效果
+  </div>
+</div>
+
+<div className="version-card">
+  <h2 id="v0.3.18">
+    ## V.0.3.18
+    <span className="version-date">2025年7月28日</span>
+  </h2>
+  <div className="version-card-line"> </div>
+
+  <div className="log-content">
+    ### 游戏内容调整
+    - 基岩版菜单个人统计移至玩家系统列表
+    
+    ### 游戏更新内容
+    - 新增经验值与等级显示
+    
+    ### 游戏问题修复
+    - 主城/生存服死亡惩罚：随机扣0-3经验
+    - 资源服死亡惩罚：随机扣0-1经验
+    - 修复战力显示
+  </div>
+</div>
+
+<div className="version-card">
+  <h2 id="v0.3.17">
+    ## V.0.3.17
+    <span className="version-date">2025年7月26日</span>
+  </h2>
+  <div className="version-card-line"> </div>
+
+  <div className="log-content">
+    ### 游戏更新内容
+    - 等价交换新增3个快捷指令
+    - 基岩版菜单加入等价交换按钮
+    - 珍材商店新增下界之星/潜影壳
+    
+    ### 游戏内容调整
+    - 特殊物品商店光明方块降价
+    
+    ### 游戏问题修复
+    - 修复充值赞助系统（改用稳定监听）
+  </div>
+</div>
+
+<div className="version-card">
+  <h2 id="v0.3.16">
+    ## V.0.3.16
+    <span className="version-date">2025年7月25日</span>
+  </h2>
+  <div className="version-card-line"> </div>
+
+  <div className="log-content">
+    ### 游戏更新内容
+    - 「等价交换」系统上线（替代旧商店）
+    - 基岩版/Java版菜单同步更新按钮
+    
+    ### 游戏内容调整
+    - 大幅提高每日任务奖励
+    - 等价交换新增/删除部分物品
+    - 加入隐形展示框功能
+    - 提高签到奖励货币数额
+    - 群内签到无法获得奖励
+    
+    ### 游戏问题修复
+    - 修复可能导致数据丢失的问题
+  </div>
+</div>
+
+<div className="version-card">
+  <h2 id="v0.3.15">
+    ## V.0.3.15
+    <span className="version-date">2025年7月24日</span>
+  </h2>
+  <div className="version-card-line"> </div>
+
+  <div className="log-content">
+    ### 游戏更新内容
+    - 侧边栏新增玩家等级显示
+    - TAB栏季节显示替换为等级经验条
+    
+    ### 游戏内容调整
+    - 暂时关闭会员购买NPC
+    - 暂时关闭高级附魔书购买（维护调价）
+    
+    ### 游戏问题修复
+    - 修复基岩版侧边栏异常显示季节
+  </div>
+</div>
+
+<div className="version-card">
+  <h2 id="v0.3.14">
+    ## V.0.3.14
+    <span className="version-date">2025年7月23日</span>
+  </h2>
+  <div className="version-card-line"> </div>
+
+  <div className="log-content">
+    ### 游戏问题修复
+    - 修复可能导致背包丢失的问题
+  </div>
+</div>
+
+<div className="version-card">
+  <h2 id="v0.3.13">
+    ## V.0.3.13
+    <span className="version-date">2025年7月22日</span>
+  </h2>
+  <div className="version-card-line"> </div>
+
+  <div className="log-content">
+    ### 游戏更新内容
+    - EMC系统对接经济系统
+  </div>
+</div>
+
+<div className="version-card">
+  <h2 id="v0.3.12">
+    ## V.0.3.12
+    <span className="version-date">2025年7月21日</span>
+  </h2>
+  <div className="version-card-line"> </div>
+
+  <div className="log-content">
+    ### 游戏更新内容
+    - 货币系统更新方案探讨
+    - 「等价交换」商店系统可行性研究
+  </div>
+</div>
+
+<div className="version-card">
+  <h2 id="v0.3.11">
+    ## V.0.3.11
+    <span className="version-date">2025年7月20日</span>
+  </h2>
+  <div className="version-card-line"> </div>
+
+  <div className="log-content">
+    ### 游戏更新内容
+    - 单端版本编写完成
+    - 数据库跨端支持
+    
+    ### 游戏问题修复
+    - 实现物品本地汉化
+  </div>
+</div>
+
+<div className="version-card">
+  <h2 id="v0.3.10">
+    ## V.0.3.10
+    <span className="version-date">2025年7月19日</span>
+  </h2>
+  <div className="version-card-line"> </div>
+
+  <div className="log-content">
+    ### 游戏内容调整
+    - 梦始之空移除季节系统
+    - Java版恢复侧边栏信息显示
+  </div>
+</div>
+
+<div className="version-card">
+  <h2 id="v0.3.9">
+    ## V.0.3.9
+    <span className="version-date">2025年7月18日</span>
+  </h2>
+  <div className="version-card-line"> </div>
+
+  <div className="log-content">
+    ### 游戏内容调整
+    - 修复季节系统加载异常
+    - 新增两个日期事件
+    - 资源服刷怪率小幅下调
+    - 优化资源服生物生成与地形加载
+    - 更新基岩版兼容性
+    
+    ### 游戏问题修复
+    - 修复基岩版细节问题
+  </div>
+</div>
+
+<div className="version-card">
+  <h2 id="v0.3.8">
+    ## V.0.3.8
+    <span className="version-date">2025年7月17日</span>
+  </h2>
+  <div className="version-card-line"> </div>
+
+  <div className="log-content">
+    ### 游戏内容调整
+    - 季节系统兼容残墟神域群系
+    - 梦始之空末地外岛禁用幻空翼飞行
+    - 优化MOTD内容
+    - 更新教程手册
+    - 仅当物品栏末格为空时发放菜单物品
+    - 「传说卷轴」更名为「幻化卷轴」并修正词条
+    
+    ### 游戏问题修复
+    - 修复基岩版签到界面
+    - 修复主城蜜蜂无法获取手册
+    - 修复登录服Java玩家变量异常显示
+  </div>
+</div>
+
+<div className="version-card">
+  <h2 id="v0.3.7">
+    ## V.0.3.7
+    <span className="version-date">2025年7月16日</span>
+  </h2>
+  <div className="version-card-line"> </div>
+
+  <div className="log-content">
+    ### 游戏内容调整
+    - 删除聊天颜色插件
+    - 各权限组每日上线飞行时间+10分钟
+    - 优化MySQL性能
+    - 主城权限限制汉化提示
+    
+    ### 游戏问题修复
+    - 修复飞行系统数据库问题
+    - 紧急修复服务器数据库崩溃
+    - 修复玩家头顶在线时间异常
+    - 修复主城权限过高问题
+  </div>
+</div>
+
+<div className="version-card">
+  <h2 id="v0.3.6">
+    ## V.0.3.6
+    <span className="version-date">2025年7月15日</span>
+  </h2>
+  <div className="version-card-line"> </div>
+
+  <div className="log-content">
+    ### 游戏更新内容
+    - 新增「发电礼包」赞助项
+    - 基岩版新增专属设置界面
+    - 新增方块放置榜/死亡榜/养服榜
+    
+    ### 游戏问题修复
+    - 修复发电礼包缺失自定义称号币
+  </div>
+</div>
+
+<div className="version-card">
+  <h2 id="v0.3.5">
+    ## V.0.3.5
+    <span className="version-date">2025年7月14日</span>
+  </h2>
+  <div className="version-card-line"> </div>
+
+  <div className="log-content">
+    ### 游戏更新内容
+    - 主城新增教程手册（点击蜜蜂获取）
+    
+    ### 游戏内容调整
+    - 优化Java版TAB栏布局
+    - 删除异常自定义称号数据
+    - 取消实体行为记录（co i）
+    - 移除玩家头顶/TAB栏会员图标
+    - 简化称号系统，取消自动获取菜单物品（改用SHIFT+F）
+    - 全服自动重启时间统一为早8点
+    - 修改称号卡获取方式（需「为爱发电」赞助）
+    - 幻空翼飞行时间上限调整（普通12h→大会员28h）
+    - 取消聊天/切物品栏/扔物品音效
+    - 优化聊天前缀和汉化内容
+    - 移除世界跳转提示、聊天前缀世界显示
+    - 基岩版移除侧边栏战力显示
+    - 玩家头顶新增在线时间显示
+    - 梦始之空出生点更新
+    
+    ### 游戏问题修复
+    - 修复基岩版BOSS血条异常显示
+    - 修复离线变量数据库
+    - 修复co i数据库报错
+    - 修复子服材质包加载异常
+  </div>
+</div>
+
+<div className="version-card">
+  <h2 id="v0.3.4">
+    ## V.0.3.4
+    <span className="version-date">2025年7月13日</span>
+  </h2>
+  <div className="version-card-line"> </div>
+
+  <div className="log-content">
+    ### 游戏更新内容
+    - 测试基岩版专用设置表单（变量识别功能开关）
+    - 每日任务新增10个含飞行奖励的任务
+    - 修改3个任务奖励（添加飞行时间）
+    - 新增幻空翼指令：关闭/开启/查看时间
+    
+    ### 游戏内容调整
+    - Java版更换顶部新界面（取消侧边栏）
+    - 道具商人捕捉蛋价格调整（取消星痕石需求）
+    
+    ### 游戏问题修复
+    - 修复无法查看签到排行的问题
+  </div>
+</div>
+
+<div className="version-card">
+  <h2 id="v0.3.3">
+    ## V.0.3.3
+    <span className="version-date">2025年7月12日</span>
+  </h2>
+  <div className="version-card-line"> </div>
+
+  <div className="log-content">
+    ### 游戏更新内容
+    - 基岩版新增签到菜单、家园NPC菜单、独立赞助菜单
+    - 基岩版菜单增加「每日任务」功能
+    - 基岩版菜单货币名称更新为「灵叶」「星痕石」
+    
+    ### 游戏问题修复
+    - 修复Java菜单开启导致严重卡顿的问题
+  </div>
+</div>
+
+<div className="version-card">
+  <h2 id="v0.3.3">
+    ## V.0.3.3
+    <span className="version-date">2025年7月11日</span>
+  </h2>
+  <div className="version-card-line"> </div>
+
+  <div className="log-content">
+    ### 游戏内容调整
+    - 再次提高资源服的刷怪量和生物量
+    - 资源服「残墟神域」维持在测试阶段（遇到BUG属正常现象）
+  </div>
+</div>
+
+<div className="version-card">
   <h2 id="v0.3.2">
     ## V.0.3.2
     <span className="version-date">2025年7月10日</span>
