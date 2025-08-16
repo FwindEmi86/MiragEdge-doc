@@ -8,14 +8,14 @@ title: 🔗 入服方法&链接
 请前往【[**锐界幻境QQ交流群**](https://qm.qq.com/q/7oYTVQeBtS/)】群公告查看最新地址
 
 ### 账号绑定
-    - 为了安全，首次进入服务器时需要将游戏账号绑定QQ，[**不会绑定？点我查看**](https://doc.miragedge.top/docs/tutorial/Whitelist/)  
+    - 为了安全，首次进入服务器时需要将游戏账号绑定QQ，[**不会绑定？点我查看**](https://miragedge.top/docs/tutorial/Whitelist/)  
 
 ---
 
 ### ▍ 基岩版入服方法
 
 #### 1. 前提条件
-    - 已经完成基岩版客户端的安装，并成功注册并登录微软账户。[**不会安装或注册？点击我**](https://doc.miragedge.top/docs/tutorial/ClientInstall/ "客户端安装教程")  
+    - 已经完成基岩版客户端的安装，并成功注册并登录微软账户。[**不会安装或注册？点击我**](https://miragedge.top/docs/tutorial/ClientInstall/ "客户端安装教程")  
 
 #### 2. 添加服务器
 1. 进入游戏主界面 → 选择"服务器"
@@ -35,7 +35,7 @@ title: 🔗 入服方法&链接
 ### ▍ Java版入服流程
 
 #### 1. 前提条件
-    - 已经完成了启动器客户端的安装。**[没有安装？点击我](https://doc.miragedge.top/docs/tutorial/ClientInstall/ "客户端安装教程")**  
+    - 已经完成了启动器客户端的安装。**[没有安装？点击我](https://miragedge.top/docs/tutorial/ClientInstall/ "客户端安装教程")**  
 
 #### 2. 账户管理
 1. 点击启动器左上角头像

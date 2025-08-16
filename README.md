@@ -26,7 +26,7 @@
 
 ## 快速访问
 - **官网**：[https://miragedge.top](https://miragedge.top)  
-- **文档站**：[https://doc.miragedge.top](https://doc.miragedge.top)（当前文档站）  
+- **文档站**：[https://miragedge.top](https://miragedge.top)（当前文档站）  
 - **QQ交流群**：[523914625](https://qm.qq.com/cgi-bin/qm/qr?k=r_yUquo3bQwX3bL97RwG1aVj41WIEOI3)（入群绑定账号可进服）  
 - **QQ频道**：[锐界幻境互通服务器](https://pd.qq.com/s/9kqtx5dhw)（获取更早更新日志）
 
