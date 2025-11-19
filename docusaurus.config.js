@@ -8,7 +8,7 @@ const config = {
   favicon: '/img/B-LOGO.ico',
   url: 'https://miragedge.top',
   baseUrl: '/',
-  organizationName: 'FwindEmi',
+  organizationName: 'F.windEmiko',
   projectName: 'MiragEdge-doc',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -97,7 +97,7 @@ const config = {
           <a href="https://beian.miit.gov.cn" id="beian" target="_blank">苏ICP备2024133820号-1</a>
         </div>
         <div>
-          2020 - ${new Date().getFullYear()} MiragEdge✰锐界幻境 By FwindEmi
+          2020 - ${new Date().getFullYear()} MiragEdge✰锐界幻境 By F.windEmiko
         </div>
         <div>
           本站由<a href="https://www.rainyun.com/FwindEmi_" id="yuyun" target="_blank">雨云</a>提供计算服务

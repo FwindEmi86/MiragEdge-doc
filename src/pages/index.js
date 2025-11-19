@@ -118,7 +118,7 @@ export default function Home() {
         <div className={styles.featureCard}>
           <div className={styles.cardIcon}>🎮</div>
           <h3>跨版本互通</h3>
-          <p>支持Java版1.18+和基岩版玩家同服游玩，打破版本和设备限制</p>
+          <p>支持Java版1.21+和基岩版玩家同服游玩，打破版本和设备限制</p>
         </div>
         
         <div className={styles.featureCard}>
