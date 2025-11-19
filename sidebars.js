@@ -191,8 +191,8 @@ module.exports = {
         },
         {
           type: 'doc',
-          id: 'develop/potion_effect_bottle',
-          label: '🍷 药水效果瓶',
+          id: 'develop/emcshop',
+          label: '🍷 等价交换商店',
         },
       ],
       collapsible: true,
