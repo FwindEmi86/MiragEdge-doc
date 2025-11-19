@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-slug: /develop/intro/emcshop.md
+slug: /develop/intro/emcshop
 title: EMCShop（等价交换商店）
 ---
 
@@ -14,6 +14,18 @@ title: EMCShop（等价交换商店）
 - **插件版本**：3.14
 - **插件命令**：`/emcshop`（别名：`/emc`、`/es`）
 - **作者**：F.windEmiko（狐风轩汐）
+
+<div className="image-center">
+  <div className="image-card">
+    <div className="image-container">
+      <img 
+        src="/img/develop/emcshop-g.png" 
+        alt="项目运行原理架构" 
+      />
+    </div>
+    <div className="image-caption">项目运行原理架构</div>
+  </div>
+</div>
 
 ### 主要功能
 - **物品转换系统** - 玩家可以将物品转换为 EMC 货币
@@ -32,15 +44,3 @@ title: EMCShop（等价交换商店）
 - **数据库管理**：集成 HikariCP 连接池
 - **插件集成**：支持 PlaceholderAPI 和 Vault 插件
 - **构建与保护**：使用 Maven 构建，并包含代码加密混淆保护
-
-<div className="image-center">
-  <div className="image-card">
-    <div className="image-container">
-      <img 
-        src="/img/develop/emcshop-g.png" 
-        alt="项目运行原理架构" 
-      />
-    </div>
-    <div className="image-caption">项目运行原理架构</div>
-  </div>
-</div>
