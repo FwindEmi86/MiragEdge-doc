@@ -13,7 +13,7 @@ ssh-add $SSH_KEY
 
 echo " "
 echo " "
-echo "启动SSH代理完成！正在拉取最新git代码..."
+echo "启动SSH代理完成！正在拉取最新git代码构建..."
 echo " "
 echo " "
 
@@ -34,16 +34,18 @@ git reset --hard origin/$BRANCH
 echo " "
 echo " "
 #echo "清理安装完成！正在构建网站..."
-echo "代码拉取完成！正在构建网站..."
+#echo "代码拉取完成！正在构建网站..."
+echo "构建和代码拉取完成！"
 echo " "
 echo " "
 
 # 构建网站
-npm run build
+#npm run build
 
 echo " "
 echo " "
-echo "构建完成！正在启动文档网站服务..."
+#echo "构建完成！正在启动文档网站服务..."
+echo "正在启动文档网站服务..."
 echo " "
 echo " "
 
