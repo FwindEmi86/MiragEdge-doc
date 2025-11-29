@@ -6,8 +6,8 @@ const config = {
   title: '锐界幻境',
   tagline: '👼🏻远离困恼之地（锐界）和天堂般的境地（幻境）',
   favicon: '/img/B-LOGO.ico',
-  url: 'https://f.windemi.top',
-  baseUrl: '/doc/',
+  url: 'https://f.windemiko.top',
+  baseUrl: '/docs/',
   organizationName: 'F.windEmiko',
   projectName: 'MiragEdge-doc',
   onBrokenLinks: 'throw',
@@ -40,7 +40,7 @@ const config = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          path: 'docs',
+          path: '/',
           routeBasePath: '/',
           sidebarPath: './sidebars.js',
           showLastUpdateTime: true,
