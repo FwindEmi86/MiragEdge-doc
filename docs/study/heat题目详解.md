@@ -1,3 +1,9 @@
+---
+sidebar_position: 4
+slug: /docs/study/heat题目详解
+title: heat题目详解
+---
+
 [OpenStack的Heat组件详解 - yyuuee - 博客园](https://www.cnblogs.com/yyuuee/p/14180834.html)
 
 ```shell

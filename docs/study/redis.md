@@ -1,3 +1,9 @@
+---
+sidebar_position: 3
+slug: /docs/study/redis
+title: redis容器技术
+---
+
 **题目1:** 使用提供的OpenStack私有云平台，申请三台CentOS7.9系统的云主机，使用提供的http源，在三个节点自行安装Redis服务并启动，配置Redis的访问需要密码，密码设置为123456。然后将这三个Redis节点配置为Redis的一主二从三哨兵架构，即一个Redis主节点，两个从节点，三个节点均为哨兵节点
 #### 1. Redis哨兵模式服务介绍
 

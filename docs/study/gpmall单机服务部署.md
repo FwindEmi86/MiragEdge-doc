@@ -1,3 +1,9 @@
+---
+sidebar_position: 5
+slug: /docs/study/gpmall单机服务部署
+title: gpmall单机服务部署
+---
+
 ### 2. 实战案例——GPMALL单机服务部署
 
 #### 2.1 基础服务配置
