@@ -199,6 +199,31 @@ module.exports = {
       collapsed: true,
       className: 'sidebar-category faq-category',
     },
+    { type: 'html', value: '<div class="divider dotted"></div>' },
+    {
+      type: 'category',
+      label: '🏫 技术学习',
+      items: [
+        {
+          type: 'doc',
+          id: 'study/Docker',
+          label: 'Docker容器技术',
+        },
+        {
+          type: 'doc',
+          id: 'study/Kubernetes',
+          label: 'k8s容器编排技术',
+        },
+        {
+          type: 'doc',
+          id: 'study/redis',
+          label: 'redis数据库技术',
+        },
+      ],
+      collapsible: true,
+      collapsed: true,
+      className: 'sidebar-category faq-category',
+    },
     { type: 'html', value: '<div class="divider wave"></div>' },
     // 将外部链接合并为一个 HTML 块，确保结构完整
     { 
