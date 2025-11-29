@@ -7,10 +7,10 @@ const config = {
   tagline: '👼🏻远离困恼之地（锐界）和天堂般的境地（幻境）',
   favicon: '/img/B-LOGO.ico',
   url: 'https://f.windemiko.top',
-  baseUrl: '/docs/',
+  baseUrl: '/',
   organizationName: 'F.windEmiko',
-  projectName: 'MiragEdge-doc',
-  onBrokenLinks: 'throw',
+  projectName: 'MiragEdge-docs',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
@@ -40,7 +40,7 @@ const config = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          path: '/',
+          path: 'docs',
           routeBasePath: '/',
           sidebarPath: './sidebars.js',
           showLastUpdateTime: true,
