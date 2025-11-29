@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # ---------- 配置参数 ----------
-REPO_DIR="/www/MiragEdge/docweb/doc-web"
+REPO_DIR="/www/MiragEdge/docweb"
 BRANCH="main"
 SSH_KEY="/root/.ssh/docusaurus"
 
